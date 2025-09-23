@@ -3,3 +3,13 @@ token.env
 token.env
 .env
 token.txt
+.env
+*.env
+.env.*
+*.key
+*.pem
+*.p8
+token.*
+__pycache__/
+*.pyc
+.vscode/
