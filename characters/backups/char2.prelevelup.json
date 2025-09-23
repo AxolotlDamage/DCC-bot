@@ -1,0 +1,74 @@
+{
+    "name": "Char2",
+    "alignment": "Chaotic",
+    "class": "Lv0",
+    "owner": 480727765881192448,
+    "occupation": "Astrologer",
+    "weapon": "dagger",
+    "inventory": [
+        "dagger",
+        "spyglass"
+    ],
+    "birth_augur": {
+        "sign": "Fortunate date",
+        "effect": "Missile fire attack rolls"
+    },
+    "max_luck_mod": 0,
+    "hp": {
+        "current": 3,
+        "max": 3
+    },
+    "luck": {
+        "current": 9,
+        "max": 9
+    },
+    "ac": 11,
+    "saves": {
+        "reflex": 1,
+        "fortitude": 1,
+        "will": -1
+    },
+    "initiative": 1,
+    "speed": 30,
+    "attack": 0,
+    "cp": 35,
+    "abilities": {
+        "STR": {
+            "max": 9,
+            "current": 9,
+            "mod": 0
+        },
+        "AGI": {
+            "max": 14,
+            "current": 14,
+            "mod": 1
+        },
+        "STA": {
+            "max": 14,
+            "current": 14,
+            "mod": 1
+        },
+        "INT": {
+            "max": 9,
+            "current": 9,
+            "mod": 0
+        },
+        "PER": {
+            "max": 8,
+            "current": 8,
+            "mod": -1
+        },
+        "LCK": {
+            "max": 9,
+            "current": 9,
+            "mod": 0
+        }
+    },
+    "armor": "unarmored",
+    "shield": false,
+    "fumble_die": "d4",
+    "action_die": "1d20",
+    "crit_die": "1d4",
+    "crit_table": "I",
+    "languages": []
+}

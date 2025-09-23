@@ -1,0 +1,19 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "validate patrons json",
+			"type": "shell",
+			"command": "C:/Users/marco/AppData/Local/Microsoft/WindowsApps/python3.13.exe - << 'PY'\nimport json,sys,os\nfrom urllib.parse import urlparse,unquote\np=r\"c:\\\\Users\\\\marco\\\\OneDrive\\\\Escritorio\\\\Discord bot\\\\data\\\\wizard_patrons.json\"\nwith open(p,'r',encoding='utf-8') as f:\n    data=json.load(f)\nprint('JSON parse: OK')\nprint('Patrons count:', len(data.get('patrons',[])))\n# quick shape checks\nfor i,pn in enumerate(data.get('patrons',[]),1):\n    for key in ('name','description','invoke_patron'):\n        if key not in pn:\n            print('MISSING', key, 'in patron', i); sys.exit(2)\n    # roll key sanity\n    import re\n    pat=re.compile(r\"^(?:[0-9]+|[0-9]+-[0-9]+|[0-9]+\\+)$\")\n    for k in pn['invoke_patron'].keys():\n        if not pat.match(k):\n            print('Bad roll key in invoke_patron:', k); sys.exit(3)\nprint('Basic validation passed')\nPY",
+			"problemMatcher": [
+				"$eslint-stylish"
+			]
+		},
+		{
+			"label": "validate patrons json",
+			"type": "shell",
+			"command": "C:/Users/marco/AppData/Local/Microsoft/WindowsApps/python3.13.exe - << 'PY'\nimport json,sys\np=r\"c:\\\\Users\\\\marco\\\\OneDrive\\\\Escritorio\\\\Discord bot\\\\data\\\\wizard_patrons.json\"\nwith open(p,'r',encoding='utf-8') as f:\n    data=json.load(f)\nprint('JSON parse: OK')\nprint('Patrons count:', len(data.get('patrons',[])))\nimport re\npat=re.compile(r\"^(?:[0-9]+|[0-9]+-[0-9]+|[0-9]+\\+)$\")\nfor i,pn in enumerate(data.get('patrons',[]),1):\n    for key in ('name','description','invoke_patron'):\n        assert key in pn, f\"Missing {key} in patron {i}\"\n    for section in ['invoke_patron','patron_taint','spellburn']:\n        sec=pn.get(section, {})\n        if isinstance(sec, dict):\n            for k in sec.keys():\n                if not pat.match(k):\n                    raise AssertionError(f\"Bad roll key '{k}' in {section} for patron {pn.get('name')}\")\nprint('Basic validation passed')\nPY",
+			"problemMatcher": []
+		}
+	]
+}

@@ -1,0 +1,74 @@
+{
+    "name": "Char2",
+    "alignment": "Neutral",
+    "class": "Lv0",
+    "owner": 480727765881192448,
+    "occupation": "Farmer",
+    "weapon": "pitchfork",
+    "inventory": [
+        "pitchfork",
+        "duck"
+    ],
+    "birth_augur": {
+        "sign": "Harsh winter",
+        "effect": "All attack rolls"
+    },
+    "max_luck_mod": 2,
+    "hp": {
+        "current": 3,
+        "max": 3
+    },
+    "luck": {
+        "current": 16,
+        "max": 16
+    },
+    "ac": 12,
+    "saves": {
+        "reflex": 2,
+        "fortitude": -1,
+        "will": 0
+    },
+    "initiative": 2,
+    "speed": 30,
+    "attack": 0,
+    "cp": 17,
+    "abilities": {
+        "STR": {
+            "max": 12,
+            "current": 12,
+            "mod": 0
+        },
+        "AGI": {
+            "max": 16,
+            "current": 16,
+            "mod": 2
+        },
+        "STA": {
+            "max": 6,
+            "current": 6,
+            "mod": -1
+        },
+        "INT": {
+            "max": 12,
+            "current": 12,
+            "mod": 0
+        },
+        "PER": {
+            "max": 10,
+            "current": 10,
+            "mod": 0
+        },
+        "LCK": {
+            "max": 16,
+            "current": 16,
+            "mod": 2
+        }
+    },
+    "armor": "unarmored",
+    "shield": false,
+    "fumble_die": "d4",
+    "action_die": "1d20",
+    "crit_die": "1d4",
+    "crit_table": "I",
+    "languages": []
+}

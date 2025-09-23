@@ -1,0 +1,67 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://example.com/schemas/wizard_patrons.schema.json",
+  "title": "Wizard Patrons",
+  "type": "object",
+  "required": ["patrons"],
+  "properties": {
+    "patrons": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/patron"
+      }
+    }
+  },
+  "additionalProperties": false,
+  "definitions": {
+    "rollRangeKey": {
+      "type": "string",
+      "pattern": "^(?:\\d{1,3}|\\d{1,3}-\\d{1,3}|\\d{1,3}\\+)$",
+      "description": "Keys like '1', '20-23' representing d100/d20 roll ranges"
+    },
+    "rollTable": {
+  "type": "object",
+  "propertyNames": { "$ref": "#/definitions/rollRangeKey" },
+      "additionalProperties": {
+        "type": ["string", "object"],
+        "description": "Either a plain result string or an object with structured fields"
+      }
+    },
+    "spellArray": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name"],
+        "properties": {
+          "name": { "type": "string" },
+          "check": { "type": "string", "description": "Casting check DC or table reference" },
+          "manifestation": { "type": ["string", "array"], "items": {"type": "string"}},
+          "corruption": { "type": ["string", "array"], "items": {"type": "string"}},
+          "misfire": { "type": ["string", "array"], "items": {"type": "string"}},
+          "description": { "type": "string" }
+        },
+        "additionalProperties": true
+      }
+    },
+    "patron": {
+      "type": "object",
+      "required": ["name", "description"],
+      "properties": {
+        "name": { "type": "string" },
+        "description": { "type": "string" },
+        "invoke_patron": { "$ref": "#/definitions/rollTable" },
+        "patron_taint": { "$ref": "#/definitions/rollTable" },
+        "spellburn": { "$ref": "#/definitions/rollTable" },
+        "spells": {
+          "type": "object",
+          "description": "Spells granted by this patron; same shape as spells.json per-level arrays",
+          "additionalProperties": false,
+          "patternProperties": {
+            "^level_[1-9][0-9]*$": { "$ref": "#/definitions/spellArray" }
+          }
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}

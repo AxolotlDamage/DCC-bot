@@ -1,0 +1,6 @@
+{
+    "gun": {
+        "damage": "1d10",
+        "type": "ranged"
+    }
+}

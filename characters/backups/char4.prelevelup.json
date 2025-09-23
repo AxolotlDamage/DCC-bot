@@ -1,0 +1,74 @@
+{
+    "name": "Char4",
+    "alignment": "Chaotic",
+    "class": "Lv0",
+    "owner": 480727765881192448,
+    "occupation": "Farmer",
+    "weapon": "pitchfork",
+    "inventory": [
+        "pitchfork",
+        "mule"
+    ],
+    "birth_augur": {
+        "sign": "Warrior\u2019s arm",
+        "effect": "Critical hit tables"
+    },
+    "max_luck_mod": 0,
+    "hp": {
+        "current": 1,
+        "max": 1
+    },
+    "luck": {
+        "current": 11,
+        "max": 11
+    },
+    "ac": 10,
+    "saves": {
+        "reflex": 0,
+        "fortitude": 0,
+        "will": -1
+    },
+    "initiative": 0,
+    "speed": 30,
+    "attack": 0,
+    "cp": 26,
+    "abilities": {
+        "STR": {
+            "max": 8,
+            "current": 8,
+            "mod": -1
+        },
+        "AGI": {
+            "max": 9,
+            "current": 9,
+            "mod": 0
+        },
+        "STA": {
+            "max": 10,
+            "current": 10,
+            "mod": 0
+        },
+        "INT": {
+            "max": 10,
+            "current": 10,
+            "mod": 0
+        },
+        "PER": {
+            "max": 6,
+            "current": 6,
+            "mod": -1
+        },
+        "LCK": {
+            "max": 11,
+            "current": 11,
+            "mod": 0
+        }
+    },
+    "armor": "unarmored",
+    "shield": false,
+    "fumble_die": "d4",
+    "action_die": "1d20",
+    "crit_die": "1d4",
+    "crit_table": "I",
+    "languages": []
+}

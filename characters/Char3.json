@@ -1,0 +1,228 @@
+{
+    "name": "Char3",
+    "alignment": "neutral",
+    "class": "Cleric",
+    "owner": 480727765881192448,
+    "occupation": "Halfling moneylender",
+    "weapon": "short sword",
+    "inventory": [
+        "short sword",
+        "5 gp, 10 sp, 200 cp"
+    ],
+    "birth_augur": {
+        "sign": "Lived through famine",
+        "effect": "Fortitude saving throws"
+    },
+    "max_luck_mod": 0,
+    "hp": {
+        "current": 4,
+        "max": 4
+    },
+    "luck": {
+        "current": 12,
+        "max": 12
+    },
+    "ac": 10,
+    "saves": {
+        "reflex": 0,
+        "fortitude": 2,
+        "will": 2
+    },
+    "initiative": 0,
+    "speed": 30,
+    "attack": 0,
+    "cp": 19,
+    "abilities": {
+        "STR": {
+            "max": 9,
+            "current": 9,
+            "mod": 0
+        },
+        "AGI": {
+            "max": 11,
+            "current": 11,
+            "mod": 0
+        },
+        "STA": {
+            "max": 13,
+            "current": 13,
+            "mod": 1
+        },
+        "INT": {
+            "max": 10,
+            "current": 10,
+            "mod": 0
+        },
+        "PER": {
+            "max": 15,
+            "current": 15,
+            "mod": 1
+        },
+        "LCK": {
+            "max": 12,
+            "current": 12,
+            "mod": 0
+        }
+    },
+    "armor": "unarmored",
+    "shield": false,
+    "fumble_die": "d4",
+    "action_die": "1d20",
+    "crit_die": "1d8",
+    "crit_table": "III",
+    "languages": [],
+    "god": "Pelagia",
+    "weapon_proficiencies": [
+        "dagger",
+        "mace",
+        "sling",
+        "staff",
+        "sword"
+    ],
+    "unholy_targets": [
+        "mundane animals",
+        "undead",
+        "demons",
+        "devils",
+        "basilisk",
+        "medusa",
+        "lycanthropes",
+        "otyughs",
+        "slimes"
+    ],
+    "features": [
+        "Divine Spellcasting",
+        "Turn Unholy",
+        "Disapproval"
+    ],
+    "spells": {
+        "level_1": [
+            {
+                "name": "Holy Sanctuary",
+                "level": 1,
+                "range": "Self or more",
+                "duration": "1 round or more",
+                "casting_time": "1 action",
+                "save": "Will save vs. spell check",
+                "description": [
+                    "The cleric invokes a place of sanctuary where he and his allies are safe from harm."
+                ],
+                "manifestation": {
+                    "die": "1d4",
+                    "table": {
+                        "1": "glowing aura",
+                        "2": "angelic halo",
+                        "3": "beam of light from above",
+                        "4": "\u201clightness of feet\u201d that makes the cleric seem to float just above the ground"
+                    }
+                },
+                "results": {
+                    "1-11": "Failure.",
+                    "12-13": "Enemies find it difficult to focus on attacking the cleric. They are distracted, and the cleric is more easily able to dodge their attacks. All attacks against the cleric for the next round suffer a -2 penalty.",
+                    "14-17": "Enemies are compelled to focus their attacks against other targets. As long as an attacker can reasonably attack some other target instead of the cleric, it must choose to do so. In order to resist this compulsion and attack the cleric, an enemy must make a Will save vs. spell check DC. If the cleric is the only reasonable target, the creature need not make a save to attack the cleric. This effect lasts for 1 turn. It is immediately dispelled if the cleric attacks or takes aggressive action in any way.",
+                    "18-19": "Enemies are compelled to focus their attacks against other targets. As long as an attacker can reasonably attack some other target instead of the cleric, it must choose to do so. In order to resist this compulsion and attack the cleric, an enemy must make a Will save vs. spell check DC. This Will save is required even if the cleric is the only reasonable target. This effect lasts for 1 turn. It is immediately dispelled if the cleric attacks or takes aggressive action in any way.",
+                    "20-23": "Enemies are compelled to focus their attacks against other targets. As long as an attacker can reasonably attack some other target instead of the cleric, it must choose to do so. Creatures of 3 HD or less cannot attack the cleric in any manner. Creatures of 4 HD or more may attempt a Will save to resist the compulsion and attack the cleric. This Will save is required even if the cleric is the only reasonable target. This effect lasts for 1 turn. It is immediately dispelled if the cleric attacks or takes aggressive action in any way.",
+                    "24-27": "The cleric can create a holy sanctuary that includes himself and up to two allies within 5\u2019. The other protected allies must remain within 5\u2019 or the effect ends. Enemies are compelled to focus their attacks against other targets. As long as an attacker can reasonably attack some other target instead of the cleric and his protected allies, it must choose to do so. Creatures of 3 HD or less cannot attack in any manner; creatures of 4 HD or more may attempt a Will save to resist the compulsion. This effect lasts for 1 turn. It is immediately dispelled if the cleric or any of his protected allies attack or take aggressive action in any way.",
+                    "28-29": "The cleric may designate a place as a holy sanctuary. This must be a single building or self-contained location up to 5,000 square feet in area; e.g., a church, forest grove, or cave. This effect lasts for 1d7 days. Creatures within this place share the benefits of a holy sanctuary as follows, provided they are in the service of the cleric\u2019s deity: enemies of less than 6 HD cannot attack unless they use magical weapons, and enemies of 7+ HD or those using magical weapons must make a Will save vs. spell check DC to attack. The effect on any one individual is dispelled if that creature makes an aggressive action. Note that enemies can still enter the place and converse with its residents; they simply cannot attack or make other aggressive actions.",
+                    "30-31": "The cleric may designate a place as a holy sanctuary. This must be a single building or self-contained location up to 5,000 square feet in area; e.g., a church, forest grove, or cave. This effect lasts for 1d7+3 weeks. Creatures within this place share the benefits of a holy sanctuary as follows, provided they are in the service of the cleric\u2019s deity: enemies of less than 6 HD cannot attack unless they use magical weapons, and enemies of 7+ HD or those using magical weapons must make a Will save vs. spell check DC to attack. The effect on any one individual is dispelled if that creature makes an aggressive action. Note that enemies can still enter the place and converse with its residents; they simply cannot attack or make other aggressive actions.",
+                    "32+": "The cleric may designate a place as a holy sanctuary. This must be a single building or self-contained location up to 10,000 square feet in area; e.g., a church, forest grove, or cave. The place designated as a holy sanctuary becomes sanctified forever, as long as the cleric\u2019s deity retains respect for the cleric\u2019s work and actions. Creatures within this place share the benefits of a holy sanctuary as follows, provided they are in the service of the cleric\u2019s deity: enemies of less than 6 HD cannot attack unless they use magical weapons, and enemies of 7+ HD or those using magical weapons must make a Will save vs. spell check DC to attack. The effect on any one individual is dispelled if that creature makes an aggressive action. Note that enemies can still enter the place and converse with its residents; they simply cannot attack or make other aggressive actions."
+                }
+            },
+            {
+                "name": "Detect Evil",
+                "level": 1,
+                "range": "60\u2019 radius from cleric or more (see below)",
+                "duration": "6 turns",
+                "casting_time": "1 action",
+                "save": "Will vs. spell check DC (sometimes)",
+                "description": [
+                    "The cleric holds up his holy symbol and detects emanations of evil within a ray that extends straight out 5\u2019 wide and 60\u2019 (or more) ahead of the symbol. The definition of \u201cevil\u201d is based on the cleric: generally it encompasses creatures of opposed alignment, those unholy to the cleric\u2019s deity, and those with clearly harmful intent. Depending on the strength of the spell, it may detect even more subtle dangers. This spell does not reveal creatures that are otherwise hidden but does inform the cleric that evil intentions radiate from a certain position. This spell may be reversed to detect good, which means creatures of allied alignment, common deity, or similar holy goals."
+                ],
+                "manifestation": {
+                    "die": "1d3",
+                    "table": {
+                        "1": "evil creatures glow softly when viewed by the cleric",
+                        "2": "a heavenly chorus trumpets strident tones of warning whenever the cleric views an evil creature",
+                        "3": "evil creatures emit terrible, dark shadows in all directions, clouding their appearance with a deep shroud of darkness"
+                    }
+                },
+                "results": {
+                    "1-11": "Failure.",
+                    "12-13": "Creatures of opposed alignment are potentially detected, as well as objects inherently dangerous in nature (such as traps and cursed weapons). Evil creatures receive a Will save vs. spell check DC to remain undetected by this spell.",
+                    "14-17": "Creatures of opposed alignment are automatically detected, as well as objects inherently dangerous in nature (such as traps and cursed weapons). Evil creatures do not receive a Will save to remain undetected.",
+                    "18-19": "To a range of 120\u2019 in all directions from the cleric, creatures of opposed alignment are automatically detected, as well as objects inherently dangerous in nature (such as traps and cursed weapons). Evil creatures do not receive a Will save to remain undetected.",
+                    "20-23": "The cleric is immediately aware of all evil creatures and objects within 180\u2019. In addition, evil creatures and objects shine with a faint, unearthly glow that is obvious to the cleric\u2019s allies.",
+                    "24-27": "The cleric is immediately aware of all evil creatures and objects within 180\u2019. In addition, evil creatures and objects shine with a faint, unearthly glow that is obvious to the cleric\u2019s allies. In addition, the cleric is also aware of creatures with intentions harmful to him, even if the creatures are not opposed in alignment. For example, a mindless but aggressive spider would be detected, as would a hungry bear thinking of eating the cleric.",
+                    "28-29": "The cleric is immediately aware of all evil creatures and objects within 180\u2019. In addition, evil creatures and objects shine with a faint, unearthly glow that is obvious to the cleric\u2019s allies. In addition, the cleric is also aware of creatures with intentions harmful to him, even if the creatures are not opposed in alignment. For example, a mindless but aggressive spider would be detected, as would a hungry bear thinking of eating the cleric. The creatures detected by this spell are pained by the light of truth, suffering a -1 penalty to all attack rolls, damage rolls, skill checks, spell checks, and saving throws while in range.",
+                    "30-31": "The cleric is immediately aware of all evil creatures and objects within 240\u2019. In addition, evil creatures and objects shine with a faint, unearthly glow that is obvious to the cleric\u2019s allies. In addition, the cleric is also aware of creatures with intentions harmful to him, even if the creatures are not opposed in alignment. For example, a mindless but aggressive spider would be detected, as would a hungry bear thinking of eating the cleric. The creatures detected by this spell are pained by the light of truth, suffering a -2 penalty to all attack rolls, damage rolls, skill checks, spell checks, and saving throws while in range.",
+                    "32+": "The cleric is immediately aware of all evil creatures and objects within 300\u2019. In addition, evil creatures and objects shine with a faint, unearthly glow that is obvious to the cleric\u2019s allies. In addition, the cleric is also aware of creatures with intentions harmful to him, even if the creatures are not opposed in alignment. For example, a mindless but aggressive spider would be detected, as would a hungry bear thinking of eating the cleric. The creatures detected by this spell are pained by the light of truth, suffering a -4 penalty to all attack rolls, damage rolls, skill checks, spell checks, and saving throws while in range."
+                }
+            },
+            {
+                "name": "Second Sight",
+                "level": 1,
+                "range": "Self",
+                "duration": "1 round or more",
+                "casting_time": "1 turn",
+                "save": "N/A",
+                "description": [
+                    "Using sortilege, haruspicy, or some other method appropriate to the cleric, he augurs the future. In doing so, the cleric gains insight about the consequences his actions will bring."
+                ],
+                "manifestation": {
+                    "die": "1d3",
+                    "table": {
+                        "1": "a third eye appears in the cleric\u2019s forehead",
+                        "2": "the cleric\u2019s eyes glow",
+                        "3": "the cleric\u2019s eyes are fused shut but he can still see"
+                    }
+                },
+                "results": {
+                    "1-11": "Failure.",
+                    "12-13": "For one round, the cleric glimpses the future. In doing so, he gains great insight into the most effective manner to complete any action. The cleric receive a +4 bonus to a single roll of his choosing on his next round, whether it\u2019s an attack roll, damage roll, skill check, spell check, or something else.",
+                    "14-17": "The cleric has a hint of possible outcomes. He must spend the following round concentrating on a choice that must be made in the next 30 minutes. For example, he may be deciding which direction to turn in a dungeon or whether to enter a room. The cleric gets a sense of whether the action will be to his benefit or harm. There is a 75% chance that the sense the cleric receives is accurate.",
+                    "18-19": "The cleric has a hint of possible outcomes. He must spend the following round concentrating on a choice that must be made in the next 30 minutes. For example, he may be deciding which direction to turn in a dungeon or whether to enter a room. The cleric gets a sense of whether the action will be to his benefit or harm. There is an 80% chance that the sense the cleric receives is accurate.",
+                    "20-23": "The cleric has a hint of possible outcomes. He must spend the following round concentrating on a choice that must be made in the next 30 minutes. For example, he may be deciding which direction to turn in a dungeon or whether to enter a room. The cleric gets a sense of whether the action will be to his benefit or harm. There is an 85% chance that the sense the cleric receives is accurate.",
+                    "24-27": "For the next hour, the cleric receives an ongoing sense of possible outcomes. At every significant decision or juncture, he receives a premonition regarding the decision he must make \u2013 a sense of foreboding or certitude depending on whether the action bodes well for him (or not). For any given action, there is an 85% chance that the sense is accurate. By concentrating, the cleric can receive a sense of whether a future action (one to be taken within in the next hour) will be a bane or boon.",
+                    "28-29": "For the next hour, the cleric receives an ongoing sense of possible outcomes. At every significant decision or juncture, he receives a premonition regarding the decision he must make \u2013 a sense of foreboding or certitude depending on whether the action bodes well for him (or not). For any given action, there is a 90% chance that the sense is accurate. By concentrating, the cleric can receive a sense of whether a future action (one to be taken within in the next hour) will be a bane or boon.",
+                    "30-31": "For the next day, the cleric receives an ongoing sense of possible outcomes. At every significant decision or juncture, he receives a premonition regarding the decision he must make \u2013 a sense of foreboding or certitude depending on whether the action bodes well for him (or not). For any given action, there is a 95% chance that the sense is accurate. By concentrating, the cleric can receive a sense of whether a future action (one to be taken within in the next day) will be a bane or boon. For example, a cleric could divine the results of a great battle to be fought on the morrow and gain a sense that although he will emerge unharmed from the battle, it will be harmful to his church.",
+                    "32+": "The cleric has read the tablets of time. For the next month, he receives an ongoing sense of possible outcomes. At every significant decision or juncture, he receives a premonition regarding the decision he must make \u2013 a sense of foreboding or certitude depending on whether the action bodes well for him (or not). For any given action, there is a 99% chance that the sense is accurate. By concentrating, the cleric can receive a sense of whether a future action (one to be taken within in the next day) will be a bane or boon. For example, a cleric could divine the results of a great battle to be fought on the morrow and gain a sense that although he will emerge unharmed from the battle, it will be harmful to his church. In addition, the cleric receive a +1 bonus to all rolls while the second sight is active, reflecting his general insight into the consequences of all actions."
+                }
+            },
+            {
+                "name": "Darkness",
+                "level": 1,
+                "range": "20\u2019 radius or more",
+                "duration": "1 turn or more",
+                "casting_time": "1 action or more",
+                "save": "N/A",
+                "description": [
+                    "The cleric extinguishes the light of the sun, demonstrating the great power of his deity. From a distance, the darkness appears to be a space of deepest night; no light will penetrate it. Creatures within are blinded."
+                ],
+                "manifestation": {
+                    "die": "1d3",
+                    "table": {
+                        "1": "shadowy cloud of darkness",
+                        "2": "absolute blackness",
+                        "3": "thick oily black mist"
+                    }
+                },
+                "results": {
+                    "1-11": "Failure.",
+                    "12-13": "The space immediately surrounding the cleric, to a radius of 20\u2019, goes completely dark, as if all light had been extinguished. The darkness remains fixed to its location (it does not follow the cleric) and lasts for 1 turn.",
+                    "14-17": "The cleric can designate a point within 20\u2019 and create a 20\u2019-radius sphere of darkness that remains fixed at that point for a duration of 1 turn.",
+                    "18-19": "The cleric can designate a point within 100\u2019 and create a 20\u2019-radius sphere of darkness that remains fixed at that point for a duration of 1 turn.",
+                    "20-23": "The cleric can designate a point within 100\u2019 and create a 20\u2019-radius sphere of darkness centered at that point. The darkness remains for a duration of 1 turn. By concentrating on future rounds, the cleric can move the sphere of darkness up to 40\u2019 per round, beyond the original 100\u2019 range if he so chooses.",
+                    "24-27": "The cleric can designate a point within 200\u2019 and create a sphere of darkness of up to 40\u2019 radius centered at that point. The darkness remains for a duration of 2 turns. By concentrating on future rounds, the cleric can move the sphere of darkness up to 80\u2019 per round, beyond the original 200\u2019 range if he so chooses.",
+                    "28-29": "The cleric can extinguish sources of light. He designates a point within 200\u2019, and a sphere of darkness up to 40\u2019 in radius appears at that point. The cleric can move this sphere at a speed of 80\u2019 per round. No concentration is required. The sphere lasts for 1 hour. In addition, all terrestrial sources of light within the sphere of darkness are extinguished. Torches go out, lanterns sputter and die, glowworms fade, and so on.",
+                    "30-31": "With a sweep of his arm, the cleric can cast an enormous space into darkness. The cleric can choose one of three effects: a cone extending 400\u2019 to a final width of 100\u2019; a sphere up to 60\u2019 radius centered at any point within 300\u2019; or a wide line, up to 1,000\u2019 long and 10\u2019 wide. Within the area of effect, total darkness reigns; no light source can penetrate. In addition, all terrestrial sources of light within the sphere of darkness are extinguished. Torches go out, lanterns sputter and die, glowworms fade, and so on. However, the cleric can see through the darkness. The dark space can be moved up to 100\u2019 per round without concentration. It lasts for up to 1 day or until dismissed.",
+                    "32+": "The cleric can blot out the sun, the moon, the stars, or other sources of light. This extraordinary display of divine power requires great concentration. If this result is achieved, the cleric may continue to concentrate. All light sources that illuminate a space 500\u2019 in all directions begin to fade. For every round the cleric concentrates, light sources fade by 1d20%. Torches still burn, but their flames seem to emit less light each round. The judge rolls each round the cleric continues to concentrate. When the total breaks 100%, all light sources have been completely extinguished, and the countryside around the cleric is completely darkened (at least to the eyes of all within 500\u2019 \u2013 the sun still seems to shine in other kingdoms). Once all light sources are extinguished, the radius of the effect begins to expand by another 1d20\u2019 per round of concentration. The maximum range is the cleric\u2019s CL x 1,000\u2019. The effect continues as long as the cleric concentrates. When concentration is broken, the light reappears at the same rate it was extinguished; e.g., if it took 7 rounds to fade, it takes 7 rounds to reach full strength again."
+                }
+            }
+        ]
+    },
+    "disapproval_range": 1,
+    "title": "Witness",
+    "level": 1,
+    "hit_die": "1d8",
+    "attack_bonus": "+0"
+}
