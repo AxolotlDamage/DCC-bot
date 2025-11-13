@@ -1,0 +1,98 @@
+{
+  "version": 1,
+  "tables": {
+    "FUMBLES": {
+      "name": "Table 4-2: Fumbles",
+      "description": "Universal fumbles table; roll die based on armor and adjust by reverse Luck.",
+      "entries": {
+        "0-": {
+          "title": "Miss wildly",
+          "effect": "You miss wildly but miraculously cause no other damage."
+        },
+        "1": {
+          "title": "Laughingstock",
+          "effect": "Your incompetent blow makes you the laughingstock of the party but otherwise causes no damage."
+        },
+        "2": {
+          "title": "Trip; recover or go prone",
+          "effect": "You trip but may recover with a DC 10 Ref save; otherwise, you must spend the next round prone.",
+          "save": { "type": "Ref", "dc": 10, "fail": "prone_next_round" },
+          "tags": ["prone_if_fail_save"]
+        },
+        "3": {
+          "title": "Loose grip",
+          "effect": "Your weapon comes loose in your hand. You quickly grab it, but your grip is disrupted. You take a -2 penalty on your next attack roll.",
+          "tags": ["attack_-2_next"]
+        },
+        "4": {
+          "title": "Weapon damaged",
+          "effect": "Your weapon is damaged: a bowstring breaks, a sword hilt falls off, or a crossbow jams. The weapon can be repaired with 10 minutes of work but is useless for now.",
+          "tags": ["weapon_broken","repair_10min"]
+        },
+        "5": {
+          "title": "Trip and fall",
+          "effect": "You trip and fall, wasting this action. You are prone and must use an action to stand next round.",
+          "tags": ["prone"]
+        },
+        "6": {
+          "title": "Entangled in armor",
+          "effect": "Your weapon becomes entangled in your armor. You must spend your next round untangling them. Your armor bonus is reduced by 1 until you spend 10 minutes refitting the buckles and straps.",
+          "tags": ["lose_next_round","armor_bonus_-1","refit_10min"]
+        },
+        "7": {
+          "title": "Drop weapon",
+          "effect": "You drop your weapon. You must retrieve it or draw a new one on your next action.",
+          "tags": ["disarmed"]
+        },
+        "8": {
+          "title": "Smash weapon",
+          "effect": "You smash your weapon against a solid object. Mundane weapons are ruined; magical weapons are not affected.",
+          "tags": ["weapon_ruined_if_mundane"]
+        },
+        "9": {
+          "title": "Wide open",
+          "effect": "You stumble and leave yourself wide open to attack. The next enemy that attacks you receives a +2 bonus on its attack roll.",
+          "tags": ["next_enemy_attack_+2"]
+        },
+        "10": {
+          "title": "Armor seizes up",
+          "effect": "You should have maintained your armor! The joints seize up, freezing you in place. You cannot move or make an attack for 1d3 rounds. Unarmored characters are not affected.",
+          "tags": ["immobilized_1d3_rounds","cannot_attack_1d3_rounds","no_effect_if_unarmored"]
+        },
+        "11": {
+          "title": "Off balance",
+          "effect": "Your wild swing leaves you off balance. You take a -4 penalty to your next attack roll.",
+          "tags": ["attack_-4_next"]
+        },
+        "12": {
+          "title": "Hit ally",
+          "effect": "You inadvertently swing at one randomly determined ally within range. Make an attack roll against that ally using the same attack die you just attempted to use.",
+          "tags": ["attack_random_ally"]
+        },
+        "13": {
+          "title": "Fall hard",
+          "effect": "You trip badly and fall hard, suffering 1d3 damage. You are prone and must use your next round to stand.",
+          "damage_bonus": "+1d3",
+          "tags": ["prone"]
+        },
+        "14": {
+          "title": "Turtle on back",
+          "effect": "Like a turtle on its back, you slip and land upside down, unable to right yourself. Fight from prone for the next round before you can rise.",
+          "tags": ["prone_next_round"]
+        },
+        "15": {
+          "title": "Self-inflicted wound",
+          "effect": "You somehow manage to wound yourself, taking normal damage.",
+          "tags": ["self_damage_normal"]
+        },
+        "16+": {
+          "title": "Self-strike and topple",
+          "effect": "You accidentally strike yourself for normal damage plus an extra 1 point. In addition, you fall on your back and are unable to right yourself until you make a DC 16 Agility check.",
+          "extra_damage": "+1",
+          "save": { "type": "Agi", "dc": 16, "success": "can_stand", "fail": "remain_prone" },
+          "tags": ["self_damage_normal","fall_prone","agility_check_to_stand"]
+        }
+      }
+    }
+  }
+}

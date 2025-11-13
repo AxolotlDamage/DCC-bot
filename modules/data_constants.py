@@ -41,14 +41,92 @@ ANIMALS = ["sheep", "goat", "cow", "duck", "goose", "mule"]
 OCCUPATIONS = [
     {"name": "Alchemist", "weapon": "staff", "goods": "oil, 1 flask"},
     {"name": "Animal Trainer", "weapon": "club", "goods": "pony"},
-    # (Truncated for brevity: retain or externalize full list as needed)
+    {"name": "Armorer", "weapon": "hammer", "goods": "iron helmet"},
+    {"name": "Astrologer", "weapon": "dagger", "goods": "spyglass"},
+    {"name": "Barber", "weapon": "razor", "goods": "scissors"},
+    {"name": "Beadle", "weapon": "club", "goods": "holy symbol"},
+    {"name": "Beekeeper", "weapon": "staff", "goods": "bees (swarm)"},
+    {"name": "Blacksmith", "weapon": "hammer", "goods": "steel tongs"},
+    {"name": "Butcher", "weapon": "cleaver", "goods": "side of beef"},
+    {"name": "Caravan Guard", "weapon": "short sword", "goods": "linen, 1 yard"},
+    {"name": "Chandler", "weapon": "scissors", "goods": "candles, 20"},
+    {"name": "Cobbler", "weapon": "awl", "goods": "shoemaker's kit"},
+    {"name": "Confidence Artist", "weapon": "dagger", "goods": "quality cloak"},
+    {"name": "Cook", "weapon": "skillet", "goods": "iron pot"},
+    {"name": "Cooper", "weapon": "crowbar", "goods": "barrel"},
+    {"name": "Costermonger", "weapon": "knife", "goods": "fruit"},
+    {"name": "Cutpurse", "weapon": "dagger", "goods": "purse"},
+    {"name": "Ditch Digger", "weapon": "shovel", "goods": "fine dirt, 1 lb."},
+    {"name": "Dwarven Apothecarist", "weapon": "cudgel", "goods": "alchemical powders"},
+    {"name": "Dwarven Blacksmith", "weapon": "hammer", "goods": "mithril, 1 oz."},
+    {"name": "Dwarven Herder", "weapon": "staff", "goods": "sow"},
+    {"name": "Dwarven Miner", "weapon": "pick", "goods": "lantern"},
+    {"name": "Dwarven Mushroom-Farmer", "weapon": "trowel", "goods": "mushrooms, 1 lb."},
+    {"name": "Dwarven Stonemason", "weapon": "hammer", "goods": "fine stone, 10 lbs."},
+    {"name": "Dwarven Trapper", "weapon": "knife", "goods": "badger pelt"},
+    {"name": "Elven Artisan", "weapon": "staff", "goods": "silver ingot, 1 oz."},
+    {"name": "Elven Barrister", "weapon": "quill", "goods": "parchment and ink"},
+    {"name": "Elven Chandler", "weapon": "wax knife", "goods": "elf candles, 4"},
+    {"name": "Elven Falconer", "weapon": "dagger", "goods": "falcon"},
+    {"name": "Elven Forester", "weapon": "bow", "goods": "herbs"},
+    {"name": "Elven Glassblower", "weapon": "hammer", "goods": "glass beads"},
+    {"name": "Elven Navigator", "weapon": "short sword", "goods": "sextant"},
+    {"name": "Elven Sage", "weapon": "staff", "goods": "book"},
+    {"name": "Farmer", "weapon": "pitchfork", "goods": "hen"},
+    {"name": "Fortune-Teller", "weapon": "dagger", "goods": "tarot deck"},
+    {"name": "Gambler", "weapon": "club", "goods": "dice"},
+    {"name": "Gongfarmer", "weapon": "trowel", "goods": "sack of night soil"},
+    {"name": "Grave Digger", "weapon": "shovel", "goods": "human bone"},
+    {"name": "Grave Robber", "weapon": "crowbar", "goods": "old map"},
+    {"name": "Guild Beggar", "weapon": "sling", "goods": "crutches"},
+    {"name": "Halfling Gypsy", "weapon": "sling", "goods": "hex doll"},
+    {"name": "Halfling Trader", "weapon": "dagger", "goods": "goods, 1 load"},
+    {"name": "Halfling Vagrant", "weapon": "club", "goods": "begging bowl"},
+    {"name": "Halfling Chicken Butcher", "weapon": "cleaver", "goods": "chicken meat, 1 lb."},
+    {"name": "Halfling Dyer", "weapon": "staff", "goods": "color dyes"},
+    {"name": "Halfling Glovemaker", "weapon": "awl", "goods": "gloves, 1 pair"},
+    {"name": "Halfling Mariner", "weapon": "knife", "goods": "seashell"},
+    {"name": "Halfling Moneylender", "weapon": "dagger", "goods": "5 gp"},
+    {"name": "Halfling Haberdasher", "weapon": "scissors", "goods": "fancy hat"},
+    {"name": "Healer", "weapon": "club", "goods": "healer's kit"},
+    {"name": "Herbalist", "weapon": "club", "goods": "herbs"},
+    {"name": "Herder", "weapon": "staff", "goods": "goat"},
+    {"name": "Hunter", "weapon": "shortbow", "goods": "deer pelt"},
+    {"name": "Indentured Servant", "weapon": "club", "goods": "liveried coat"},
+    {"name": "Jester", "weapon": "club", "goods": "silly hat"},
+    {"name": "Jeweler", "weapon": "dagger", "goods": "gem worth 20 gp"},
+    {"name": "Locksmith", "weapon": "pick", "goods": "lockpicks"},
+    {"name": "Mendicant", "weapon": "staff", "goods": "holy symbol"},
+    {"name": "Mercenary", "weapon": "longsword", "goods": "hide armor"},
+    {"name": "Merchant", "weapon": "dagger", "goods": "goods, 1 load"},
+    {"name": "Miller/Baker", "weapon": "club", "goods": "flour, 1 lb."},
+    {"name": "Minstrel", "weapon": "dagger", "goods": "instrument"},
+    {"name": "Noble", "weapon": "longsword", "goods": "gold signet ring"},
+    {"name": "Orphan", "weapon": "club", "goods": "rags"},
+    {"name": "Ostler", "weapon": "staff", "goods": "bridle"},
+    {"name": "Outlaw", "weapon": "short sword", "goods": "leather armor"},
+    {"name": "Rope Maker", "weapon": "knife", "goods": "rope, 100 ft."},
+    {"name": "Scribe", "weapon": "stylus", "goods": "scroll"},
+    {"name": "Shaman", "weapon": "mace", "goods": "fetish"},
+    {"name": "Slave", "weapon": "club", "goods": "oath of obedience"},
+    {"name": "Smuggler", "weapon": "sling", "goods": "waterproof sack"},
+    {"name": "Soldier", "weapon": "spear", "goods": "shield"},
+    {"name": "Squire", "weapon": "longsword", "goods": "steel shield"},
+    {"name": "Tailor", "weapon": "scissors", "goods": "fine suit of clothes"},
+    {"name": "Tax Collector", "weapon": "mace", "goods": "5 gp"},
+    {"name": "Trapper", "weapon": "sling", "goods": "badger pelt"},
+    {"name": "Urchin", "weapon": "stick", "goods": "rat on a stick"},
+    {"name": "Wainwright", "weapon": "club", "goods": "pushcart"},
+    {"name": "Weaver", "weapon": "dagger", "goods": "fine cloth"},
+    {"name": "Wizard's Apprentice", "weapon": "dagger", "goods": "black grimoire"},
+    {"name": "Woodcutter", "weapon": "hand axe", "goods": "bundle of wood"},
 ]
 
 WEAPON_TABLE = {
     "staff": {"damage": "1d4", "type": "melee", "two_handed": False},
     "club": {"damage": "1d4", "type": "melee", "two_handed": False},
     "hammer": {"damage": "1d4", "type": "melee", "two_handed": False},
-    "razor": {"damage": "1d4", "type": "melee", "two_handed": False, "tags": ["backstab"]},
+    "razor": {"damage": "1d3", "type": "melee", "two_handed": False, "tags": ["backstab"]},
     "cleaver": {"damage": "1d6", "type": "melee", "two_handed": False},
     "short sword": {"damage": "1d6", "type": "melee", "two_handed": False},
     "cudgel": {"damage": "1d4", "type": "melee", "two_handed": False},
@@ -58,45 +136,96 @@ WEAPON_TABLE = {
     "shovel": {"damage": "1d4", "type": "melee", "two_handed": True},
     "chisel": {"damage": "1d4", "type": "melee", "two_handed": False, "tags": ["backstab"]},
     "pick": {"damage": "1d4", "type": "melee", "two_handed": False},
-    "quill": {"damage": "1d4", "type": "ranged", "two_handed": False},
-    "scissors": {"damage": "1d4", "type": "melee", "two_handed": False, "tags": ["backstab"]},
+    "quill": {"damage": "1d2", "type": "ranged", "two_handed": False, "tags": ["thrown"]},
+    "scissors": {"damage": "1d3", "type": "melee", "two_handed": False, "tags": ["backstab"]},
     "bow": {"damage": "1d6", "type": "ranged", "two_handed": True},
-    "pitchfork": {"damage": "1d8", "type": "melee", "two_handed": True},
+    "pitchfork": {"damage": "1d4", "type": "melee", "two_handed": True},
     "trowel": {"damage": "1d4", "type": "melee", "two_handed": False, "tags": ["backstab"]},
-    "sling": {"damage": "1d4", "type": "ranged", "two_handed": False},
-    "hand axe": {"damage": "1d6", "type": "melee", "two_handed": False},
+    "sling": {"damage": "1d4", "type": "ranged", "two_handed": False, "tags": ["thrown"]},
+    "hand axe": {"damage": "1d6", "type": "melee", "two_handed": False, "tags": ["thrown"]},
     "shortbow": {"damage": "1d6", "type": "ranged", "two_handed": True},
-    "dart": {"damage": "1d4", "type": "ranged", "two_handed": False},
+    "dart": {"damage": "1d4", "type": "ranged", "two_handed": False, "tags": ["thrown"]},
     "longsword": {"damage": "1d8", "type": "melee", "two_handed": False},
-    "mace": {"damage": "1d4", "type": "melee", "two_handed": False},
-    "stick": {"damage": "1d4", "type": "melee", "two_handed": False},
+    "mace": {"damage": "1d6", "type": "melee", "two_handed": False},
+    "stick": {"damage": "1d2", "type": "melee", "two_handed": False},
     "spear": {"damage": "1d8", "type": "melee", "two_handed": True, "tags": ["mounted"]},
     "battleaxe": {"damage": "1d10", "type": "melee", "two_handed": True},
     "blackjack": {"damage": "1d3", "type": "melee", "two_handed": False, "tags": ["backstab"]},
     "blowgun": {"damage": "1d3", "type": "ranged", "two_handed": False, "tags": ["backstab"]},
+    # Additional / derived simple weapons from occupations_full.json
+    "skillet": {"damage": "1d4", "type": "melee", "two_handed": False},
+    "wax knife": {"damage": "1d4", "type": "melee", "two_handed": False, "tags": ["backstab"]},
+    "stylus": {"damage": "1d4", "type": "melee", "two_handed": False, "tags": ["backstab"]},
+    "blowpipe": {"damage": "1d4", "type": "ranged", "two_handed": False, "tags": ["backstab"]},
+    "cutlass": {"damage": "1d6", "type": "melee", "two_handed": False},
+    "net": {"damage": "1d4", "type": "ranged", "two_handed": False, "tags": ["thrown"]},
+    "mallet": {"damage": "1d4", "type": "melee", "two_handed": False},
+    "rod": {"damage": "1d4", "type": "melee", "two_handed": False},
+    "scroll tube": {"damage": "1d4", "type": "melee", "two_handed": False},
+    "inkpen": {"damage": "1d2", "type": "melee", "two_handed": False, "tags": ["backstab"]},
+    "brush": {"damage": "1d2", "type": "melee", "two_handed": False},
+    "wrench": {"damage": "1d4", "type": "melee", "two_handed": False},
+    "torch": {"damage": "1d2", "type": "melee", "two_handed": False, "tags": ["light"]},
+    # Existing advanced weapons
     "crossbow": {"damage": "1d6", "type": "ranged", "two_handed": True},
     "garrote": {"damage": "1", "type": "melee", "two_handed": True, "tags": ["backstab"]},
     "lance": {"damage": "1d12", "type": "melee", "two_handed": True, "tags": ["mounted"]},
-    "javelin": {"damage": "1d6", "type": "ranged", "two_handed": False},
+    "javelin": {"damage": "1d6", "type": "ranged", "two_handed": False, "tags": ["thrown"]},
     "polearm": {"damage": "1d10", "type": "melee", "two_handed": True},
     "two handed sword": {"damage": "1d10", "type": "melee", "two_handed": True},
     "warhammer": {"damage": "1d8", "type": "melee", "two_handed": False},
     "longbow": {"damage": "1d6", "type": "ranged", "two_handed": True},
-    "dagger": {"damage": "1d4", "type": "melee", "two_handed": False, "tags": ["backstab"]}
+    "dagger": {"damage": "1d4", "type": "melee", "two_handed": False, "tags": ["backstab", "thrown"]}
+}
+
+# Class weapon training lists (initial, can be expanded/tuned)
+# Keys are lowercased class names; values are sets of weapon keys (lowercased)
+CLASS_WEAPON_TRAINING = {
+    # 0-level: handled specially (trained with their starting weapon); keep empty here
+    "lv0": set(),
+    "warrior": {
+        "club","dagger","hand axe","longsword","mace","spear","battleaxe",
+        "warhammer","two handed sword","polearm","short sword","staff",
+        "bow","shortbow","longbow","crossbow","sling","javelin","dart","hammer"
+    },
+    "cleric": {
+        "mace","warhammer","club","staff","hammer"
+    },
+    "thief": {
+        "blackjack","blowgun","crossbow","dagger","dart","garrote",
+        "longsword","short sword","sling","staff"
+    },
+    "wizard": {
+        # As per rules: dagger, longbow, longsword, shortbow, short sword, staff
+        "dagger","longbow","longsword","shortbow","short sword","staff"
+    },
+    "dwarf": {
+        "battleaxe","hand axe","warhammer","mace","club","short sword","longsword","staff"
+    },
+    "elf": {
+        "longsword","short sword","dagger","bow","shortbow","longbow","spear","staff"
+    },
+    "halfling": {
+        "sling","short sword","dagger","club","staff","shortbow","dart"
+    },
 }
 
 ARMOR_TABLE = {
-    "unarmored": {"ac_bonus": 0, "fumble_die": "d4"},
-    "padded": {"ac_bonus": 1, "fumble_die": "d8"},
-    "leather": {"ac_bonus": 2, "fumble_die": "d8"},
-    "studded leather": {"ac_bonus": 3, "fumble_die": "d8"},
-    "hide": {"ac_bonus": 3, "fumble_die": "d12"},
-    "scale mail": {"ac_bonus": 4, "fumble_die": "d12"},
-    "chainmail": {"ac_bonus": 5, "fumble_die": "d12"},
-    "banded mail": {"ac_bonus": 6, "fumble_die": "d16"},
-    "half-plate": {"ac_bonus": 7, "fumble_die": "d16"},
-    "full plate": {"ac_bonus": 8, "fumble_die": "d16"},
-    "shield": {"ac_bonus": 1, "fumble_die": None}
+    # check_penalty: penalty to checks (0 means none)
+    # speed_penalty: penalty to speed in feet (e.g., -5 for -5')
+    # cost_gp: cost in gold pieces (0 = Free)
+    "unarmored":     {"ac_bonus": 0, "check_penalty": 0,  "speed_penalty": 0,   "fumble_die": "d4",  "cost_gp": 0},
+    "padded":        {"ac_bonus": 1, "check_penalty": 0,  "speed_penalty": 0,   "fumble_die": "d8",  "cost_gp": 5},
+    "leather":       {"ac_bonus": 2, "check_penalty": -1, "speed_penalty": 0,   "fumble_die": "d8",  "cost_gp": 20},
+    "studded leather": {"ac_bonus": 3, "check_penalty": -2, "speed_penalty": 0, "fumble_die": "d8",  "cost_gp": 45},
+    "hide":          {"ac_bonus": 3, "check_penalty": -3, "speed_penalty": 0,   "fumble_die": "d12", "cost_gp": 30},
+    "scale mail":    {"ac_bonus": 4, "check_penalty": -4, "speed_penalty": -5,  "fumble_die": "d12", "cost_gp": 80},
+    "chainmail":     {"ac_bonus": 5, "check_penalty": -5, "speed_penalty": -5,  "fumble_die": "d12", "cost_gp": 150},
+    "banded mail":   {"ac_bonus": 6, "check_penalty": -6, "speed_penalty": -5,  "fumble_die": "d16", "cost_gp": 250},
+    "half-plate":    {"ac_bonus": 7, "check_penalty": -7, "speed_penalty": -10, "fumble_die": "d16", "cost_gp": 550},
+    "full plate":    {"ac_bonus": 8, "check_penalty": -8, "speed_penalty": -10, "fumble_die": "d16", "cost_gp": 1200},
+    # Shield applies to AC and check penalties but has no fumble die of its own
+    "shield":        {"ac_bonus": 1, "check_penalty": -1, "speed_penalty": 0,   "fumble_die": None,   "cost_gp": 10},
 }
 
 EQUIPMENT_TABLE = [
@@ -107,14 +236,203 @@ EQUIPMENT_TABLE = [
     "Thieves’ tools", "Torch", "Waterskin"
 ]
 
-# Language tables (subset – fill out fully as needed)
-HALFLING_LANGUAGE_TABLE = { range(1, 26): "by_alignment", }
-ELF_LANGUAGE_TABLE = { range(1, 21): "by_alignment", }
-DWARF_LANGUAGE_TABLE = { range(1, 21): "by_alignment", }
-LV0_LANGUAGE_TABLE = { range(1, 21): "by_alignment", }
-WIZARD_LANGUAGE_TABLE = { range(1, 11): "by_alignment", }
+# Language tables (percentile roll 1-100). Use "by_alignment" sentinel to map to the character's alignment tongue.
+HALFLING_LANGUAGE_TABLE = {
+    range(1, 26): "by_alignment",
+    range(26, 36): "Dwarf",
+    range(36, 41): "Elf",
+    # Halfling native tongue omitted on purpose (always known for halflings)
+    range(41, 51): "Gnome",
+    range(51, 56): "Bugbear",
+    range(56, 71): "Goblin",
+    range(71, 81): "Hobgoblin",
+    range(81, 91): "Kobold",
+    range(91, 94): "Pixie",
+    range(94, 99): "Ferret",
+    range(99, 101): "Undercommon",
+}
+
+ELF_LANGUAGE_TABLE = {
+    range(1, 21): "by_alignment",
+    # Elves can learn other alignment tongues beyond their own
+    range(21, 26): "Chaos",
+    range(26, 31): "Law",
+    range(31, 36): "Neutrality",
+    range(36, 41): "Dwarf",
+    range(41, 46): "Halfling",
+    range(46, 49): "Goblin",
+    range(49, 51): "Gnoll",
+    range(51, 53): "Harpy",
+    range(53, 55): "Hobgoblin",
+    range(55, 58): "Kobold",
+    range(58, 59): "Lizard man",
+    range(59, 60): "Minotaur",
+    range(60, 61): "Ogre",
+    range(61, 64): "Orc",
+    range(64, 65): "Serpent-man",
+    range(65, 66): "Troglodyte",
+    range(66, 71): "Angelic (a.k.a. Celestial)",
+    range(71, 76): "Centaur",
+    range(76, 81): "Demonic (a.k.a. Infernal/Abyssal)",
+    range(81, 86): "Dragon",
+    range(86, 91): "Pixie",
+    # Giants are omitted on the published table for elves
+    range(91, 93): "Naga",
+    range(93, 95): "Eagle",
+    range(95, 97): "Horse",
+    range(97, 101): "Undercommon",
+}
+
+DWARF_LANGUAGE_TABLE = {
+    range(1, 21): "by_alignment",
+    range(21, 26): "Elf",
+    range(26, 36): "Halfling",
+    range(36, 41): "Gnome",
+    range(41, 46): "Bugbear",
+    range(46, 56): "Goblin",
+    range(56, 61): "Gnoll",
+    range(61, 66): "Hobgoblin",
+    range(66, 76): "Kobold",
+    range(76, 77): "Minotaur",
+    range(77, 82): "Ogre",
+    range(82, 87): "Orc",
+    range(87, 92): "Troglodyte",
+    range(92, 94): "Dragon",
+    range(94, 98): "Giant",
+    range(98, 99): "Bear",
+    range(99, 101): "Undercommon",
+}
+
+LV0_LANGUAGE_TABLE = {
+    range(1, 21): "by_alignment",
+    range(21, 31): "Dwarf",
+    range(31, 36): "Elf",
+    range(36, 41): "Halfling",
+    range(41, 46): "Gnome",
+    range(46, 48): "Bugbear",
+    range(48, 58): "Goblin",
+    range(58, 61): "Gnoll",
+    range(61, 66): "Hobgoblin",
+    range(66, 76): "Kobold",
+    range(76, 81): "Lizard man",
+    range(81, 82): "Minotaur",
+    range(82, 84): "Ogre",
+    range(84, 94): "Orc",
+    range(94, 100): "Troglodyte",
+    range(100, 101): "Giant",
+}
+
+WIZARD_LANGUAGE_TABLE = {
+    range(1, 11): "by_alignment",
+    range(11, 14): "Chaos",
+    range(14, 17): "Law",
+    range(17, 20): "Neutrality",
+    range(20, 22): "Dwarf",
+    range(22, 24): "Elf",
+    range(24, 26): "Halfling",
+    range(26, 28): "Gnome",
+    range(28, 30): "Bugbear",
+    range(30, 36): "Goblin",
+    range(36, 40): "Gnoll",
+    range(40, 42): "Harpy",
+    range(42, 46): "Hobgoblin",
+    range(46, 50): "Kobold",
+    range(50, 54): "Lizard man",
+    range(54, 56): "Minotaur",
+    range(56, 58): "Ogre",
+    range(58, 63): "Orc",
+    range(63, 66): "Serpent-man",
+    range(66, 69): "Troglodyte",
+    range(69, 73): "Angelic (a.k.a. Celestial)",
+    range(73, 74): "Centaur",
+    range(74, 80): "Demonic (a.k.a. Infernal/Abyssal)",
+    range(80, 81): "Doppelganger",
+    range(81, 85): "Dragon",
+    range(85, 87): "Pixie",
+    range(87, 89): "Giant",
+    range(89, 90): "Griffon",
+    range(90, 91): "Naga",
+    range(91, 93): "Bear",
+    range(93, 95): "Eagle",
+    range(95, 97): "Horse",
+    range(97, 99): "Wolf",
+    range(99, 100): "Spider",
+    range(100, 101): "Undercommon",
+}
+
+# Additional class language tables from CSV
+WARRIOR_LANGUAGE_TABLE = {
+    range(1, 21): "by_alignment",
+    range(21, 31): "Dwarf",
+    range(31, 36): "Elf",
+    range(36, 39): "Halfling",
+    range(39, 44): "Bugbear",
+    range(44, 54): "Goblin",
+    range(54, 59): "Gnoll",
+    range(59, 64): "Harpy",
+    range(64, 71): "Hobgoblin",
+    range(71, 79): "Kobold",
+    range(79, 82): "Lizard man",
+    range(82, 84): "Minotaur",
+    range(84, 89): "Ogre",
+    range(89, 96): "Orc",
+    range(96, 97): "Serpent-man",
+    range(97, 99): "Troglodyte",
+    range(99, 101): "Giant",
+}
+
+CLERIC_LANGUAGE_TABLE = {
+    range(1, 21): "by_alignment",
+    range(21, 26): "Dwarf",
+    range(26, 31): "Elf",
+    range(31, 36): "Halfling",
+    range(36, 41): "Gnome",
+    range(41, 46): "Bugbear",
+    range(46, 56): "Goblin",
+    range(56, 61): "Gnoll",
+    range(61, 66): "Hobgoblin",
+    range(66, 76): "Kobold",
+    range(76, 79): "Lizard man",
+    range(79, 81): "Ogre",
+    range(81, 83): "Orc",
+    range(83, 84): "Serpent-man",
+    range(84, 89): "Troglodyte",
+    range(89, 93): "Angelic (Celestial)",
+    range(93, 94): "Centaur",
+    range(94, 98): "Demonic (Infernal/Abyssal)",
+    range(98, 99): "Dragon",
+    range(99, 100): "Pixie",
+    range(100, 101): "Giant",
+}
+
+THIEF_LANGUAGE_TABLE = {
+    range(1, 16): "by_alignment",
+    range(16, 21): "Chaos",
+    range(21, 26): "Law",
+    range(26, 31): "Neutrality",
+    range(31, 33): "Dwarf",
+    range(33, 35): "Elf",
+    range(35, 45): "Halfling",
+    range(45, 50): "Gnome",
+    range(50, 55): "Bugbear",
+    range(55, 65): "Goblin",
+    range(65, 70): "Gnoll",
+    range(70, 72): "Harpy",
+    range(72, 75): "Hobgoblin",
+    range(75, 79): "Kobold",
+    range(79, 80): "Lizard man",
+    range(80, 82): "Serpent-man",
+    range(82, 84): "Troglodyte",
+    range(84, 85): "Demonic (Infernal/Abyssal)",
+    range(85, 86): "Doppelganger",
+    range(86, 88): "Dragon",
+    range(88, 90): "Pixie",
+    range(90, 92): "Giant",
+    range(92, 101): "Undercommon",
+}
 
 __all__ = [
-    'ALIGNMENTS','AUGURIES','ANIMALS','OCCUPATIONS','WEAPON_TABLE','ARMOR_TABLE','EQUIPMENT_TABLE',
-    'HALFLING_LANGUAGE_TABLE','ELF_LANGUAGE_TABLE','DWARF_LANGUAGE_TABLE','LV0_LANGUAGE_TABLE','WIZARD_LANGUAGE_TABLE'
+    'ALIGNMENTS','AUGURIES','ANIMALS','OCCUPATIONS','WEAPON_TABLE','ARMOR_TABLE','EQUIPMENT_TABLE','CLASS_WEAPON_TRAINING',
+    'HALFLING_LANGUAGE_TABLE','ELF_LANGUAGE_TABLE','DWARF_LANGUAGE_TABLE','LV0_LANGUAGE_TABLE','WIZARD_LANGUAGE_TABLE',
+    'WARRIOR_LANGUAGE_TABLE','CLERIC_LANGUAGE_TABLE','THIEF_LANGUAGE_TABLE'
 ]

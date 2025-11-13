@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "modifiers": {
+    "range": {
+      "short": {"missile_die_steps": 0, "missile_bonus": 0},
+      "medium": {"missile_die_steps": 0, "missile_bonus": -2},
+      "long": {"missile_die_steps": -1, "missile_bonus": 0}
+    },
+    "attacker": {
+      "invisible": {"melee_bonus": 2},
+      "higher_ground": {"melee_bonus": 1},
+      "squeezing": {"melee_die_steps": -1, "missile_die_steps": -1},
+      "entangled": {"melee_die_steps": -1, "missile_die_steps": -1},
+      "untrained_weapon": {"melee_die_steps": -1, "missile_die_steps": -1},
+      "firing_into_melee": {"missile_bonus": -1, "friendly_fire_on_miss": 0.5}
+    },
+    "defender": {
+      "behind_cover": {"melee_bonus": -2, "missile_bonus": -2},
+      "blinded": {"melee_bonus": 2, "missile_bonus": 2},
+      "entangled": {"melee_die_steps": 1, "missile_die_steps": 1},
+      "helpless": {"melee_die_steps": 1, "missile_die_steps": 1},
+      "kneeling_sitting_prone": {"melee_bonus": 2, "missile_bonus": -2}
+    }
+  }
+}

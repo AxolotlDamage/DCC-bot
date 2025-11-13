@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "conditions": {
+    "prone": {
+      "label": "Prone",
+      "summary": "On the ground; disadvantage on melee defense; must spend an action or movement to stand (as per table text)."
+    },
+    "blinded": {
+      "label": "Blinded",
+      "summary": "Cannot see; attacks and perception relying on sight are impaired."
+    },
+    "deaf": {
+      "label": "Deaf",
+      "summary": "Cannot hear; affected by sound-based effects differently."
+    },
+    "stunned": {
+      "label": "Stunned",
+      "summary": "Cannot act; loses actions for the specified duration."
+    },
+    "silenced": {
+      "label": "Silenced",
+      "summary": "Cannot speak or cast spells with verbal components."
+    },
+    "entangled": {
+      "label": "Entangled",
+      "summary": "Restricted by net/cord/obstruction; attack die penalties as per table."
+    },
+    "immobilized": {
+      "label": "Immobilized",
+      "summary": "Cannot move; may also be unable to attack if specified."
+    },
+    "disarmed": {
+      "label": "Disarmed",
+      "summary": "Dropped or lost weapon; must retrieve or draw a new one."
+    },
+    "attack_penalty_next": {
+      "label": "Attack Penalty (Next)",
+      "summary": "Penalty to the next attack roll (see tag payload for value)."
+    },
+    "ac_penalty": {
+      "label": "AC Penalty",
+      "summary": "Penalty to armor class (see tag payload for value and duration)."
+    }
+  }
+}

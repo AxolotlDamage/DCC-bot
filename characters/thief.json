@@ -1,0 +1,186 @@
+{
+    "name": "thief",
+    "alignment": "Chaotic",
+    "class": "Thief",
+    "level": 6,
+    "owner": 480727765881192448,
+    "occupation": "Chandler",
+    "weapon": "dagger",
+    "inventory": [
+        {
+            "name": "wax knife",
+            "qty": 1
+        },
+        {
+            "name": "candles, 20",
+            "qty": 1
+        },
+        {
+            "name": "dagger",
+            "qty": 1
+        }
+    ],
+    "birth_augur": {
+        "sign": "Lucky sign",
+        "effect": "Saving throws"
+    },
+    "max_luck_mod": 2,
+    "hp": {
+        "current": 42,
+        "max": 42
+    },
+    "luck": {
+        "current": 16,
+        "max": 16
+    },
+    "ac": 11,
+    "saves": {
+        "reflex": 5,
+        "fortitude": 4,
+        "will": 2
+    },
+    "initiative": 1,
+    "speed": 30,
+    "attack": 0,
+    "attack_bonus": 4,
+    "cp": 34,
+    "abilities": {
+        "STR": {
+            "max": 13,
+            "current": 13,
+            "mod": 1
+        },
+        "AGI": {
+            "max": 14,
+            "current": 14,
+            "mod": 1
+        },
+        "STA": {
+            "max": 17,
+            "current": 17,
+            "mod": 2
+        },
+        "INT": {
+            "max": 12,
+            "current": 12,
+            "mod": 0
+        },
+        "PER": {
+            "max": 12,
+            "current": 12,
+            "mod": 0
+        },
+        "LCK": {
+            "max": 16,
+            "current": 16,
+            "mod": 2
+        }
+    },
+    "armor": "unarmored",
+    "shield": false,
+    "fumble_die": "d4",
+    "action_die": "1d20",
+    "crit_die": "1d24",
+    "crit_table": "II",
+    "languages": [
+        "Chaos",
+        "Thieves' Cant"
+    ],
+    "notes": {
+        "levelup_log": [
+            {
+                "from_level": 0,
+                "to_level": 1,
+                "class": "Thief",
+                "hp_gain": 5,
+                "roll": "1d6",
+                "sta_mod": 2,
+                "by": 480727765881192448,
+                "note": ""
+            },
+            {
+                "from_level": 1,
+                "to_level": 2,
+                "class": "Thief",
+                "hp_gain": 8,
+                "roll": "1d6",
+                "sta_mod": 2,
+                "by": 480727765881192448,
+                "note": ""
+            },
+            {
+                "from_level": 2,
+                "to_level": 3,
+                "class": "Thief",
+                "hp_gain": 5,
+                "roll": "1d6",
+                "sta_mod": 2,
+                "by": 480727765881192448,
+                "note": ""
+            },
+            {
+                "from_level": 3,
+                "to_level": 4,
+                "class": "Thief",
+                "hp_gain": 5,
+                "roll": "1d6",
+                "sta_mod": 2,
+                "by": 480727765881192448,
+                "note": ""
+            },
+            {
+                "from_level": 4,
+                "to_level": 5,
+                "class": "Thief",
+                "hp_gain": 8,
+                "roll": "1d6",
+                "sta_mod": 2,
+                "by": 480727765881192448,
+                "note": ""
+            },
+            {
+                "from_level": 5,
+                "to_level": 6,
+                "class": "Thief",
+                "hp_gain": 8,
+                "roll": "1d6",
+                "sta_mod": 2,
+                "by": 480727765881192448,
+                "note": ""
+            }
+        ]
+    },
+    "weapon_training": [
+        "wax knife"
+    ],
+    "weapon_proficiencies": [
+        "wax knife"
+    ],
+    "action_dice": "1d20+1d14",
+    "luck_die": "d8",
+    "class_saves": {
+        "reflex": 4,
+        "fortitude": 2,
+        "will": 2
+    },
+    "title": "Assassin",
+    "thief_skills": {
+        "alignment": "chaotic",
+        "level": 6,
+        "skills": {
+            "backstab": 9,
+            "sneak_silently": 9,
+            "hide_in_shadows": 11,
+            "pick_pocket": 9,
+            "climb_sheer_surfaces": 11,
+            "pick_lock": 9,
+            "find_trap": 11,
+            "disable_trap": 11,
+            "forge_document": 4,
+            "disguise_self": 5,
+            "read_languages": 4,
+            "handle_poison": 5,
+            "cast_scroll_die": "d12"
+        }
+    }
+}

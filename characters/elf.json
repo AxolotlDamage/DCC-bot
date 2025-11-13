@@ -1,0 +1,829 @@
+{
+  "name": "elf",
+  "alignment": "Lawful",
+  "class": "Elf",
+  "level": 6,
+  "owner": 480727765881192448,
+  "occupation": "Apprentice",
+  "weapon": "rod",
+  "inventory": [
+    "rod",
+    "book"
+  ],
+  "birth_augur": {
+    "sign": "Born on the battlefield",
+    "effect": "Damage rolls"
+  },
+  "max_luck_mod": 0,
+  "hp": {
+    "current": 24,
+    "max": 24
+  },
+  "luck": {
+    "current": 12,
+    "max": 12
+  },
+  "ac": 10,
+  "saves": {
+    "reflex": 2,
+    "fortitude": 2,
+    "will": 5
+  },
+  "initiative": 0,
+  "speed": 30,
+  "attack": 0,
+  "attack_bonus": 3,
+  "cp": 21,
+  "abilities": {
+    "STR": {
+      "max": 10,
+      "current": 10,
+      "mod": 0
+    },
+    "AGI": {
+      "max": 11,
+      "current": 11,
+      "mod": 0
+    },
+    "STA": {
+      "max": 12,
+      "current": 12,
+      "mod": 0
+    },
+    "INT": {
+      "max": 10,
+      "current": 10,
+      "mod": 0
+    },
+    "PER": {
+      "max": 13,
+      "current": 13,
+      "mod": 1
+    },
+    "LCK": {
+      "max": 12,
+      "current": 12,
+      "mod": 0
+    }
+  },
+  "armor": "unarmored",
+  "shield": false,
+  "fumble_die": "d4",
+  "action_die": "1d20",
+  "crit_die": "1d10",
+  "crit_table": "II",
+  "languages": [
+    "Common",
+    "Elf",
+    "Neutrality",
+    "Orc"
+  ],
+  "notes": {
+    "levelup_log": [
+      {
+        "from_level": 0,
+        "to_level": 1,
+        "class": "Elf",
+        "hp_gain": 2,
+        "roll": "1d6",
+        "sta_mod": 0,
+        "by": 480727765881192448,
+        "note": ""
+      },
+      {
+        "from_level": 1,
+        "to_level": 2,
+        "class": "Elf",
+        "hp_gain": 4,
+        "roll": "1d6",
+        "sta_mod": 0,
+        "by": 480727765881192448,
+        "note": ""
+      },
+      {
+        "from_level": 2,
+        "to_level": 3,
+        "class": "Elf",
+        "hp_gain": 5,
+        "roll": "1d6",
+        "sta_mod": 0,
+        "by": 480727765881192448,
+        "note": ""
+      },
+      {
+        "from_level": 3,
+        "to_level": 4,
+        "class": "Elf",
+        "hp_gain": 5,
+        "roll": "1d6",
+        "sta_mod": 0,
+        "by": 480727765881192448,
+        "note": ""
+      },
+      {
+        "from_level": 4,
+        "to_level": 5,
+        "class": "Elf",
+        "hp_gain": 5,
+        "roll": "1d6",
+        "sta_mod": 0,
+        "by": 480727765881192448,
+        "note": ""
+      },
+      {
+        "from_level": 5,
+        "to_level": 6,
+        "class": "Elf",
+        "hp_gain": 2,
+        "roll": "1d6",
+        "sta_mod": 0,
+        "by": 480727765881192448,
+        "note": ""
+      }
+    ],
+    "patron_log": [
+      {
+        "level": 1,
+        "patron": "Grimtooth",
+        "by": 480727765881192448
+      }
+    ]
+  },
+  "weapon_training": [
+    "dagger",
+    "javelin",
+    "longbow",
+    "longsword",
+    "rod",
+    "short sword",
+    "shortbow",
+    "spear",
+    "staff",
+    "two-handed sword"
+  ],
+  "weapon_proficiencies": [
+    "dagger",
+    "javelin",
+    "longbow",
+    "longsword",
+    "rod",
+    "short sword",
+    "shortbow",
+    "spear",
+    "staff",
+    "two-handed sword"
+  ],
+  "action_dice": "1d20+1d16",
+  "class_saves": {
+    "reflex": 2,
+    "fortitude": 2,
+    "will": 4
+  },
+  "title": "Elder",
+  "hit_die": "1d6",
+  "infravision": 60,
+  "immunities": [
+    "magical sleep",
+    "paralysis"
+  ],
+  "vulnerabilities": [
+    "Sensitivity to iron: prolonged direct contact causes 1 hp damage per day; cannot wear iron armor or bear iron weapons for extended periods; uncomfortable near iron."
+  ],
+  "senses": {
+    "secret_doors_bonus": 4,
+    "secret_doors_auto_check_range_ft": 10
+  },
+  "patron": "Grimtooth",
+  "spells": {
+    "level_1": [
+      {
+        "name": "Patron bond"
+      },
+      {
+        "name": "Invoke patron"
+      },
+      {
+        "name": "Ward Portal",
+        "level": 1,
+        "range": "10\u2019",
+        "duration": "Varies",
+        "casting_time": "1 action",
+        "save": "None",
+        "description": [
+          "The caster magically wards a portal against passage. Any door, trap door, gate, portcullis, grate, or other such portal can be affected."
+        ],
+        "manifestation": {
+          "die": "1d6",
+          "table": {
+            "1": "sigil engraved upon portal",
+            "2": "portal clouded by unnatural shadow",
+            "3": "portal turns to stone/iron/steel/rock",
+            "4": "magic circle encloses portal",
+            "5": "mass of chains and ropes binds portal",
+            "6": "no visible effect"
+          }
+        },
+        "corruption": {
+          "die": "1d6",
+          "table": {
+            "1": "minor",
+            "2": "minor",
+            "3": "minor",
+            "4": "major",
+            "5": "major",
+            "6": "greater"
+          }
+        },
+        "misfire": {
+          "die": "1d4",
+          "table": {
+            "1": "for next 1d6 hours, any door the caster approaches automatically slams shut and locks",
+            "2": "all doors within 100\u2019 slam shut and lock",
+            "3": "all doors within 100\u2019 automatically unlock and open",
+            "4": "1d4 illusory doors appear on wall beside nearest door"
+          }
+        },
+        "results": {
+          "1": "Lost, failure, and worse! Roll 1d6 modified by Luck: (0 or less) corruption + patron taint + misfire; (1-2) corruption; (3+) misfire.",
+          "2-11": "Lost. Failure.",
+          "12-13": "Portal is stuck fast but can still be opened by mortal means with immense effort (DC 20 Strength check).",
+          "14-17": "Portal is held in place for 2d6x10 minutes. It cannot be opened by mortal means, though a knock spell or powerful magical creature can open it.",
+          "18-19": "Portal is held in place for 2d6 x 10 hours. It cannot be opened by mortal means, though a knock spell or powerful magical creature can open it.",
+          "20-23": "Portal completely disappears, leaving in its place only a blank space of wall for 2d6 x10 hours. During this time, no passage is possible via normal means. Portal can be detected with a detect invisibility spell; if detected, it is treated as locked, and cannot be opened by mortal means except through a knock spell or similar powerful magic. When the portal re-appears, it remains locked for another 1d4 x10 hours.",
+          "24-27": "Portal completely disappears, leaving in its place only a blank space of wall for 2d6 x10 days. During this time, no passage is possible via normal means. Portal can be detected with a detect invisibility spell; if detected, it is treated as locked, and cannot be opened by mortal means except through a knock spell or similar powerful magic. When the portal re-appears, it remains locked for another 2d6 x10 weeks. Additionally, any creature that opens the portal during the time of the ongoing effect (through magical means, of course) is subject to a curse: Will save or -2 Luck.",
+          "28-29": "Portal completely disappears, leaving in its place only a blank space of wall for 4d6 x10 days. During this time, no passage is possible via normal means. Portal can be detected with a detect invisibility spell; if detected, it is treated as locked, and cannot be opened by mortal means except through a knock spell or similar powerful magic. When the portal re-appears, it remains locked for another 4d6 x10 weeks. Additionally, any creature that opens the portal during the time of the ongoing effect (through magical means, of course) is subject to a curse: Will save or -2 Luck.",
+          "30-31": "Portal completely disappears, leaving in its place only a blank space of wall for 4d6 x10 days. The portal will reappear and unlock by the mental command of the caster. Otherwise, during this time, no passage is possible via normal means. Portal can be detected with a detect invisibility spell; if detected, it is treated as locked, and cannot be opened by mortal means except through a knock spell or similar powerful magic. When the portal re-appears, it remains locked for another 4d6 x10 weeks. Additionally, any creature that opens the portal during the time of the ongoing effect (through magical means, of course) is subject to a curse: Will save or -2 Luck. Finally, a guardian is summoned. Any creature that attempts to open the door is attacked by something that lashes out from the door with: (roll 1d4) (1) tentacles, (2) fangs, (3) claws, (4) barbed tail. The attacking appendage has the following statistics: Atk +6, 1d6 dmg, AC 16, 20 hp.",
+          "32+": "Portal completely disappears, leaving in its place only a blank space of wall. This is an ongoing permanent effect. The portal will reappear and unlock by the mental command of the caster, but until then, no passage is possible via normal means. Portal can be detected with a detect invisibility spell; if detected, it is treated as locked, and cannot be opened by mortal means except through a knock spell or similar powerful magic. Any creature that forces open the portal against the caster\u2019s intent is subject to a curse: Will save or -2 Luck. Finally, a guardian is summoned. Any creature that attempts to open the door is attacked by something that lashes out from the door with: (roll 1d4) (1) tentacles, (2) fangs, (3) claws, (4) barbed tail. The attacking appendage has the following statistics: Atk +12, 2d6 dmg, AC 18, 40 hp."
+        }
+      },
+      {
+        "name": "Detect Trap",
+        "range": "20\u2019 or more",
+        "duration": "2 turns",
+        "casting_time": "2 actions",
+        "save": "None",
+        "general": "General The caster senses the location on triggers, traps, and snares within range.",
+        "manifestation": "See below.",
+        "table": {
+          "1": "Lost, failure, and patron taint.",
+          "2-11": "Lost. Failure.",
+          "12-13": "The caster has an unfocused sense of danger when approaching traps with a Find Trap DC of 10 or less within range. This sense can manifest as hair rising on the back of the neck, ringing in the ears, or a tingling sensation on the forehead. Traps behind 3\u2019 of wood, 1\u201d of solid metal, or 1\u2019 of stone are not detected.",
+          "14-17": "The caster has an unfocused sense of danger when approaching traps with a Find Trap DC of 15 or less within range. This sense can manifest as hair rising on the back of the neck, ringing in the ears, or a tingling sensation on the forehead. Traps behind 3\u2019 of wood, 1\u201d of solid metal, or 1\u2019 of stone are not detected.",
+          "18-19": "The caster has a directional sense of danger when approaching traps with a Find Trap DC of 15 or less within range. This directional sense extends in a cone from the caster\u2019s head, 20\u2019 long and 20\u2019 wide. Outlines of an eye-shaped symbol appear floating at the caster\u2019s forehead. Traps behind 3\u2019 of wood, 1\u201d of solid metal, or 1\u2019 of stone are not detected.",
+          "20-23": "The caster has a directional sense of danger when approaching traps with a Find Trap DC of 20 or less within range. This directional sense extends in a cone from the caster\u2019s head, 20\u2019 long and 20\u2019 wide. Outlines of an eye-shaped symbol appear floating at the caster\u2019s forehead. Traps behind 3\u2019 of wood, 1\u201d of solid metal, or 1\u2019 of stone are not detected.",
+          "24-27": "The caster has a directional sense of danger when approaching traps with a Find Trap DC of 20 or less within range. This directional sense extends in a cone from the caster\u2019s head, 30\u2019 long and 10\u2019 wide. The caster can describe the trap in enough detail for an ally to gain a +1 bonus to a Find/Disable Trap check against the trap. A spectral eye-shaped symbol appears floating at the caster\u2019s forehead.",
+          "28-29": "The caster has a directional sense of danger when approaching traps with a Find Trap DC of 25 or less within range. This directional sense extends in a cone from the caster\u2019s head, 40\u2019 long and 5\u2019 wide. To the caster, the trap\u2019s triggering mechanism is limned in radiant light within line of sight. The caster can describe one trap in enough detail for an ally to gain a +3 bonus to a Find/Disable Trap check against the trap. A glowing eye-shaped symbol appears at the caster\u2019s forehead.",
+          "30-31": "The caster can determine the exact location of traps with a Find Trap DC of 25 or less within an 80\u2019 radius. To the caster, trap mechanisms are limned in radiant light within line of sight. The caster can describe one trap in enough detail for an ally to gain a +5 bonus to a Find/Disable Trap check against the trap. A glowing eye-shaped symbol appears at the caster\u2019s forehead.",
+          "32+": "The caster has perfect awareness of the exact location of traps within a 120\u2019 radius. To the caster, trap mechanisms are limned in radiant light, even through walls. The caster can describe one trap in enough detail for an ally to gain a +10 bonus to a Find/Disable Trap check against the trap. The caster also knows the safest position to be in when the trap is triggered. A glorious eye-shaped symbol hovers above the caster, radiating light in a 60\u2019 radius."
+        },
+        "source": "patron",
+        "patron": "Grimtooth"
+      },
+      {
+        "name": "Charm Person",
+        "level": 1,
+        "range": "120 ft.",
+        "duration": {
+          "text": "Varies."
+        },
+        "casting_time": "1 round",
+        "save": {
+          "text": "Will vs. check"
+        },
+        "description": [
+          "The caster charms an enemy to become a friend! Any mundane living humanoid can be affected normally. Druids can also use this spell on animals. Wizards can attempt this spell on monsters and un-dead with a -2 check penalty and attempt to affect outsiders and demons with a -4 check penalty."
+        ],
+        "manifestation": "Roll 1d6: (1) flash of light; (2) lulling harmony; (3) black cloud; (4) glittering pixie dust; (5) black beam; (6) moonbeam from above.",
+        "corruption": {
+          "die": "1d6",
+          "table": {
+            "1": "Caster\u2019s eyes turn black and soulless.",
+            "2": "Caster\u2019s hair turns white and falls out.",
+            "3": "Caster\u2019s skin turns gray and leathery.",
+            "4": "Caster\u2019s voice becomes a whisper.",
+            "5": "Caster\u2019s hands become skeletal and bony.",
+            "6": "Caster\u2019s body becomes translucent and ghostly."
+          }
+        },
+        "misfire": {
+          "die": "1d4",
+          "table": {
+            "1": "Caster falls in love with intended target.",
+            "2": "1d4 randomly determined nearby creatures fall in love with each other.",
+            "3": "Caster inadvertently puts intended target to sleep (Will save to resist).",
+            "4": "Target is not charmed but instead repulsed and angered by caster."
+          }
+        },
+        "results": {
+          "1": {
+            "text": "Lost, failure, and worse! Roll 1d6 modified by Luck: (0 or less) corruption + misfire + patron taint; (1-2) corruption; (3) patron taint (or corruption if no patron); (4+) misfire.",
+            "misfire": true,
+            "corruption": true,
+            "lost": true,
+            "range_min": 2,
+            "range_max": 11
+          },
+          "2-11": {
+            "text": "Lost. Failure.",
+            "misfire": false,
+            "corruption": false,
+            "lost": true,
+            "range_min": 2,
+            "range_max": 11
+          },
+          "12-13": {
+            "text": "A single target must make a Will save or be dazed for 1d4 rounds. Dazed targets can move at half speed but can perform no other actions.",
+            "range_min": 12,
+            "range_max": 13
+          },
+          "14-17": {
+            "text": "A single target must make a Will save or fall under the caster\u2019s complete control, as if it were his friend. However, the target will not perform actions that are suicidal or which a devoted friend would not otherwise perform. Unfortunately, the target\u2019s willpower must be forcibly subverted for the caster to exercise control, so it is but a shell of its former self, operating at a -2 penalty to all rolls, saves, checks, and ability scores while under the wizard\u2019s control. The target receives another save to break the charm according to its original Intelligence, as follows: Int 3-6 = one month; Int 7-9 = three weeks; Int 10-11 = two weeks; Int 12-15= one week; Int 16-17 = three days; Int 18+ = next day. While affected by the spell, the target is marked by a sign of the caster\u2019s control. Roll 1d4: (1) odd facial tic; (2) deep bags under eyes; (3) posture and facial expressions resemble caster; (4) hair stands straight up.",
+            "range_min": 14,
+            "range_max": 17
+          },
+          "18-19": {
+            "text": "A single target must make a Will save or fall under the caster\u2019s complete control, as if it were his friend. However, the target will not perform actions that are suicidal or which a devoted friend would not otherwise perform. The target is able to operate at full normal functionality while charmed. The target receives another save to break the charm according to its original Intelligence, as follows: Int 3-6 = one month; Int 7-9 = three weeks; Int 10-11 = two weeks; Int 12-15= one week; Int 16-17 = three days; Int 18+ = next day. While affected by the spell, the target is marked by a sign of the caster\u2019s control, and its posture and facial expressions subtly change to resemble the caster\u2019s."
+          },
+          "20-23": {
+            "text": "The wizard can target a number of creatures equal to his caster level. Each target must make a Will save or fall under the caster\u2019s complete control, as if it were his friend. However, the target will not perform actions that are suicidal or which a devoted friend would not otherwise perform. The target is able to operate at full normal functionality while charmed. The target receives another save to break the charm according to its original Intelligence, as follows: Int 3-6 = one month; Int 7-9 = three weeks; Int 10- 11 = two weeks; Int 12-15= one week; Int 16-17 = three days; Int 18+ = next day."
+          },
+          "24-27": {
+            "text": "The caster can target a number of creatures equal to 1d6 + caster level. Each target must make a Will save or fall under the caster\u2019s complete control, as if it were his friend. However, the target will not perform actions that are suicidal or which a devoted friend would not otherwise perform. The target is able to operate at full normal functionality while charmed. The target receives another save to break the charm according to its original Intelligence, as follows: Int 3-6 = one month; Int 7-9 = three weeks; Int 10-11 = two weeks; Int 12-15= one week; Int 16-17 = three days; Int 18+ = next day."
+          },
+          "28-29": {
+            "text": "The caster can target a number of creatures equal to 2d6 + caster level. Each target must make a Will save or fall under the caster\u2019s complete control, as if it were his friend. However, the target will not perform actions that are suicidal or which a devoted friend would not otherwise perform. The target is able to operate at full normal functionality while charmed. The target receives another save to break the charm according to its original Intelligence, as follows: Int 3-6 = one month; Int 7-9 = three weeks; Int 10-11 = two weeks; Int 12-15= one week; Int 16-17 = three days; Int 18+ = next day."
+          },
+          "30-31": {
+            "text": "The caster can target a number of creatures equal to 3d6 + caster level. Targets of equal to or less HD than the caster do not receive a save. Those with greater HD than the caster must make a Will save or fall under the wizard\u2019s complete control, as if it were his friend. However, the target will not perform actions that are suicidal or which a devoted friend would not otherwise perform. The target is able to operate at full normal functionality while charmed. The target receives another save to break the charm according to its original Intelligence, as follows: Int 3-6 = one month; Int 7-9 = three weeks; Int 10-11 = two weeks; Int 12-15= one week; Int 16-17 = three days; Int 18+ = next day."
+          },
+          "32+": {
+            "text": "The caster can influence the emotions of large groups of people, including crowds of public spectators or armies of angry warriors. The caster can attempt to charm up to 100 people at once, as long as they are within his line of sight \u2013 there is no effective range limit, and the targets need not be grouped together (e.g., if the wizard is using scrying means to observe multiple armies, he can target 20 people from each army). Targets of equal to or less HD than the caster do not receive a save. Those with greater HD than the caster receive a Will save. Failure indicates the targets fall under the caster\u2019s complete control and consider him their close friend. The targets receive another save to break the charm according to their original Intelligence, as follows: Int 3-6 = one month; Int 7-9 = three weeks; Int 10-11 = two weeks; Int 12- 15= one week; Int 16-17 = three days; Int 18+ = next day."
+          }
+        }
+      }
+    ],
+    "level_2": [
+      {
+        "name": "Scorching Ray",
+        "level": 2,
+        "range": "80\u2019",
+        "duration": "Instantaneous",
+        "casting_time": "1 action",
+        "save": "Ref partial (see below)",
+        "description": [
+          "The caster summons the flames of Hell to immolate his foes."
+        ],
+        "manifestation": {
+          "die": "1d5",
+          "table": {
+            "1": "arcing ray of fire",
+            "2": "laser beam",
+            "3": "flaming bullet",
+            "4": "sizzling gout of flame",
+            "5": "burning hands followed by spray of sparks. Color of fire varies \u2013 red, yellow, blue, or green."
+          }
+        },
+        "corruption": {
+          "die": "1d8",
+          "table": {
+            "1": "all hair on the caster\u2019s head is permanently burned off (including eyebrows and facial hair)",
+            "2": "the caster\u2019s hands and arms are blackened, as if they had been charred and burned",
+            "3": "the caster\u2019s skin is permanently sunburned, causing discomfort and pain when he wears armor or rough fabrics",
+            "4": "the caster\u2019s face is caught in a burst of flame, melting his flesh into a horribly grotesque appearance",
+            "5": "the caster develops an extreme sensitivity to heat, automatically taking an extra +1 damage on all dice related to fire damage from now on",
+            "6": "greater",
+            "7": "major",
+            "8": "minor"
+          }
+        },
+        "misfire": {
+          "die": "1d4",
+          "table": {
+            "1": "caster explodes a ball of fire centered on himself, causing 1d6 damage and burning up all flammable objects on his person",
+            "2": "caster sends forth an errant ray of fire that causes 1d6 damage to one randomly determined ally within 30\u2019",
+            "3": "caster lights the nearest ally on fire briefly for 1d4 damage",
+            "4": "caster inadvertently reverses the spell, summoning a wave of chilling cold that automatically extinguishes all flames within 100\u2019 of him"
+          }
+        },
+        "results": {
+          "1": {
+            "text": "Lost, failure, and worse! Roll 1d6 modified by Luck: (0 or less) corruption + patron taint + misfire; (1-2) corruption; (3) patron taint (or corruption if no patron); (4+) misfire.",
+            "misfire": true,
+            "corruption": true,
+            "lost": true
+          },
+          "2-11": {
+            "text": "Lost. Failure.",
+            "lost": true
+          },
+          "12-13": {
+            "text": "Failure, but spell is not lost."
+          },
+          "14-15": {
+            "text": "One target takes 1d6 + caster level damage. Additionally, it must make a Reflex save vs. spell check or catch fire. Each round thereafter it suffers an additional 1d6 damage until it succeeds on a DC 15 Reflex save to extinguish the fire. Flammable objects on the target (e.g., scrolls or tomes) have a 75% chance of catching fire unless protected."
+          },
+          "16-19": {
+            "text": "One target takes 1d8 + caster level damage. Additionally, it must make a DC 15 Reflex save or catch fire. Each round thereafter it suffers an additional 1d6 damage until it succeeds on a DC 15 Reflex save to extinguish the fire. Flammable objects on the target (e.g., scrolls or tomes) have a 75% chance of catching fire unless protected."
+          },
+          "20-21": {
+            "text": "The caster can launch two rays, at the same target or at two targets. Each ray does 1d10 + caster level damage. Additionally, each target must make a DC 15 Reflex save or catch fire. Each round thereafter the target suffers an additional 1d6 damage until it succeeds on a DC 15 Reflex save to extinguish the fire. Flammable objects on the target (e.g., scrolls or tomes) have a 75% chance of catching fire unless protected."
+          },
+          "22-25": {
+            "text": "The caster can launch three rays, at the same target or different targets. Each ray does 1d12 + caster level damage. Additionally, each target must make a DC 15 Reflex save or catch fire. Each round thereafter the target suffers an additional 1d6 damage until it succeeds on a DC 15 Reflex save to extinguish the fire. Flammable objects on the target (e.g., scrolls or tomes) have a 75% chance of catching fire unless protected."
+          },
+          "26-29": {
+            "text": "The caster sends forth a fanning wave of flames. The attack is shaped like a cone, centered on the caster and expanding to a width of 40\u2019 at its farthest end 80\u2019 away. All targets within the cone take 1d12 + caster level damage. Additionally, each target must make a DC 15 Reflex save or catch fire. Each round thereafter the target suffers an additional 1d6 damage until it succeeds on a DC 15 Reflex save to extinguish the fire. Flammable objects on the target (e.g., scrolls or tomes) have a 75% chance of catching fire unless protected."
+          },
+          "30-31": {
+            "text": "The caster detonates a blast of fire centered on himself. He suffers no damage, but all targets within 20\u2019 are automatically immolated for 1d12 points of damage. In addition, the blast sends out up to a dozen jets of flame, each 80\u2019 long and aimed at a single target. Each jet does 1d20 + caster level damage and automatically catches the target on fire for an additional 1d6 damage each round until the target makes a DC 15 Reflex save. Flammable objects on the target (e.g., scrolls or tomes) automatically catch fire. No target can be damaged by more than one jet of flame."
+          },
+          "32-33": {
+            "text": "The caster detonates a blast of fire centered on himself. He suffers no damage, but all targets within 30\u2019 are automatically immolated for 1d20 points of damage. In addition, the blast sends out up to a dozen jets of flame, each 80\u2019 long and aimed at a single target. Each jet does 1d20 + caster level damage and automatically catches the target on fire for an additional 1d8 damage each round until the target makes a DC 15 Reflex save. Flammable objects on the target (e.g., scrolls or tomes) automatically catch fire. No target can be damaged by more than one jet of flame."
+          },
+          "34+": {
+            "text": "The caster summons a jet of magma and flame from the earth\u2019s core, which explodes upward from his feet then blasts out at his enemies. He can direct a scorching ray of flame at any target he can see, to a range of 1,000\u2019. The amount of damage done by each ray depends on how much the caster must dilute the pure magma of the earth\u2019s core. A single target takes 6d20+CL damage; 2-5 targets each take 4d20+CL damage; 6-10 targets each take 3d12+CL damage; 11-30 targets each take 1d20+CL damage; 31-50 targets each take 1d12+CL damage; 51-100 targets each take 1d8 damage; and 101 or more targets each take 1d6 damage. Every target must succeed on a DC 15 Reflex save or catch fire, suffering an additional 1d6 damage every round thereafter until they again succeed on a DC 15 Reflex save."
+          }
+        }
+      },
+      {
+        "name": "ESP",
+        "level": 2,
+        "range": "100\u2019 or more",
+        "duration": "1 round or more",
+        "casting_time": "1 round",
+        "save": "Will vs. spell check DC",
+        "description": [
+          "General The caster can detect the thoughts of other creatures. Lower check results allow the caster to read only surface-level thoughts. With higher check results the caster can concentrate and read deeper levels of thought with each round of continuous concentration, as follows. Detecting the answer to a specific question within the scope of the thoughts described below generally takes 1d4 rounds once the appropriate round of concentration is reached. For example, finding out where an evil necromancer hid his magic ring takes 1d4 rounds after the 4th round of concentration (recent memories), and understanding why the necromancer bears an irrational hatred toward the king takes 1d4 rounds after the 6th round of concentration (subconscious motivations).",
+          "Round 2: The caster understands any long-range goals and motivations associated with the creature\u2019s current thoughts and actions.",
+          "Round 3: The caster understands the creature\u2019s relationships with its friends and enemies.",
+          "Round 4: The caster can read the creature\u2019s recent memories. It still takes time to sort through all the thoughts \u2013 roughly one round for every day of memories.",
+          "Round 5: The caster can read the creature\u2019s historical memories \u2013 as far back as it can remember.",
+          "Round 6: The caster understands the creature\u2019s subconscious thoughts \u2013 motivations and underlying behaviors that it may not even be aware of.",
+          "Certain higher check results allow the caster to switch targets. Switching to a new target triggers a new Will save for the new target, and resets the \u201cround counter\u201d for purposes of reading deep thoughts. For example, if the caster concentrated for three rounds on one target, then switched to a second, then switched back to the first, it would be as if he was starting back at one round of concentration."
+        ],
+        "manifestation": {
+          "die": "1d5",
+          "table": {
+            "1": "nothing visible",
+            "2": "caster\u2019s head glows",
+            "3": "caster\u2019s eyes turn misty",
+            "4": "shimmering waves emanate from caster\u2019s skull",
+            "5": "flashes of light jump from caster periodically."
+          }
+        },
+        "corruption": {
+          "die": "1d8",
+          "table": {
+            "1": "caster\u2019s skull expands grotesquely as his brain doubles in size",
+            "2": "caster\u2019s eyes turn permanently clouded",
+            "3": "caster\u2019s thoughts are visible (literally) as waves of shimmering light that radiate outward from his skull, expanding in frequency to torchlight-equivalent when he is deep in thought and fading to a slow pulse at night",
+            "4": "caster goes completely bald",
+            "5-6": "minor",
+            "7-8": "major"
+          }
+        },
+        "misfire": {
+          "die": "1d4",
+          "table": {
+            "1": "caster accidentally broadcasts his thoughts to all creatures within 30\u2019, which suddenly know his mood and deepest opinions of them",
+            "2": "caster touches the darkest, most savage portion of the nearest animal mind, causing him to recoil in pain and suffer a -1 penalty to all rolls for 1d4 rounds as he recovers from the shock",
+            "3": "caster sends a burst of concentrated thoughts at 1d4 randomly determined creatures within 100\u2019, each of whom suffers 1 hp of damage as the psychic blast causes a mind-splitting headache",
+            "4": "one creature about whom the caster has a deeply guarded secret learns about that secret as he accidentally transmits thoughts instead of receiving them (e.g., a secret love, an ally he plans to double-cross, someone to whom he owes a debt he doesn\u2019t plan to pay, etc.)."
+          }
+        },
+        "results": {
+          "1": {
+            "text": "Lost, failure, and worse! Roll 1d6 modified by Luck: (0 or less) corruption + patron taint + misfire; (1-2) corruption; (3) patron taint; (4+) misfire.",
+            "lost": true,
+            "misfire": true,
+            "patron_taint": true,
+            "corruption": true
+          },
+          "2-11": {
+            "text": "Lost. Failure.",
+            "lost": true
+          },
+          "12-13": {
+            "text": "Failure, but spell is not lost."
+          },
+          "14-15": {
+            "text": "By concentrating for a full round, the caster can read the thoughts of one creature he can see within 100\u2019. The creature receives a Will save and is aware of an attempt to read its thoughts (though it may not know the caster is the one attempting the action). If the caster is successful, he detects surface-level thoughts: the creature\u2019s emotional state, any actions it is intent upon, and so on. After the first round of concentration, the spell energy dissipates."
+          },
+          "16-19": {
+            "text": "By concentrating for a full round, the caster can read the thoughts of one creature he can see within 100\u2019. The creature receives a Will save, and is aware of an attempt to read its thoughts (though it may not know the caster is the one attempting the action). If the caster is successful, he detects surface-level thoughts: the creature\u2019s emotional state, any actions it is intent upon, and so on. By continuing to concentrate, the caster can continue to read the surface thoughts of the target, as noted in the general spell description. If the caster stops concentrating, the spell ends."
+          },
+          "20-21": {
+            "text": "By concentrating for a full round, the caster can read the thoughts of one creature he can see within 100\u2019. The creature receives a Will save and is aware of an attempt to read its thoughts (though it may not know the caster is the one attempting the action). If the caster is successful, he detects surface-level thoughts: the creature\u2019s emotional state, any actions it is intent upon, and so on. By continuing to concentrate, the caster can continue to read the surface thoughts of the target, as noted in the general spell description. If the caster stops concentrating, the spell ends."
+          },
+          "22-25": {
+            "text": "By concentrating for a full round, the caster can read the thoughts of one creature he can see within 100\u2019. In addition, the caster can switch targets each new round, as long as he continues concentrating. Any target (whether the first or a later one) receives a Will save and is aware of an attempt to read its thoughts (though it may not know the caster is the one attempting the action). If the caster is successful, he detects surface-level thoughts: the creature\u2019s emotional state, any actions it is intent upon, and so on. By continuing to concentrate, the caster can continue to read the surface thoughts of the target, as noted in the general spell description. If the caster stops concentrating, the spell ends."
+          },
+          "26-29": {
+            "text": "By concentrating for a full round, the caster can read the thoughts of one creature. If the caster has a physical memento associated with a specific target (a hair clipping, fingernail, favorite sword, drop of blood, etc.), he can detect its thoughts at a distance of up to one mile, without needing line of sight. Without a physical memento, the caster can attempt ESP on a target within line of sight at a distance of up to 1,000\u2019. Viewing a target through a scrying device, such as a crystal ball, counts as line of sight. In addition, the caster can switch targets each new round, as long as he continue concentrating. Any target (whether the first or a later one) receives a Will save and is aware of an attempt to read its thoughts (though it may not know the caster is the one attempting the action). If the caster is successful, he detects surface-level thoughts: the creature\u2019s emotional state, any actions it is intent upon, and so on. By continuing to concentrate, the caster can continue to read the surface thoughts of the target, as noted in the general spell description. If the caster stops concentrating, the spell ends."
+          },
+          "30-31": {
+            "text": "By concentrating for a full round, the caster can read the thoughts of one creature. If the caster has a physical memento associated with a specific target (a hair clipping, fingernail, favorite sword, drop of blood, etc.), he can detect its thoughts at a distance of up to 100 miles, without needing line of sight. Without a physical memento, the caster can attempt ESP on a target within line of sight at a distance of up to 1 mile. Viewing a target through a scrying device, such as a crystal ball, counts as line of sight. In addition, the caster can switch targets each new round, as long as he continues concentrating. Targets of 2 HD or less do not receive a save. Targets of 3+ HD receive a save but are not aware of the attempt to read their minds, even if they make the save. The judge should roll the save for these targets. If the caster is successful, he detects surface-level thoughts: the creature\u2019s emotional state, any actions it is intent upon, and so on. By continuing to concentrate the caster can continue to read the surface thoughts of the target, as noted in the general spell description. If the caster stops concentrating, the spell ends."
+          },
+          "32-33": {
+            "text": "The caster can detect the thoughts of multiple creatures. For a period of one day, he gains awareness of the swirling morass of all thoughts within 100 miles of his position. Much like the background noise of a forest, the caster can \u201chear\u201d all thoughts. By concentrating, he can narrow the focus onto one creature. If the caster has line of sight, he can focus directly on that creature\u2019s thoughts; if the caster has a physical memento (a hair clipping or drop of blood), he can focus directly on that creature (even if not in his line of sight); and if the caster knows a creature personally and it is within range, he can focus on that creature. All other thoughts remain clouded and indistinct, much like a distant murmur. When the caster has designated a specific creature, it receives no save if it is 2 HD or less and a Will save if 3 HD or more, but it is not aware of the attempt to read its mind even if it makes the save (the judge should roll). The judge should roll the save for these targets. If the caster is successful, he detects surface-level thoughts: the creature\u2019s emotional state, any actions it is intent upon, and so on. By continuing to concentrate the caster can continue to read the surface thoughts of the target, as noted in the general spell description. If the caster stops concentrating, the spell continues until the end of the day, and he need only focus on another target to resume reading minds. For a period of one month, the caster can detect the thoughts of multiple creatures. For a period of one day, he gains awareness of the swirling morass of all thoughts within 100 miles of his position. Much like the background noise of a forest, the caster can \u201chear\u201d all thoughts. By concentrating, the caster can narrow the focus onto one creature. If he has line of sight, he can focus directly on that creature\u2019s thoughts; if the caster has a physical memento (a hair clipping or drop of blood), he can focus directly on that creature (even if not in his line of sight); and if the caster knows a creature personally and it is within range, he can focus on that creature. All other thoughts remain clouded and indistinct, much like a distant murmur, but the caster can choose to narrow the focus steadily. With a round of concentration, the caster can narrow the thoughts he hears to one category of creatures (for example, \u201call men\u201d or \u201call warriors\u201d or \u201call dwarves\u201d). The caster can then continue to narrow the categories with subsequent rounds of concentration; each time he is aware of how many creatures remain part of the \u201cmurmur\u201d and what general category of creature to which they belong. When there are only a dozen or so creatures left, the caster can sift through individuals, and choose to focus on one, even if it is unfamiliar to him. When the caster has designated a specific creature, it receives no save if it is 3 HD or less and a Will save if 4 HD or more, but it is not aware of the attempt to read its mind even if it makes the save (the judge should roll). The judge should roll the save for these targets. If the caster is successful, he detects surface-level thoughts: the creature\u2019s emotional state, any actions it is intent upon, and so on. By continuing to concentrate, the caster can continue to read the surface thoughts of the target, as noted in the general spell description. If the caster stops concentrating, the spell continues until the end of the month duration, and he need only focus on another target to resume reading minds. If the caster chooses, he can \u201canchor\u201d his thoughts to those of a single target. This requires seven sequential rounds of concentration, and the target receives a second Will save after the seventh round. It is aware of this attempt and perceives that someone is trying to read its thoughts. If the target fails the save and the caster successfully anchors his thoughts, he remains aware of that target\u2019s ongoing thought processes at all times. The caster effectively maintains an ongoing link to read the target\u2019s mind. This link lasts until the end of the spell\u2019s duration. However, while anchored to one target in this manner, the spell blocks out other background thoughts and the caster cannot hear the \u201coverall murmur\u201d of other thoughts around him."
+          }
+        }
+      },
+      {
+        "name": "Wizard Staff",
+        "level": 2,
+        "range": "Self",
+        "duration": "Permanent",
+        "casting_time": "1 week per caster level",
+        "save": "N/A",
+        "description": [
+          "With this spell, the wizard crafts a staff and imbues it with magical energies linked to his soul. A wizard can create only one staff at a time and suffers great pains if it is destroyed. The material cost is 1,000 gp per caster level, plus any unusual materials (e.g., an adamantine staff requires sufficient adamantine), plus a minimum of 2 points of spellburn per caster level to properly bond the staff. One point of this spellburn never heals; it is permanent ability loss. Additionally, the caster must have the requisite spells that will be placed into the staff, and be able to utilize them without rest during the casting period. The casting period is ongoing with brief spurts of restless sleep, and the caster does not heal spellburn (or other wounds) during this time. The staff\u2019s efficacy is much greater at higher caster levels, and thus the time and material cost rises as the wizard progresses in power level. In the descriptions below, \u201coriginal caster level\u201d refers to the level at which the wizard crafted the staff \u2013 if he advances in level after creating the staff, abilities associated with original caster level do not increase."
+        ],
+        "manifestation": {
+          "text": "One staff to be crafted by the caster, of any wood, metal, bone, or other material."
+        },
+        "corruption": {
+          "die": "1d8",
+          "table": {
+            "1-4": "minor",
+            "5-6": "major",
+            "7-8": "greater"
+          }
+        },
+        "misfire": {},
+        "results": {
+          "1": {
+            "text": "Lost, failure, corruption, and patron taint!",
+            "lost": true,
+            "corruption": true,
+            "patron_taint": true
+          },
+          "2-11": {
+            "text": "Lost. Failure.",
+            "lost": true
+          },
+          "12-13": {
+            "text": "Failure, but spell is not lost."
+          },
+          "14-15": {
+            "text": "The caster succeeds in crafting a simple staff, which is linked to his soul. If the staff is ever destroyed, he immediately takes damage equal to 1d4 hit points per original caster level. The staff counts as a +1 magical weapon and inflicts damage equal to 1d4+1 + caster level (plus Str modifier). The staff also emits light in a 20\u2019 radius, which can be turned on or off and vary in intensity from candlelight to full daylight, at the caster\u2019s discretion."
+          },
+          "16-19": {
+            "text": "The caster succeeds in crafting a simple staff, which is linked to his soul. If the staff is ever destroyed, he immediately takes damage equal to 1d4 hit points per original caster level. The staff counts as a +1 magical weapon and inflicts damage equal to 1d4+1 + caster level (plus Str modifier). The staff also emits light in a 20\u2019 radius, which can be turned on or off and vary in intensity from candlelight to full daylight, at the caster\u2019s discretion. During the casting time, the caster may attempt a single casting of one other spell he knows. If it succeeds, the staff\u2019s wielder receives a +1 bonus to spell checks when casting that spell or a +2 bonus if the original caster level is 4 or higher."
+          },
+          "20-21": {
+            "text": "The caster succeeds in crafting a simple staff, which is linked to his soul. If the staff is ever destroyed, he immediately takes damage equal to 1d4 hit points per original caster level. The staff counts as a +1 magical weapon and inflicts damage equal to 1d4+1 + caster level (plus Str modifier). The staff also emits light in a 20\u2019 radius, which can be turned on or off and vary in intensity from candlelight to full daylight, at the caster\u2019s discretion. During the casting time, the caster may attempt a single casting of one other spell he knows. If it succeeds, the staff\u2019s wielder receives a +1 bonus to spell checks when casting that spell or a +2 bonus if the original caster level is 4 or higher. The staff also grants a +1 bonus to saving throws or a +2 bonus if the original caster level is 4 or higher."
+          },
+          "22-25": {
+            "text": "The caster succeeds in crafting a simple staff, which is linked to his soul. If the staff is ever destroyed, he immediately takes damage equal to 1d4 hit points per original caster level. The staff counts as a +1 magical weapon and inflicts damage equal to 1d4+1 + caster level (plus Str modifier). The staff also emits light in a 20\u2019 radius, which can be turned on or off and vary in intensity from candlelight to full daylight, at the caster\u2019s discretion. During the casting time, the caster may attempt to cast two other spells he knows. If a casting succeeds, the staff\u2019s wielder receives a +1 bonus to spell checks when casting those spells or a +2 bonus if the original caster level is 4 or higher. The staff also grants a +1 bonus to saving throws or a +2 bonus if the original caster level is 4 or higher."
+          },
+          "26-29": {
+            "text": "The caster succeeds in crafting a simple staff, which is linked to his soul. If the staff is ever destroyed, he immediately takes damage equal to 1d4 hit points per original caster level. The staff counts as a +1 magical weapon and inflicts damage equal to 1d4+1 + caster level (plus Str modifier). The staff also emits light in a 20\u2019 radius, which can be turned on or off and vary in intensity from candlelight to full daylight, at the caster\u2019s discretion. During the casting time, the caster may attempt to cast two other spells he knows. If a casting succeeds, the staff\u2019s wielder receives a +1 bonus to spell checks when casting those spells or a +2 bonus if the original caster level is 4 or higher. The staff also grants a +1 bonus to saving throws and armor class or a +2 bonus if the original caster level is 4 or higher."
+          },
+          "30-31": {
+            "text": "The caster succeeds in crafting a simple staff, which is linked to his soul. If the staff is ever destroyed, he immediately takes damage equal to 1d4 hit points per original caster level. The staff counts as a +1 magical weapon and inflicts damage equal to 1d4+1 + caster level (plus Str modifier). The staff also emits light in a 20\u2019 radius, which can be turned on or off and vary in intensity from candlelight to full daylight, at the caster\u2019s discretion. During the casting time, the caster may attempt to cast three other spells he knows. If a casting succeeds, the staff\u2019s wielder receives a +1 bonus to spell checks when casting those spells or a +2 bonus if the original caster level is 4 or higher. The staff also grants a +1 bonus to saving throws and armor class or a +2 bonus if the original caster level is 4 or higher."
+          },
+          "32-33": {
+            "text": "The caster succeeds in crafting a simple staff, which is linked to his soul. If the staff is ever destroyed, he immediately takes damage equal to 1d4 hit points per original caster level. The staff counts as a +1 magical weapon and inflicts damage equal to 1d4+1 + caster level (plus Str modifier). The staff also emits light in a 20\u2019 radius, which can be turned on or off and vary in intensity from candlelight to full daylight, at the caster\u2019s discretion. During the casting time, the caster may attempt to cast three other spells he knows. If a casting succeeds, the staff\u2019s wielder receives a +1 bonus to spell checks when casting those spells or a +2 bonus if the original caster level is 4 or higher. The staff also grants a +1 bonus to saving throws and armor class or a +2 bonus if the original caster level is 4 or higher. Additionally, the caster can imbue the staff with fixed charges associated with the three spells he casts. For the first spell, he makes a spell check. If it succeeds, he makes another spell check for the same spell, a number of times up to his caster level. For example, a level 4 caster could make up to 4 checks if each succeeds. Then he repeats this process for the second and third spells. For each check that succeeds, he imbues the staff with 1 charge of the relevant spell. For example, the level 4 caster could put up to 12 charges in the staff if every check succeeded (3 spells x 4 castings per spell = 12 charges). Thenceforth, the caster may burn those charges to cast the three spells stored in the staff, making a normal spell check to cast the spell, modified by the +1 or +2 bonus associated with that spell. Once expended, the charges are lost unless renewed. Renewal requires a modified casting of this spell, with a casting time of 1 week and no materials or spellburn required; if this modified version succeeds at DC 30 or better, the caster can repeat the process above to restore the castings, but cannot exceed the original number of charges."
+          },
+          "34+": {
+            "text": "The caster succeeds in crafting a simple staff, which is linked to his soul. If the staff is ever destroyed, he immediately takes damage equal to 1d4 hit points per original caster level. The staff counts as a +1 magical weapon and inflicts damage equal to 1d4+1 + caster level (plus Str modifier). The staff also emits light in a 20\u2019 radius, which can be turned on or off and vary in intensity from candlelight to full daylight, at the caster\u2019s discretion. During the casting time, the caster may attempt to cast three other spells he knows. If a casting succeeds, the staff\u2019s wielder receives a +1 bonus to spell checks when casting those spells or a +2 bonus if the original caster level is 4 or higher. The staff also grants a +1 bonus to saving throws and armor class or a +2 bonus if the original caster level is 4 or higher. Additionally, the caster can imbue the staff with fixed charges associated with the three spells he casts. For the first spell, he makes a spell check. If it succeeds, he makes another spell check for the same spell, a number of times up to his caster level. For example, a level 4 caster could make up to 4 checks if each succeeds. Then he repeats this process for the second and third spells. For each check that succeeds, he imbues the staff with 1 charge of the relevant spell. For example, the level 4 caster could put up to 12 charges in the staff if every check succeeded (3 spells x 4 castings per spell = 12 charges). Thenceforth, the caster may burn those charges to cast the three spells stored in the staff, making a normal spell check to cast the spell, modified by the +1 or +2 bonus associated with that spell. Once expended, the charges are lost unless renewed. Renewal requires a modified casting of this spell, with a casting time of 1 week and no materials or spellburn required; if this modified version succeeds at DC 30 or better, the caster can repeat the process above to restore the castings, but cannot exceed the original number of charges. Finally, the caster may grant the staff one unique ability. For example, the ability to wither an opponent\u2019s limbs or the power to transform into a serpent. These unique abilities require research, practice, and special materials. They should be determined with the aid of the judge."
+          }
+        }
+      },
+      {
+        "name": "Nythuul\u2019s Porcupine Coat",
+        "level": 2,
+        "range": "Self",
+        "duration": "1 round per CL",
+        "casting_time": "1 action",
+        "save": "N/A",
+        "description": [
+          "This spell cloaks the caster in a bristling layer of sharp quills. The quills act as armor, increases unarmed melee damage, and with more potent results, can be used as a ranged weapon."
+        ],
+        "manifestation": {
+          "text": "The caster\u2019s skin is covered in long, sharp quills like that of a porcupine."
+        },
+        "corruption": {
+          "die": "1d4",
+          "table": {
+            "1": "the caster\u2019s body hair becomes stiff and quill-like",
+            "2": "small quills speckle the caster\u2019s face and his nose assumes a hedgehog-like quality",
+            "3": "the caster\u2019s skin constantly itches and may impose a -1 penalty to tasks that require finesse or concentration at the judge\u2019s discretion",
+            "4": "the caster develops a taste for worms and grubs, preferably freshly rooted from the earth"
+          }
+        },
+        "misfire": {
+          "die": "1d5",
+          "table": {
+            "1": "the quills knit together, immobilizing the caster for 1d4 rounds until they fall out of his flesh",
+            "2": "the quills appear underneath the caster\u2019s flesh, causing 1 point of damage to him each round he moves more than 5\u2019 or engages in any spellcasting or physical attacks",
+            "3": "the quills are soft and oily, providing no protection and require a successful DC 8 Ref save each time the caster wishes to pick up an item or walk at more than half normal speed, with a failed save meaning the caster drops the item or slips and falls",
+            "4": "the caster\u2019s eyes turn small and beady, and his distance vision suffers (all attacks or spell checks against targets father than 10\u2019 away suffer a -2 penalty)",
+            "5": "quills fire from the caster\u2019s body at random, requiring all within 15\u2019 of him to make a DC 10 Reflex save or suffer 1d4 damage"
+          }
+        },
+        "results": {
+          "1": {
+            "text": "Lost, failure, and worse! Roll 1d6 modified by Luck: (0 or less) corruption + patron taint + misfire; (1-2) corruption; (3) patron taint (or corruption if no patron); (4+) misfire.",
+            "misfire": true,
+            "corruption": true,
+            "lost": true
+          },
+          "2-13": {
+            "text": "Lost. Failure.",
+            "lost": true
+          },
+          "14-15": {
+            "text": "The caster\u2019s body erupts in stiff, sharp quills that provide a +1 bonus to his AC. These quills do not inhibit spellcasting and spell checks made by the caster are unmodified."
+          },
+          "16-19": {
+            "text": "The caster\u2019s body erupts in stiff, sharp quills that provide a +1 bonus to his AC. These quills do not inhibit spellcasting, and spell checks made by the caster are unmodified. In addition, anyone that attacks the caster in melee combat must make a DC 10 Ref save immediately after his attack or suffer 1d3 points of damage from contact with the quills."
+          },
+          "20-21": {
+            "text": "The caster\u2019s body erupts in stiff, sharp quills that provide a +2 bonus to his AC. These quills do not inhibit spellcasting, and spell checks made by the caster are unmodified. In addition, anyone that attacks the caster in melee combat must make a DC 15 Ref save immediately after his attack or suffer 1d4 points of damage from contact with the quills. The caster\u2019s quill-covered hands can also be used in melee combat. A successful attack with them inflicts 1d6 damage."
+          },
+          "22-25": {
+            "text": "The caster\u2019s body erupts in stiff, sharp quills that provide a +2 bonus to his AC. These quills do not inhibit spellcasting, and spell checks made by the caster are unmodified. In addition, anyone that attacks the caster in melee combat must make a DC 20 Ref save immediately after his attack or suffer 1d4 points of damage from contact with the quills. The caster\u2019s quill-covered hands can also be used in melee combat. A successful attack with them inflicts 1d6 damage. Lastly, the caster can throw the quills as a missile attack. Each has a range of 20/40/60 and does 1d6 points of damage on a successful strike."
+          },
+          "26-29": {
+            "text": "The caster\u2019s body erupts in stiff, sharp quills that provide a +3 bonus to his AC. These quills do not inhibit spellcasting, and spell checks made by the caster are unmodified. In addition, anyone that attacks the caster in melee combat must make a DC 20 Ref save immediately after his attack or suffer 1d4+CL points of damage from contact with the quills. The caster\u2019s quill-covered hands can also be used in melee combat and are considered magical weapons for the purpose of affecting targets protected from normal attacks. The quills impart a +2 bonus to attack rolls and inflict 1d8+2 damage on a successful hit. The quills can be thrown as a missile attack. Each has a range of 20/40/60 and does 1d6 points of damage on a successful strike."
+          },
+          "30-31": {
+            "text": "The caster\u2019s body erupts in stiff, sharp quills that provide a +4 bonus to his AC. These quills do not inhibit spellcasting, and spell checks made by the caster are unmodified. In addition, anyone that attacks the caster in melee combat must make a DC 20 Ref save immediately after his attack or suffer 1d6+CL points of damage from contact with the quills. The caster\u2019s quill-covered hands can also be used in melee combat and are considered magical weapons for the purpose of affecting targets protected from normal attacks. The quills impart a +4 bonus to attack rolls and inflict 1d8+4 damage on a successful hit. Lastly, up to three quills can be thrown as a missile attack against a single target each round. The quills have a range of 20/40/60, impart a +4 magical bonus to attack rolls, and do 1d8+4 points of damage on a successful strike. A separate attack roll is made for each thrown quill."
+          },
+          "32-33": {
+            "text": "The caster\u2019s body erupts in stiff, sharp quills that provide a +5 bonus to his AC. These quills do not inhibit spellcasting, and spell checks made by the caster are unmodified. In addition, anyone that attacks the caster in melee combat must make a DC 20 Ref save immediately after his attack or suffer 1d8+CL points of damage from contact with the quills. The caster\u2019s quill-covered hands can also be used in melee combat and are considered magical weapons for the purpose of affecting targets protected from normal attacks. The quills impart a +5 bonus to attack rolls and inflict 1d8+5 damage on a successful hit. Lastly, up to six quills can be thrown as a missile attack against a single target each round. The quills have a range of 20/40/60, impart a +5 magical bonus to attack rolls, and do 1d8+5 points of damage on a successful strike. A separate attack roll is made for each thrown quill."
+          },
+          "34+": {
+            "text": "The caster\u2019s body erupts in stiff, sharp quills that provide a +6 bonus to his AC. These quills do not inhibit spellcasting, and spell checks made by the caster are unmodified. In addition, anyone that attacks the caster in melee combat must make a DC 25 Ref save immediately after his attack or suffer 1d10+CL points of damage from contact with the quills. The caster\u2019s quill-covered hands can also be used in melee combat and are considered magical weapons for the purpose of affecting targets protected from normal attacks. The quills impart a +6 bonus to attack rolls and inflict 1d8+6 damage on a successful hit. Lastly, up to six quills can be thrown as a missile attack against a single target each round. The quills have a range of 20/40/60, impart a +6 magical bonus to attack rolls, and do 1d8+6 points of damage on a successful strike. A separate attack roll is made for each thrown quill. In addition, the caster gains the ability to simultaneously hurl all the quills from his body, filling a 30\u2019 radius area around him with flying, razor-sharp spikes. All targets within that area suffer (CL)d10 damage (i.e., a level 6 caster would inflict 6d10 damage) unless protected by solid cover, in which case they receive a DC 20 save for half damage but may still take damage from the razor-sharp spikes penetrating the cover. Those protected by a magic shield with a spell check of 24+ are also unaffected by this burst of quills. Once this effect occurs, the caster no longer gains the benefits of the porcupine coat."
+          }
+        }
+      }
+    ],
+    "level_3": [
+      {
+        "name": "Consult Spirit",
+        "level": 3,
+        "range": "Self",
+        "duration": "1 or more questions",
+        "casting_time": "1 hour",
+        "save": "N/A",
+        "description": [
+          "The caster consults with an extraplanar spirit in order to make inquiries or pass on information. The spirit may be the ghost of a deceased person, a demon residing on another plane, a nature spirit occupying a lake or tree, the caster\u2019s own supernatural patron, or even a god.",
+          "This spell is most effective if the caster consults with a spirit he already knows. If the caster consults with his patron (per the patron bond spell) or one of the patron\u2019s servants, add +1 to the spell check. If the caster consults with another specific spirit known to him from prior contact, legend, logical deduction, or research, there is no modifier. If the caster has no knowledge of the spirit consulted, merely wishes to contact any spirit that will answer, or deliberately contacts a spirit of opposed alignment or interests, subtract -1 from the spell check.",
+          "If the spirit is known to the caster, roll d% to determine its attitude: (01-20) friendly, (21-80) neutral, (81-00) hostile. A friendly or neutral spirit answers honestly to the best of its ability and has a base 50% chance of knowing the answer to any given question appropriate to its area of knowledge, modified by the judge\u2019s discretion and the obscurity of the question. When questioning a hostile spirit, roll d%: it (01-50) provides misleading information; (51-80) refuses to answer; (81-95) attempts to probe the caster\u2019s mind (Will save vs. DC of 4d6 or take 1d4 temporary Int damage); or (96-100) uses this connection to attempt enter the material plane.",
+          "Establishing contact in this manner also enables the spirit to establish reverse contact on future occasions. Not all spirits are pleased at an interruption from a curious mortal."
+        ],
+        "manifestation": {
+          "die": "1d3",
+          "table": {
+            "1": "caster freezes and appears to do nothing for duration",
+            "2": "caster flickers in and out of existence as questioning occurs",
+            "3": "caster carries on one side of a conversation"
+          }
+        },
+        "corruption": {
+          "die": "1d6",
+          "table": {
+            "1": "caster\u2019s face takes on the appearance of a randomly determined spirit",
+            "2": "caster\u2019s consciousness is permanently linked to that of a randomly determined spirit, which has a 1% chance each day of taking possession of the caster\u2019s body for a duration of 1d4 rounds during that day",
+            "3": "caster\u2019s hair turns white and stands on end",
+            "4": "caster instantly ages 1d8+2 years",
+            "5": "caster\u2019s skin wrinkles as if he were 100 years old, but he does not actually age and has no other signs or consequences of aging",
+            "6": "caster\u2019s ears become sensitive to the noises of ghosts, and he can hear whenever spirits are near, even if no contact is made"
+          }
+        },
+        "misfire": {
+          "die": "1d3",
+          "table": {
+            "1": "caster successfully contacts his own spirit, where it resides beyond life and death awaiting his mortal conclusion, which gives way to a bizarre sense of d\u00e9j\u00e0 vu and disorientation that causes a -1 penalty to all actions for 1 turn",
+            "2": "caster contacts a spirit that immediately takes over his body, causing him to fall under the judge\u2019s control for 1d6 rounds and act in a manner opposite of his normal tendencies and alignment",
+            "3": "caster forces his own spirit out of his body for 1d6 rounds, causing him to collapse into a catatonic state until his spirit returns"
+          }
+        },
+        "results": {
+          "1": {
+            "text": "Lost, failure, and worse! Roll 1d6 modified by Luck: (0 or less) corruption + patron taint + misfire; (1-2) corruption; (3) patron taint (or corruption if no patron); (4+) misfire.",
+            "lost": true,
+            "corruption": true,
+            "patron_taint": true,
+            "misfire": true
+          },
+          "2-11": {
+            "text": "Lost. Failure.",
+            "lost": true
+          },
+          "12-15": {
+            "text": "Failure, but spell is not lost."
+          },
+          "16-17": {
+            "text": "The caster makes fleeting contact with the spirit, though contact is so brief he does not know to whom he speaks. The caster has just enough time to ask one simple question and hear an answer. The answer is of course from the spirit\u2019s perspective, which may not be objective or omniscient."
+          },
+          "18-21": {
+            "text": "The caster establishes a simple rapport with the spirit and understands the nature of the entity to which he speaks. The caster has enough time to ask 2 simple questions."
+          },
+          "22-23": {
+            "text": "The caster establishes a basic rapport with the spirit and understands the nature of the entity to which he speaks. The caster has enough time to ask 3 simple questions."
+          },
+          "24-26": {
+            "text": "The caster establishes a basic rapport with the spirit and understands the nature of the entity to which he speaks. The caster has enough time to ask 4 simple questions."
+          },
+          "27-31": {
+            "text": "The caster establishes a strong rapport with the spirit. He understands its nature and is able to communicate with it. The connection is strong enough for introductory conversation. The caster can ask up to 5 simple questions or carry on a short conversation (of 5 minutes or less) in order to hear a story, understand a magical ritual explained by the spirit, and so on."
+          },
+          "32-33": {
+            "text": "In establishing a connection to the spirit, the caster immediately understands a great deal about it: its appearance, its motivations, its goals (either short-term or long-term), and its current state of mind (angry, pensive, calm, etc.). The caster can communicate with the spirit and can carry on a conversation of up to 1 hour in duration. This is enough time for a lengthy dialogue on any given subject. The caster can also get detailed information from the spirit on a subject in which it is an expert. Generally speaking, this is sufficient to confer a +1 bonus to activities based on the spirit\u2019s knowledge and expertise. For example, if the caster contacts the creator of a spell, then casts the spell, he would receive a +1 bonus to that spell check."
+          },
+          "34-35": {
+            "text": "The caster establishes a powerful connection to the spirit. He immediately understands a great deal about it: its appearance, its motivations, its goals (either short-term or long-term), and its current state of mind (angry, pensive, calm, etc.). The caster can communicate with the spirit and can carry on a conversation of up to 1 hour in duration. In addition, the caster remains loosely connected to the spirit for the next 7 days. During this time, the caster can re-establish contact at any point with concentration of 1d10 turns, and this renewed concentration lasts for 1d5+1 turns before fading. This is generally enough time for a lengthy dialogue on any given subject. The caster can also get detailed information from the spirit on a subject in which it is an expert. Generally speaking, this is sufficient to confer a +1 bonus to activities based on the spirit\u2019s knowledge and expertise. For example, if the caster contacts the creator of a spell, then casts the spell, he would receive a +1 bonus to that spell check."
+          },
+          "36+": {
+            "text": "The caster connects his mind to the spirit\u2019s and steps into the spirit\u2019s frame of reference. The caster\u2019s thoughts and the spirit\u2019s thoughts blur; he can access its memories and opinions; and it can do the same. For a period of 7 days, the caster is in constant contact with the spirit and occasionally loses track of his own self. While the spirit cannot control the caster\u2019s mortal form, its personality may occasionally break through in the caster\u2019s pattern of speech or body language. Great and powerful spirits may have profound knowledge beyond the caster\u2019s understanding (i.e., the memories of a god or the long-range intrigues of a demon prince), but to the extent that the caster\u2019s intelligence and mortal mind can understand the thoughts of the spirit in question, he can form an almost perfect link. The caster\u2019s questions are quickly and accurately answered by the spirit, and the caster can surrender his free will to allow the spirit\u2019s mind to guide his actions. Generally speaking, this is sufficient to confer a +4 bonus to activities based on the spirit\u2019s knowledge and expertise. For example, if the caster contacts the creator of a spell, then surrenders his free will to cast the spell, he would receive a +4 bonus to that spell check; or, if the caster contacts his patron and casts a patron spell, he would receive a +4 bonus to the spell check. However, each time the caster allows the spirit this level of control, there is a 1% chance it takes over the caster\u2019s body completely."
+          }
+        }
+      },
+      {
+        "name": "Make Poison",
+        "range": "Self",
+        "duration": "Permanent",
+        "casting_time": "1 round",
+        "save": "None",
+        "general": "General The caster distills powerful poisons from the glands of venomous creatures. The caster must first obtain the proper material components to create extracts; at least 1 venom extract is required to make a poison. Then, the caster picks a poison from the Poison Brewing List (below) to obtain the base DC. The base DC is further modified by the Poison Delivery Method table. Additional materials needed to complete the process cost half the target DC (rounded down) x10 gp. Once the target DC is calculated, the caster makes the spell check against that number. Unlike most spell checks, when creating poison the caster makes a spell check against a target DC. A spell check that would reflect successful casting (14+) but fails to meet the target DC consumes the extract components, but does not create a viable poison. Each successfully created poison grants one use of the poison attack. Poison effects are detailed in Appendix P: Poisons in the core rulebook. However, the judge shouldn\u2019t feel limited to these poisons. The venom sac of any creature with a poison attack can be used to make extracts. The base DC for brewing purposes is equivalent to the attack\u2019s saving throw DC +5. Giant creatures add +4 to the target DC, and demonic creatures add +8. Both yield 3 extracts per creature.",
+        "manifestation": "Roll 1d4: (1) Poof! A cloud of smoke mushrooms from the concoction; (2) the brew roils as it changes from one color to another; (3) the air is thick with a cloying sweet aroma; (4) the liquid\u2019s surface rises into the shape of a cobra. It hisses and strikes at the air then melts back into the cauldron.",
+        "corruption": "Roll 1d4: (1) the joints of the caster\u2019s hand become stiff and inflamed with rheumatism; (2) acidic spray from a bad reaction leaves permanent burn marks on the caster\u2019s face or body; (3) the poison taints the caster\u2019s humors and exudes from the pores for 1 week. Anyone touching the caster must make a DC 10 Fort save or suffer effects of the poison; (4) dark colored buboes swell at the neck and armpits.",
+        "misfire": "Roll 1d4: (1) the poison becomes volatile and explodes resulting in 1d10 damage to everyone within 10\u2019; (2) the poison smokes, creating a 20\u2019x20\u2019 poisonous cloud (DC 15 Fort save against target poison or suffer effect); (3) the poison splashes up into caster\u2019s eyes and mouth, resulting in an immediate save against the intended poison\u2019s effect; (4) the poison is weak (re-roll a normal result, and reduce the DC of all effects by 10).",
+        "table": {
+          "1": "Misfire and corruption!",
+          "2-11": "Lost. Failure.",
+          "12-13": "Failure, but spell is not lost.",
+          "14-15": "Per poison brewing list.",
+          "16-19": "Per poison brewing list.",
+          "20-21": "Per poison brewing list.",
+          "22-25": "Per poison brewing list.",
+          "26-29": "Per poison brewing list.",
+          "30-31": "Per poison brewing list.",
+          "32-33": "Per poison brewing list.",
+          "34+": "Per poison brewing list."
+        },
+        "poison_brewing_list": {
+          "ingredients": [
+            "Toxic ooze (1 flask)",
+            "Mummy heart",
+            "3 tarantula venom sacs, or harvest \u00bd extract/week per live tarantula",
+            "Giant centipede venom sac (yields 2 extracts)",
+            "2 black widow venom sacs, or harvest \u00bd extract/week per live black widow",
+            "Giant wasp venom sac (yields 2 extracts)",
+            "Jellyfish poison gland",
+            "Severed manticore stinger (yields 3 extracts)",
+            "Milk snake hair venom (yields 2d6 extracts per medusa)",
+            "Severed giant scorpion stinger (yields 3 extracts)",
+            "Viper venom sac, or harvest 1 extract/day per live viper",
+            "Cobra venom sac, or harvest 1 extract/day per live cobra",
+            "Asp venom sac, or harvest 1 extract/day per live asp",
+            "Adder venom sac, or harvest 1 extract/day per live adder",
+            "2 pounds lotus bulbs"
+          ],
+          "extraction_dc": [
+            "Toxic ooze 15",
+            "Mummy rot 17",
+            "Tarantula 17",
+            "Giant centipede 18",
+            "Black widow 19",
+            "Giant wasp 20",
+            "Jellyfish 21",
+            "Manticore 21",
+            "Medusa 21",
+            "Scorpion 21",
+            "Viper 21",
+            "Cobra 23",
+            "Asp 25",
+            "Adder 27",
+            "Black lotus 29"
+          ],
+          "delivery_methods": [
+            {
+              "method": "Balm (wound)",
+              "dc_modifier": "+0",
+              "description": "Consumes 1 extract. Balm is pressed inside a piece of folded cloth that can be applied to weapons without making a Handle Poison check."
+            },
+            {
+              "method": "Contact (touch)",
+              "dc_modifier": "+2",
+              "description": "Consumes 2 extracts. Can be applied to gloves, weapons, or any item that target may handle (e.g., applied to letter and mailed to target)."
+            },
+            {
+              "method": "Volatile powder (area)",
+              "dc_modifier": "+5",
+              "description": "Consumes 1 extract per 5\u2019x5\u2019 of coverage. Additional material cost increases to target DC x10 gp. The final product is contained within a stoppered glass phial. When thrown, the glass breaks and a poisonous cloud fills the coverage area. All targets within cloud must save versus poison effect."
+            }
+          ]
+        },
+        "source": "patron",
+        "patron": "Grimtooth"
+      }
+    ]
+  },
+  "elf_favorite_spell": "Ward Portal",
+  "elf_favorite_spell_luck_mod": 0
+}

@@ -1,0 +1,193 @@
+{
+  "name": "Warrior",
+  "alignment": "Chaotic",
+  "class": "Warrior",
+  "level": 6,
+  "owner": 480727765881192448,
+  "occupation": "Ostler",
+  "weapon": "staff",
+  "inventory": [
+    "staff",
+    "bridle"
+  ],
+  "birth_augur": {
+    "sign": "Guardian angel",
+    "effect": "Saves vs traps"
+  },
+  "max_luck_mod": 0,
+  "hp": {
+    "current": 40,
+    "max": 40
+  },
+  "luck": {
+    "current": 11,
+    "max": 11
+  },
+  "ac": 10,
+  "saves": {
+    "reflex": 2,
+    "fortitude": 5,
+    "will": 1
+  },
+  "initiative": 0,
+  "speed": 30,
+  "attack": 0,
+  "attack_bonus": 0,
+  "cp": 38,
+  "abilities": {
+    "STR": {
+      "max": 15,
+      "current": 15,
+      "mod": 1
+    },
+    "AGI": {
+      "max": 12,
+      "current": 12,
+      "mod": 0
+    },
+    "STA": {
+      "max": 15,
+      "current": 15,
+      "mod": 1
+    },
+    "INT": {
+      "max": 10,
+      "current": 10,
+      "mod": 0
+    },
+    "PER": {
+      "max": 6,
+      "current": 6,
+      "mod": -1
+    },
+    "LCK": {
+      "max": 11,
+      "current": 11,
+      "mod": 0
+    }
+  },
+  "armor": "unarmored",
+  "shield": false,
+  "fumble_die": "d4",
+  "action_die": "1d20",
+  "crit_die": "1d30",
+  "crit_table": "V",
+  "languages": [],
+  "notes": {
+    "levelup_log": [
+      {
+        "from_level": 0,
+        "to_level": 1,
+        "class": "Warrior",
+        "hp_gain": 3,
+        "roll": "1d12",
+        "sta_mod": 1,
+        "by": 480727765881192448,
+        "note": ""
+      },
+      {
+        "from_level": 1,
+        "to_level": 2,
+        "class": "Warrior",
+        "hp_gain": 8,
+        "roll": "1d12",
+        "sta_mod": 1,
+        "by": 480727765881192448,
+        "note": ""
+      },
+      {
+        "from_level": 2,
+        "to_level": 3,
+        "class": "Warrior",
+        "hp_gain": 5,
+        "roll": "1d12",
+        "sta_mod": 1,
+        "by": 480727765881192448,
+        "note": ""
+      },
+      {
+        "from_level": 3,
+        "to_level": 4,
+        "class": "Warrior",
+        "hp_gain": 3,
+        "roll": "1d12",
+        "sta_mod": 1,
+        "by": 480727765881192448,
+        "note": ""
+      },
+      {
+        "from_level": 4,
+        "to_level": 5,
+        "class": "Warrior",
+        "hp_gain": 7,
+        "roll": "1d12",
+        "sta_mod": 1,
+        "by": 480727765881192448,
+        "note": ""
+      },
+      {
+        "from_level": 5,
+        "to_level": 6,
+        "class": "Warrior",
+        "hp_gain": 12,
+        "roll": "1d12",
+        "sta_mod": 1,
+        "by": 480727765881192448,
+        "note": ""
+      }
+    ]
+  },
+  "weapon_training": [
+    "battleaxe",
+    "club",
+    "crossbow",
+    "dagger",
+    "dart",
+    "handaxe",
+    "javelin",
+    "longbow",
+    "longsword",
+    "mace",
+    "polearm",
+    "short sword",
+    "shortbow",
+    "sling",
+    "spear",
+    "staff",
+    "two-handed sword",
+    "warhammer"
+  ],
+  "weapon_proficiencies": [
+    "battleaxe",
+    "club",
+    "crossbow",
+    "dagger",
+    "dart",
+    "handaxe",
+    "javelin",
+    "longbow",
+    "longsword",
+    "mace",
+    "polearm",
+    "short sword",
+    "shortbow",
+    "sling",
+    "spear",
+    "staff",
+    "two-handed sword",
+    "warhammer"
+  ],
+  "deed_die": "d8",
+  "action_dice": "1d20+1d16",
+  "crit_threat": "18-20",
+  "crit_threat_min": 18,
+  "class_saves": {
+    "reflex": 2,
+    "fortitude": 4,
+    "will": 2
+  },
+  "title": "Reaver",
+  "hit_die": "1d12",
+  "warrior_luck_weapon": "staff",
+  "warrior_luck_weapon_mod": 0
+}

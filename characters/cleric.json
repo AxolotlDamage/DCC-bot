@@ -1,0 +1,718 @@
+{
+  "name": "Cleric",
+  "alignment": "Chaotic",
+  "class": "Cleric",
+  "level": 6,
+  "owner": 480727765881192448,
+  "occupation": "Soldier",
+  "weapon": "spear",
+  "inventory": [
+    "spear",
+    "shield"
+  ],
+  "birth_augur": {
+    "sign": "Lived through famine",
+    "effect": "Fortitude saving throws"
+  },
+  "max_luck_mod": 0,
+  "hp": {
+    "current": 45,
+    "max": 45
+  },
+  "luck": {
+    "current": 10,
+    "max": 10
+  },
+  "ac": 12,
+  "saves": {
+    "reflex": 4,
+    "fortitude": 2,
+    "will": 4
+  },
+  "initiative": 2,
+  "speed": 30,
+  "attack": 0,
+  "attack_bonus": 4,
+  "cp": 31,
+  "abilities": {
+    "STR": {
+      "max": 9,
+      "current": 9,
+      "mod": 0
+    },
+    "AGI": {
+      "max": 16,
+      "current": 16,
+      "mod": 2
+    },
+    "STA": {
+      "max": 10,
+      "current": 10,
+      "mod": 0
+    },
+    "INT": {
+      "max": 13,
+      "current": 13,
+      "mod": 1
+    },
+    "PER": {
+      "max": 16,
+      "current": 16,
+      "mod": 0
+    },
+    "LCK": {
+      "max": 10,
+      "current": 10,
+      "mod": 0
+    }
+  },
+  "armor": "unarmored",
+  "shield": false,
+  "fumble_die": "d4",
+  "action_die": "1d20",
+  "crit_die": "1d12",
+  "crit_table": "III",
+  "languages": [],
+  "notes": {
+    "levelup_log": [
+      {
+        "from_level": 0,
+        "to_level": 1,
+        "class": "Cleric",
+        "hp_gain": 8,
+        "roll": "1d8",
+        "sta_mod": 0,
+        "by": 480727765881192448,
+        "note": ""
+      },
+      {
+        "from_level": 1,
+        "to_level": 2,
+        "class": "Cleric",
+        "hp_gain": 8,
+        "roll": "1d8",
+        "sta_mod": 0,
+        "by": 480727765881192448,
+        "note": ""
+      },
+      {
+        "from_level": 2,
+        "to_level": 3,
+        "class": "Cleric",
+        "hp_gain": 6,
+        "roll": "1d8",
+        "sta_mod": 0,
+        "by": 480727765881192448,
+        "note": ""
+      },
+      {
+        "from_level": 3,
+        "to_level": 4,
+        "class": "Cleric",
+        "hp_gain": 5,
+        "roll": "1d8",
+        "sta_mod": 0,
+        "by": 480727765881192448,
+        "note": ""
+      },
+      {
+        "from_level": 4,
+        "to_level": 5,
+        "class": "Cleric",
+        "hp_gain": 8,
+        "roll": "1d8",
+        "sta_mod": 0,
+        "by": 480727765881192448,
+        "note": ""
+      },
+      {
+        "from_level": 5,
+        "to_level": 6,
+        "class": "Cleric",
+        "hp_gain": 7,
+        "roll": "1d8",
+        "sta_mod": 0,
+        "by": 480727765881192448,
+        "note": ""
+      }
+    ],
+    "deity_log": [
+      {
+        "level": 1,
+        "alignment": "chaotic",
+        "god": "Bobugbubilz",
+        "by": 480727765881192448
+      }
+    ],
+    "spells_learned": [
+      {
+        "level": 1,
+        "by": 480727765881192448,
+        "cleric": [
+          "L1: Blessing, Protection from Evil, Holy Sanctuary, Second Sight"
+        ]
+      },
+      {
+        "level": 2,
+        "by": 480727765881192448,
+        "cleric": [
+          "L1: Detect Evil"
+        ]
+      },
+      {
+        "level": 3,
+        "by": 480727765881192448,
+        "cleric": [
+          "L2: spell, Lotus Stare, Neutralize Poison or Disease"
+        ]
+      },
+      {
+        "level": 4,
+        "by": 480727765881192448,
+        "cleric": [
+          "L1: Paralysis",
+          "L2: Divine Symbol"
+        ]
+      },
+      {
+        "level": 5,
+        "by": 480727765881192448,
+        "cleric": [
+          "L2: Snake Charm",
+          "L3: True Name, Remove Curse"
+        ]
+      },
+      {
+        "level": 6,
+        "by": 480727765881192448,
+        "cleric": [
+          "L1: Darkness",
+          "L3: Spiritual Weapon"
+        ]
+      }
+    ]
+  },
+  "weapon_training": [
+    "axe",
+    "bow",
+    "dagger",
+    "dart",
+    "flail",
+    "spear"
+  ],
+  "weapon_proficiencies": [
+    "spear"
+  ],
+  "disapproval_range": 1,
+  "action_dice": "1d20+1d14",
+  "class_saves": {
+    "reflex": 2,
+    "fortitude": 2,
+    "will": 4
+  },
+  "god": "Bobugbubilz",
+  "unholy_targets": [
+    "angels",
+    "paladins",
+    "lawful dragons",
+    "Lords of Law",
+    "Lawful Primes",
+    "lawful humanoids"
+  ],
+  "spells": {
+    "level_1": [
+      {
+        "name": "Blessing",
+        "level": 1,
+        "range": "Self or touch",
+        "duration": "1 turn or more",
+        "casting_time": "1 action or more (see below)",
+        "save": "N/A",
+        "description": [
+          "The cleric beseeches the blessing of his god. If bestowed, this blessing can be a great boon to the success of his endeavors. The spell can be cast on the cleric himself, on an object, or on one of the cleric\u2019s allies. The spell is most effective on allies with the same alignment. Casting this spell on a target with a different alignment incurs a -1 penalty to the spell check, and casting the spell on a target with an opposite alignment or in allegiance to an opposed deity incurs a -2 penalty.",
+          "The casting time reflects prayer and meditation as the cleric uses his holy symbol to conduct the blessing ritual. Blessings cast under auspicious circumstances receive a bonus of +1 to +4, according to the judge\u2019s discretion. Such circumstances include casting in the temple of the cleric\u2019s god, casting on a sacred holiday, or casting with the use of a holy relic. Likewise, casting under inauspicious circumstances, such as in an unholy enemy temple, receives a penalty ranging from -1 to -4."
+        ],
+        "manifestation": {
+          "die": "1d4",
+          "table": {
+            "1": "target glows",
+            "2": "target is limned in a brilliant aura",
+            "3": "target manifests an angelic crown",
+            "4": "the heavenly host sings softly when the blessing is present"
+          }
+        },
+        "results": {
+          "1-11": {
+            "self": "Failure.",
+            "ally": "Failure.",
+            "object": "Failure."
+          },
+          "12-13": {
+            "self": "A god\u2019s favor grants success to the cleric\u2019s efforts. He receives a +1 bonus to all attack rolls for 1 turn.",
+            "ally": "The ally receives a +1 bonus to all attack rolls for 1 round.",
+            "object": "Failure."
+          },
+          "14-17": {
+            "self": "The cleric receives a +1 bonus to all attack rolls, damage rolls, saving throws, skill checks, and spell checks for 1 turn.",
+            "ally": "The ally receives a +1 bonus to all attack rolls for 1 turn.",
+            "object": "The cleric can bless a vial of liquid to create holy water. The holy water does 1d4 damage when splashed upon unholy creatures. It remains holy for 1 day, as long as it is used in the service of the cleric\u2019s deity."
+          },
+          "18-19": {
+            "self": "The cleric receives a +2 bonus to all attack rolls, damage rolls, saving throws, skill checks, and spell checks for 1 turn.",
+            "ally": "The ally receives a +1 bonus to all attack rolls, damage rolls, saving throws, skill checks, and spell checks for 1 turn.",
+            "object": "The cleric can create holy water (as result 14-17 above) or bless a small amulet. The amulet is considered holy and magical for the duration of the spell, which is 1 day. The amulet grants its wearer a +1 bonus to saving throws, as long as it is used in the service of the cleric\u2019s deity."
+          },
+          "20-23": {
+            "self": "The cleric receives a bonus to all attack rolls, damage rolls, saving throws, skill checks, and spell checks. The bonus is equal to 1d3+CL (rolled at time of casting) and lasts for 1 turn. In addition, the cleric radiates a holy aura. Allies within 5\u2019 also receive the same blessing, as long as they remain within the aura.",
+            "ally": "The ally receives a +2 bonus to all attack rolls, damage rolls, saving throws, skill checks, and spell checks for 1 turn.",
+            "object": "The cleric can create holy water (as result 14-17 above), a holy amulet (as result 18-19 above), or bless a weapon. A blessed weapon grants a +1 bonus to all attack and damage rolls or a +2 bonus to attack and damage rolls against unholy creatures. The weapon remains holy for 1 day and is considered magical."
+          },
+          "24-27": {
+            "self": "The cleric receives a bonus to all attack rolls, damage rolls, saving throws, skill checks, and spell checks. The bonus is equal to 1d3+CL (rolled at time of casting) and lasts for 1 turn. In addition, the cleric radiates a holy aura. Allies within 10\u2019 receive the same blessing as long as they remain within the aura.",
+            "ally": "The ally receives a bonus to all attack rolls, damage rolls, saving throws, skill checks, and spell checks. The bonus is equal to 1d3+CL (rolled at time of casting) and lasts for 1 turn.",
+            "object": "The cleric can create holy water, a holy amulet, or a holy weapon, as above with the following changes: holy water remains potent permanently, holy amulets grant a +2 bonus, and holy weapons grant a +2 or +3 bonus. However, the cleric asks much of his deity and loses the ability to cast this spell for the remainder of the day."
+          },
+          "28-29": {
+            "self": "The cleric radiates an aura of exquisite holiness. All allies within 30\u2019 of the caster receive a blessing that grants a +4 bonus to all attack rolls, damage rolls, saving throws, skill checks, and spell checks. The bonus lasts for one hour.",
+            "ally": "The ally receives a bonus to all attack rolls, damage rolls, saving throws, skill checks, and spell checks. The bonus is equal to 1d3+CL (rolled at time of casting) and lasts for 1 turn. In addition, the ally radiates a holy aura. Allies within 5\u2019 of the ally receive the same blessing as long as they remain within the aura.",
+            "object": "The cleric can create holy water, a holy amulet, or a holy weapon, as above with the following changes: holy water remains potent permanently, holy amulets grant a +2 bonus for one month, and holy weapons grant a +2 or +3 bonus for one month. The cleric asks much of his deity and loses the ability to cast this spell again for 1d7+1 days."
+          },
+          "30-31": {
+            "self": "At this level of power, the blessing applies to the cleric and to an enterprise he serves in the name of his deity. This can be an army, a mission to liberate a princess, a castle, a sea voyage to new lands, or other such endeavors. The judge\u2019s discretion governs this power. All persons involved in the enterprise with the cleric receive a +1 bonus to all activities associated with the enterprise, as long as it remains in the service of the cleric\u2019s deity. In addition, the cleric can designate a number of individuals equal to his CL who receive an expanded bonus of +CL to all activities associated with the enterprise. The bonus lasts for 7 days. This is such a mighty drain of strength the cleric loses the ability to cast this spell for the same 7 days. If at any point the cleric falls out of favor with his deity, the blessing is revoked. The blessing is magical in nature and can be dispelled temporarily.",
+            "ally": "The ally receives a bonus to all attack rolls, damage rolls, saving throws, skill checks, and spell checks. The bonus is equal to 1d3+CL (rolled at time of casting) and lasts for 1 turn. In addition, the ally radiates a holy aura. Allies within 10\u2019 of the ally receive the same blessing as long as they remain within the aura.",
+            "object": "The cleric can create holy water, a holy amulet, or a holy weapon, as above with the following changes: holy water remains potent permanently, holy amulets grant a +2 bonus for one year, and holy weapons grant a +2 or +3 bonus for one year. The cleric asks much of his deity and loses the ability to cast this spell again for 1d4 weeks."
+          },
+          "32+": {
+            "self": "At this level of power, the blessing applies to the cleric and to an enterprise he serves in the name of his deity. Moreover, the blessing bestowed to an ongoing enterprise is permanent, as long as it is favored by the cleric\u2019s deity, until either the completion of the enterprise or its dissolution. Note that there is a \u201creasonableness factor\u201d in the deity\u2019s granting of this blessing. Attempting to abuse the definition of a \u201cpermanent enterprise\u201d risks a deity\u2019s wrath. The enterprise can be a pilgrimage to a distant shrine, an army with a certain holy goal, a mission to liberate a princess, a sea voyage to encounter new lands, or other such endeavors. All persons involved in the enterprise with the cleric receive a +1 bonus to all activities associated with the enterprise, as long as it remains in the service of the cleric\u2019s deity. In addition, the cleric can designate a number of individuals equal to his CL who receive an expanded bonus of +CL to all activities associated with the enterprise. This is such a mighty drain of strength the cleric loses the ability to cast this spell for 1d20+10 days. If at any point the cleric falls out of favor with his deity, the blessing is revoked. The blessing is magical in nature and can be dispelled temporarily.",
+            "ally": "The ally receives a bonus to all attack rolls, damage rolls, saving throws, skill checks, and spell checks. The bonus is equal to 1d3+CL (rolled at time of casting) and lasts for 1 turn. In addition, the ally radiates a holy aura. Allies within 20\u2019 of the ally receive the same blessing as long as they remain within the aura.",
+            "object": "The cleric can create holy water, a holy amulet, or a holy weapon, as above with the following changes: holy water remains potent permanently, holy amulets grant a +2 bonus permanently, and holy weapons grant a +2 or +3 bonus permanently. The duration is increased to permanent as long as the object remains in the service of the cleric\u2019s deity; if the object is used for an unholy purpose, its magic is revoked and forever lost. The cleric asks much of his deity and loses the ability to cast this spell again for 1d4 months."
+          }
+        }
+      },
+      {
+        "name": "Protection from Evil",
+        "level": 1,
+        "range": "Self or more",
+        "duration": "1 turn per CL",
+        "casting_time": "1 action",
+        "save": "Varies",
+        "description": [
+          "The cleric calls upon his deity to protect him from harm. He is protected even if he is not aware of the danger. The definition of \u201cevil\u201d is based on the cleric: generally it encompasses creatures of opposed alignment, those unholy to the cleric\u2019s deity, and those with clear harmful intent. Depending on the strength of the spell, it may detect even more subtle dangers. This spell may be reversed to protect from good."
+        ],
+        "manifestation": {
+          "die": "1d3",
+          "table": {
+            "1": "translucent holy symbol",
+            "2": "soft, protective aura",
+            "3": "glowing halo"
+          }
+        },
+        "results": {
+          "1-11": "Failure.",
+          "12-13": "The cleric receives a +1 bonus to saving throws made against evil effects, evil creatures, un-dead, demons, and anything else unholy to his faith.",
+          "14-17": "The cleric receives a +1 bonus to saving throws made against evil effects, evil creatures, un-dead, demons, and anything else unholy to his faith. In addition, all attempts to attack the cleric by evil or unholy creatures are made at a -1 penalty.",
+          "18-19": "The cleric receives a +1 bonus to saving throws made against evil effects, evil creatures, un-dead, demons, and anything else unholy to his faith. In addition, all attempts to attack the cleric by evil or unholy creatures are made at a -1 penalty. Finally, all wounds suffered from evil or unholy sources have their damage reduced by 1 point per die (minimum damage 1 point per die).",
+          "20-23": "In relation to evil effects, evil creatures, and anything else unholy to the cleric\u2019s faith, the cleric and all allies within a 10\u2019 radius receive a +1 bonus to saving throws against evil creatures, enemy attack rolls against them suffer a -1 penalty, and damage suffered from evil sources is reduced by 1 point per die (minimum damage 1 point per die).",
+          "24-27": "In relation to evil effects, evil creatures, and anything else unholy to the cleric\u2019s faith, the cleric and all allies within a 20\u2019 radius receive a +2 bonus to saving throws against evil creatures, enemy attack rolls against them suffer a -2 penalty, and damage suffered from evil sources is reduced by 2 points per die (minimum damage 1 point per die).",
+          "28-29": "In relation to evil effects, evil creatures, and anything else unholy to the cleric\u2019s faith, the cleric and all allies within a 30\u2019 radius receive a +3 bonus to saving throws against evil creatures, enemy attack rolls against them suffer a -3 penalty, and damage suffered from evil sources is reduced by 3 points per die (minimum damage 1 point per die).",
+          "30-31": "Evil effects, evil creatures, and anything else unholy to the cleric\u2019s faith find it painful to come near the cleric. Any such creature that advances within 40\u2019 of the cleric takes 1d4+CL damage each round on the cleric\u2019s activation. This is automatic as a consequence of being near the cleric. Additionally, the cleric and all allies within a 40\u2019 radius receive a +4 bonus to saving throws against evil creatures, enemy attack rolls against them suffer a -4 penalty, and damage suffered from evil sources is reduced by 4 points per die (minimum damage 1 point per die).",
+          "32+": "Evil effects, evil creatures, and anything else unholy to the cleric\u2019s faith find it painful to come near the cleric. Any such creature that advances within 40\u2019 of the cleric takes 2d6+CL damage each round on the cleric\u2019s activation. This is automatic as a consequence of being near the cleric. Additionally, the cleric and all allies within a 40\u2019 radius receive a +4 bonus to saving throws against evil creatures, enemy attack rolls against them suffer a -4 penalty, and damage suffered from evil sources is reduced by 4 points per die (minimum damage 1 point per die)."
+        }
+      },
+      {
+        "name": "Holy Sanctuary",
+        "level": 1,
+        "range": "Self or more",
+        "duration": "1 round or more",
+        "casting_time": "1 action",
+        "save": "Will save vs. spell check",
+        "description": [
+          "The cleric invokes a place of sanctuary where he and his allies are safe from harm."
+        ],
+        "manifestation": {
+          "die": "1d4",
+          "table": {
+            "1": "glowing aura",
+            "2": "angelic halo",
+            "3": "beam of light from above",
+            "4": "\u201clightness of feet\u201d that makes the cleric seem to float just above the ground"
+          }
+        },
+        "results": {
+          "1-11": "Failure.",
+          "12-13": "Enemies find it difficult to focus on attacking the cleric. They are distracted, and the cleric is more easily able to dodge their attacks. All attacks against the cleric for the next round suffer a -2 penalty.",
+          "14-17": "Enemies are compelled to focus their attacks against other targets. As long as an attacker can reasonably attack some other target instead of the cleric, it must choose to do so. In order to resist this compulsion and attack the cleric, an enemy must make a Will save vs. spell check DC. If the cleric is the only reasonable target, the creature need not make a save to attack the cleric. This effect lasts for 1 turn. It is immediately dispelled if the cleric attacks or takes aggressive action in any way.",
+          "18-19": "Enemies are compelled to focus their attacks against other targets. As long as an attacker can reasonably attack some other target instead of the cleric, it must choose to do so. In order to resist this compulsion and attack the cleric, an enemy must make a Will save vs. spell check DC. This Will save is required even if the cleric is the only reasonable target. This effect lasts for 1 turn. It is immediately dispelled if the cleric attacks or takes aggressive action in any way.",
+          "20-23": "Enemies are compelled to focus their attacks against other targets. As long as an attacker can reasonably attack some other target instead of the cleric, it must choose to do so. Creatures of 3 HD or less cannot attack the cleric in any manner. Creatures of 4 HD or more may attempt a Will save to resist the compulsion and attack the cleric. This Will save is required even if the cleric is the only reasonable target. This effect lasts for 1 turn. It is immediately dispelled if the cleric attacks or takes aggressive action in any way.",
+          "24-27": "The cleric can create a holy sanctuary that includes himself and up to two allies within 5\u2019. The other protected allies must remain within 5\u2019 or the effect ends. Enemies are compelled to focus their attacks against other targets. As long as an attacker can reasonably attack some other target instead of the cleric and his protected allies, it must choose to do so. Creatures of 3 HD or less cannot attack in any manner; creatures of 4 HD or more may attempt a Will save to resist the compulsion. This effect lasts for 1 turn. It is immediately dispelled if the cleric or any of his protected allies attack or take aggressive action in any way.",
+          "28-29": "The cleric may designate a place as a holy sanctuary. This must be a single building or self-contained location up to 5,000 square feet in area; e.g., a church, forest grove, or cave. This effect lasts for 1d7 days. Creatures within this place share the benefits of a holy sanctuary as follows, provided they are in the service of the cleric\u2019s deity: enemies of less than 6 HD cannot attack unless they use magical weapons, and enemies of 7+ HD or those using magical weapons must make a Will save vs. spell check DC to attack. The effect on any one individual is dispelled if that creature makes an aggressive action. Note that enemies can still enter the place and converse with its residents; they simply cannot attack or make other aggressive actions.",
+          "30-31": "The cleric may designate a place as a holy sanctuary. This must be a single building or self-contained location up to 5,000 square feet in area; e.g., a church, forest grove, or cave. This effect lasts for 1d7+3 weeks. Creatures within this place share the benefits of a holy sanctuary as follows, provided they are in the service of the cleric\u2019s deity: enemies of less than 6 HD cannot attack unless they use magical weapons, and enemies of 7+ HD or those using magical weapons must make a Will save vs. spell check DC to attack. The effect on any one individual is dispelled if that creature makes an aggressive action. Note that enemies can still enter the place and converse with its residents; they simply cannot attack or make other aggressive actions.",
+          "32+": "The cleric may designate a place as a holy sanctuary. This must be a single building or self-contained location up to 10,000 square feet in area; e.g., a church, forest grove, or cave. The place designated as a holy sanctuary becomes sanctified forever, as long as the cleric\u2019s deity retains respect for the cleric\u2019s work and actions. Creatures within this place share the benefits of a holy sanctuary as follows, provided they are in the service of the cleric\u2019s deity: enemies of less than 6 HD cannot attack unless they use magical weapons, and enemies of 7+ HD or those using magical weapons must make a Will save vs. spell check DC to attack. The effect on any one individual is dispelled if that creature makes an aggressive action. Note that enemies can still enter the place and converse with its residents; they simply cannot attack or make other aggressive actions."
+        }
+      },
+      {
+        "name": "Second Sight",
+        "level": 1,
+        "range": "Self",
+        "duration": "1 round or more",
+        "casting_time": "1 turn",
+        "save": "N/A",
+        "description": [
+          "Using sortilege, haruspicy, or some other method appropriate to the cleric, he augurs the future. In doing so, the cleric gains insight about the consequences his actions will bring."
+        ],
+        "manifestation": {
+          "die": "1d3",
+          "table": {
+            "1": "a third eye appears in the cleric\u2019s forehead",
+            "2": "the cleric\u2019s eyes glow",
+            "3": "the cleric\u2019s eyes are fused shut but he can still see"
+          }
+        },
+        "results": {
+          "1-11": "Failure.",
+          "12-13": "For one round, the cleric glimpses the future. In doing so, he gains great insight into the most effective manner to complete any action. The cleric receive a +4 bonus to a single roll of his choosing on his next round, whether it\u2019s an attack roll, damage roll, skill check, spell check, or something else.",
+          "14-17": "The cleric has a hint of possible outcomes. He must spend the following round concentrating on a choice that must be made in the next 30 minutes. For example, he may be deciding which direction to turn in a dungeon or whether to enter a room. The cleric gets a sense of whether the action will be to his benefit or harm. There is a 75% chance that the sense the cleric receives is accurate.",
+          "18-19": "The cleric has a hint of possible outcomes. He must spend the following round concentrating on a choice that must be made in the next 30 minutes. For example, he may be deciding which direction to turn in a dungeon or whether to enter a room. The cleric gets a sense of whether the action will be to his benefit or harm. There is an 80% chance that the sense the cleric receives is accurate.",
+          "20-23": "The cleric has a hint of possible outcomes. He must spend the following round concentrating on a choice that must be made in the next 30 minutes. For example, he may be deciding which direction to turn in a dungeon or whether to enter a room. The cleric gets a sense of whether the action will be to his benefit or harm. There is an 85% chance that the sense the cleric receives is accurate.",
+          "24-27": "For the next hour, the cleric receives an ongoing sense of possible outcomes. At every significant decision or juncture, he receives a premonition regarding the decision he must make \u2013 a sense of foreboding or certitude depending on whether the action bodes well for him (or not). For any given action, there is an 85% chance that the sense is accurate. By concentrating, the cleric can receive a sense of whether a future action (one to be taken within in the next hour) will be a bane or boon.",
+          "28-29": "For the next hour, the cleric receives an ongoing sense of possible outcomes. At every significant decision or juncture, he receives a premonition regarding the decision he must make \u2013 a sense of foreboding or certitude depending on whether the action bodes well for him (or not). For any given action, there is a 90% chance that the sense is accurate. By concentrating, the cleric can receive a sense of whether a future action (one to be taken within in the next hour) will be a bane or boon.",
+          "30-31": "For the next day, the cleric receives an ongoing sense of possible outcomes. At every significant decision or juncture, he receives a premonition regarding the decision he must make \u2013 a sense of foreboding or certitude depending on whether the action bodes well for him (or not). For any given action, there is a 95% chance that the sense is accurate. By concentrating, the cleric can receive a sense of whether a future action (one to be taken within in the next day) will be a bane or boon. For example, a cleric could divine the results of a great battle to be fought on the morrow and gain a sense that although he will emerge unharmed from the battle, it will be harmful to his church.",
+          "32+": "The cleric has read the tablets of time. For the next month, he receives an ongoing sense of possible outcomes. At every significant decision or juncture, he receives a premonition regarding the decision he must make \u2013 a sense of foreboding or certitude depending on whether the action bodes well for him (or not). For any given action, there is a 99% chance that the sense is accurate. By concentrating, the cleric can receive a sense of whether a future action (one to be taken within in the next day) will be a bane or boon. For example, a cleric could divine the results of a great battle to be fought on the morrow and gain a sense that although he will emerge unharmed from the battle, it will be harmful to his church. In addition, the cleric receive a +1 bonus to all rolls while the second sight is active, reflecting his general insight into the consequences of all actions."
+        }
+      },
+      {
+        "name": "Detect Evil",
+        "level": 1,
+        "range": "60\u2019 radius from cleric or more (see below)",
+        "duration": "6 turns",
+        "casting_time": "1 action",
+        "save": "Will vs. spell check DC (sometimes)",
+        "description": [
+          "The cleric holds up his holy symbol and detects emanations of evil within a ray that extends straight out 5\u2019 wide and 60\u2019 (or more) ahead of the symbol. The definition of \u201cevil\u201d is based on the cleric: generally it encompasses creatures of opposed alignment, those unholy to the cleric\u2019s deity, and those with clearly harmful intent. Depending on the strength of the spell, it may detect even more subtle dangers. This spell does not reveal creatures that are otherwise hidden but does inform the cleric that evil intentions radiate from a certain position. This spell may be reversed to detect good, which means creatures of allied alignment, common deity, or similar holy goals."
+        ],
+        "manifestation": {
+          "die": "1d3",
+          "table": {
+            "1": "evil creatures glow softly when viewed by the cleric",
+            "2": "a heavenly chorus trumpets strident tones of warning whenever the cleric views an evil creature",
+            "3": "evil creatures emit terrible, dark shadows in all directions, clouding their appearance with a deep shroud of darkness"
+          }
+        },
+        "results": {
+          "1-11": "Failure.",
+          "12-13": "Creatures of opposed alignment are potentially detected, as well as objects inherently dangerous in nature (such as traps and cursed weapons). Evil creatures receive a Will save vs. spell check DC to remain undetected by this spell.",
+          "14-17": "Creatures of opposed alignment are automatically detected, as well as objects inherently dangerous in nature (such as traps and cursed weapons). Evil creatures do not receive a Will save to remain undetected.",
+          "18-19": "To a range of 120\u2019 in all directions from the cleric, creatures of opposed alignment are automatically detected, as well as objects inherently dangerous in nature (such as traps and cursed weapons). Evil creatures do not receive a Will save to remain undetected.",
+          "20-23": "The cleric is immediately aware of all evil creatures and objects within 180\u2019. In addition, evil creatures and objects shine with a faint, unearthly glow that is obvious to the cleric\u2019s allies.",
+          "24-27": "The cleric is immediately aware of all evil creatures and objects within 180\u2019. In addition, evil creatures and objects shine with a faint, unearthly glow that is obvious to the cleric\u2019s allies. In addition, the cleric is also aware of creatures with intentions harmful to him, even if the creatures are not opposed in alignment. For example, a mindless but aggressive spider would be detected, as would a hungry bear thinking of eating the cleric.",
+          "28-29": "The cleric is immediately aware of all evil creatures and objects within 180\u2019. In addition, evil creatures and objects shine with a faint, unearthly glow that is obvious to the cleric\u2019s allies. In addition, the cleric is also aware of creatures with intentions harmful to him, even if the creatures are not opposed in alignment. For example, a mindless but aggressive spider would be detected, as would a hungry bear thinking of eating the cleric. The creatures detected by this spell are pained by the light of truth, suffering a -1 penalty to all attack rolls, damage rolls, skill checks, spell checks, and saving throws while in range.",
+          "30-31": "The cleric is immediately aware of all evil creatures and objects within 240\u2019. In addition, evil creatures and objects shine with a faint, unearthly glow that is obvious to the cleric\u2019s allies. In addition, the cleric is also aware of creatures with intentions harmful to him, even if the creatures are not opposed in alignment. For example, a mindless but aggressive spider would be detected, as would a hungry bear thinking of eating the cleric. The creatures detected by this spell are pained by the light of truth, suffering a -2 penalty to all attack rolls, damage rolls, skill checks, spell checks, and saving throws while in range.",
+          "32+": "The cleric is immediately aware of all evil creatures and objects within 300\u2019. In addition, evil creatures and objects shine with a faint, unearthly glow that is obvious to the cleric\u2019s allies. In addition, the cleric is also aware of creatures with intentions harmful to him, even if the creatures are not opposed in alignment. For example, a mindless but aggressive spider would be detected, as would a hungry bear thinking of eating the cleric. The creatures detected by this spell are pained by the light of truth, suffering a -4 penalty to all attack rolls, damage rolls, skill checks, spell checks, and saving throws while in range."
+        }
+      },
+      {
+        "name": "Paralysis",
+        "level": 1,
+        "range": "Touch or more",
+        "duration": "1 round or more",
+        "casting_time": "1 action",
+        "save": "Will save vs. spell check",
+        "description": [
+          "The light of the cleric\u2019s deity prevents his enemies from raising a hand to perform baleful deeds."
+        ],
+        "manifestation": {
+          "die": "1d4",
+          "table": {
+            "1": "crackle of electricity",
+            "2": "black ropy binds",
+            "3": "white pallor",
+            "4": "ethereal gray mist"
+          }
+        },
+        "results": {
+          "1-11": "Failure.",
+          "12-13": "The cleric\u2019s hands and melee weapons are charged with the energy of paralysis. The cleric must make a normal attack on his next round. If it succeeds, he causes normal damage and his enemy must make a Will save or be paralyzed. The paralyzed creature is unable to move or take any physical action for 1d6+CL rounds.",
+          "14-17": "The cleric\u2019s hands and melee weapons are charged with the energy of paralysis. The charge remains for 1d4+CL rounds. Any attack by the cleric during this period delivers normal damage plus paralysis if the target fails a Will save. The paralyzed creature is unable to move or take any physical action for 1d6+CL rounds.",
+          "18-19": "The cleric\u2019s melee weapons and missile fire weapons are charged with paralysis. The charge remains for 1d4+CL rounds. Any attack by the cleric during this period delivers normal damage plus paralysis if the target fails a Will save. The paralyzed creature is unable to move or take any physical action for 1d6+CL rounds.",
+          "20-23": "The cleric designates one creature within 30\u2019 and paralyzes it with a word. If the creature is 2 HD or less, it is automatically paralyzed. If 3 HD or more, it receives a Will save to resist. Paralysis lasts for 1d8+CL rounds.",
+          "24-27": "The cleric designates up to three targets within 100\u2019 and paralyzes all of them. Any creature of 4 HD or less is automatically paralyzed. Creatures of 5 HD or more receive a Will save. Paralysis lasts for 2d6+CL rounds.",
+          "28-29": "The cleric imbues his touch with the power to paralyze an enemy. The cleric retains the latent paralysis touch for up to 24 hours. At any point during that time, he may discharge the paralysis with a spoken word. A melee attack may be necessary to touch a resisting target. The creature touched is automatically paralyzed if 6 HD or less. Creatures of 7+ HD receive a Will save. The paralysis lasts 4d6+CL hours.",
+          "30-31": "Choose any one of the effects above, and the duration of the paralysis is doubled.",
+          "32+": "Choose any one of the effects above, and the duration of the paralysis is permanent. The paralysis can only be cured via magical means, such as a cleric\u2019s ability to lay on hands or the spell cure paralysis."
+        }
+      },
+      {
+        "name": "Darkness",
+        "level": 1,
+        "range": "20\u2019 radius or more",
+        "duration": "1 turn or more",
+        "casting_time": "1 action or more",
+        "save": "N/A",
+        "description": [
+          "The cleric extinguishes the light of the sun, demonstrating the great power of his deity. From a distance, the darkness appears to be a space of deepest night; no light will penetrate it. Creatures within are blinded."
+        ],
+        "manifestation": {
+          "die": "1d3",
+          "table": {
+            "1": "shadowy cloud of darkness",
+            "2": "absolute blackness",
+            "3": "thick oily black mist"
+          }
+        },
+        "results": {
+          "1-11": "Failure.",
+          "12-13": "The space immediately surrounding the cleric, to a radius of 20\u2019, goes completely dark, as if all light had been extinguished. The darkness remains fixed to its location (it does not follow the cleric) and lasts for 1 turn.",
+          "14-17": "The cleric can designate a point within 20\u2019 and create a 20\u2019-radius sphere of darkness that remains fixed at that point for a duration of 1 turn.",
+          "18-19": "The cleric can designate a point within 100\u2019 and create a 20\u2019-radius sphere of darkness that remains fixed at that point for a duration of 1 turn.",
+          "20-23": "The cleric can designate a point within 100\u2019 and create a 20\u2019-radius sphere of darkness centered at that point. The darkness remains for a duration of 1 turn. By concentrating on future rounds, the cleric can move the sphere of darkness up to 40\u2019 per round, beyond the original 100\u2019 range if he so chooses.",
+          "24-27": "The cleric can designate a point within 200\u2019 and create a sphere of darkness of up to 40\u2019 radius centered at that point. The darkness remains for a duration of 2 turns. By concentrating on future rounds, the cleric can move the sphere of darkness up to 80\u2019 per round, beyond the original 200\u2019 range if he so chooses.",
+          "28-29": "The cleric can extinguish sources of light. He designates a point within 200\u2019, and a sphere of darkness up to 40\u2019 in radius appears at that point. The cleric can move this sphere at a speed of 80\u2019 per round. No concentration is required. The sphere lasts for 1 hour. In addition, all terrestrial sources of light within the sphere of darkness are extinguished. Torches go out, lanterns sputter and die, glowworms fade, and so on.",
+          "30-31": "With a sweep of his arm, the cleric can cast an enormous space into darkness. The cleric can choose one of three effects: a cone extending 400\u2019 to a final width of 100\u2019; a sphere up to 60\u2019 radius centered at any point within 300\u2019; or a wide line, up to 1,000\u2019 long and 10\u2019 wide. Within the area of effect, total darkness reigns; no light source can penetrate. In addition, all terrestrial sources of light within the sphere of darkness are extinguished. Torches go out, lanterns sputter and die, glowworms fade, and so on. However, the cleric can see through the darkness. The dark space can be moved up to 100\u2019 per round without concentration. It lasts for up to 1 day or until dismissed.",
+          "32+": "The cleric can blot out the sun, the moon, the stars, or other sources of light. This extraordinary display of divine power requires great concentration. If this result is achieved, the cleric may continue to concentrate. All light sources that illuminate a space 500\u2019 in all directions begin to fade. For every round the cleric concentrates, light sources fade by 1d20%. Torches still burn, but their flames seem to emit less light each round. The judge rolls each round the cleric continues to concentrate. When the total breaks 100%, all light sources have been completely extinguished, and the countryside around the cleric is completely darkened (at least to the eyes of all within 500\u2019 \u2013 the sun still seems to shine in other kingdoms). Once all light sources are extinguished, the radius of the effect begins to expand by another 1d20\u2019 per round of concentration. The maximum range is the cleric\u2019s CL x 1,000\u2019. The effect continues as long as the cleric concentrates. When concentration is broken, the light reappears at the same rate it was extinguished; e.g., if it took 7 rounds to fade, it takes 7 rounds to reach full strength again."
+        }
+      }
+    ],
+    "level_2": [
+      {
+        "name": "spell",
+        "Banish": {
+          "level": 2,
+          "range": "30\u2019 or more",
+          "duration": "Varies",
+          "casting_time": "1 round",
+          "save": "Will vs. spell check DC",
+          "description": [
+            "The cleric banishes a creature from his presence and potentially forces it back from whence it came. This spell is usually employed to force a supernatural creature back to its native plane, though it can also be used to send mundane creatures back to their lairs.",
+            "The cleric specifies a single target. This can be a creature within line of sight or a creature that is not present, provided the cleric possesses a physical memento (lock of hair, fingernail, favored weapon, drop of blood, etc.). The cleric then casts the spell, and the target is affected as described below."
+          ],
+          "manifestation": {
+            "die": "1d4",
+            "table": {
+              "1": "silvery ethereal chains wrap themselves around the target and constrict it",
+              "2": "a dense mist settles on the target",
+              "3": "a clawed hand reaches down from the heavens to pluck the target back from whence it came",
+              "4": "the target simply blinks out of existence"
+            }
+          },
+          "results": {
+            "1-13": "Failure.",
+            "14-15": "For the next turn, the target must make a Will save to approach within 30\u2019 of the cleric. If failed, it cannot approach any closer than 30\u2019 nor can it hurl missile weapons, speak in the cleric\u2019s direction, or otherwise take action against him. If forced within 30\u2019, the target takes 1d4+CL divine damage each round, although this damage cannot kill the creature. If reduced to 0 hit points, the target collapses, unconscious, and heals normally when removed from the cleric\u2019s presence. If the spell is cast while the target is already within 30\u2019, it immediately takes damage and is forced back 30\u2019 per round until it is at the outer perimeter of the spell\u2019s area of effect.",
+            "16-19": "For the next 1d6 turns, the target must make a Will save to approach within 60\u2019 of the cleric. If failed, it cannot approach any closer than 60\u2019 nor can it hurl missile weapons, speak in the cleric\u2019s direction, or otherwise take action against him. If forced within 60\u2019, it takes 1d8+CL arcane damage each round. This damage can kill the creature if it is reduced to 0 hit points. If the spell is cast while the target is already within 60\u2019, it immediately takes damage and is forced back 30\u2019 per round until it is at the outer perimeter of the spell\u2019s area of effect.",
+            "20-21": "If the target is within 90\u2019 of the cleric, it must make a Will save or be forced back to its place of origin. Supernatural creatures, including demons, devils, elementals, and other denizens of foreign planes, are forced back to their native planes. Summoned creatures (as through an animal summoning or monster summoning spell) are sent back from whence they came. Mundane creatures are simply forced to the outer edge of the 90\u2019 range for the next 2d6+CL hours. Such targets cannot approach any closer than 90\u2019 nor can they hurl missile weapons, speak in the cleric\u2019s direction, or otherwise take action against him. If forced within 90\u2019, a mundane target takes 1d12+CL arcane damage each round. This damage can kill the creature if it is reduced to 0 hit points.",
+            "22-25": "If the target is within 120\u2019 of the cleric, it must make a Will save or be forced back to its place of origin. Supernatural creatures, including demons, devils, elementals, and other denizens of foreign planes, are forced back to their native planes. Summoned creatures (as through an animal summoning or monster summoning spell) are sent back from whence they came. Mundane creatures are simply forced to the outer edge of the 120\u2019 range for the next 1d6+CL days. The creature receives a new save at the beginning of each new day. Such targets cannot approach any closer than 120\u2019 nor can they hurl missile weapons, speak in the cleric\u2019s direction, or otherwise take action against him. If forced within 120\u2019, a mundane target takes 1d12+CL arcane damage each round. This damage can kill the creature if it is reduced to 0 hit points.",
+            "26-29": "Up to two targets within 120\u2019 must make a Will save or be forced back to their places of origin. Supernatural creatures, including demons, devils, elementals, and other denizens of foreign planes, are forced back to their native planes. Summoned creatures (as through an animal summoning or monster summoning spell) are sent back from whence they came. Mundane creatures are simply forced to the outer edge of the 120\u2019 range for the next 1d6+CL days. Such targets cannot approach any closer than 120\u2019 nor can they hurl missile weapons, speak in the cleric\u2019s direction, or otherwise take action against him. If forced within 120\u2019, a mundane target takes 1d12+CL arcane damage each round. This damage can kill the creature if it is reduced to 0 hit points.",
+            "30-31": "Up to five targets within 120\u2019 must make a Will save or be forced back to their places of origin. Supernatural creatures, including demons, devils, elementals, and other denizens of foreign planes, are forced back to their native planes. Summoned creatures (as through an animal summoning or monster summoning spell) are sent back from whence they came. Mundane creatures are simply forced to the outer edge of the 120\u2019 range for the next 1d6+CL days. Such targets cannot approach any closer than 120\u2019 nor can they hurl missile weapons, speak in the cleric\u2019s direction, or otherwise take action against him. If forced within 120\u2019, a mundane target takes 1d12+CL arcane damage each round. This damage can kill the creature if it is reduced to 0 hit points.",
+            "32-33": "Up to ten targets within 120\u2019 must make a Will save or be forced back to their places of origin. Supernatural creatures, including demons, devils, elementals, and other denizens of foreign planes, are forced back to their native planes. Summoned creatures (as through an animal summoning or monster summoning spell) are sent back from whence they came. Mundane creatures are simply forced to the outer edge of the 120\u2019 range for the next 1d6+CL days. Such targets cannot approach any closer than 120\u2019 nor can they hurl missile weapons, speak in the cleric\u2019s direction, or otherwise take action against him. If forced within 120\u2019, a mundane target takes 1d12+CL arcane damage each round. This damage can kill the creature if it is reduced to 0 hit points.",
+            "34+": "The cleric can specify any number of targets within 120\u2019. All targets must make a Will save or be forced back to their places of origin. Supernatural creatures, including demons, devils, elementals, and other denizens of foreign planes, are forced back to their native planes. Summoned creatures (as through an animal summoning or monster summoning spell) are sent back from whence they came. Mundane creatures are simply forced to the outer edge of the 120\u2019 range for the next 1d6+CL days. Such targets cannot approach any closer than 120\u2019 nor can they hurl missile weapons, speak in the cleric\u2019s direction, or otherwise take action against him. If forced within 120\u2019, a mundane target takes 1d12+CL arcane damage each round. This damage can kill the creature if it is reduced to 0 hit points."
+          }
+        }
+      },
+      {
+        "name": "Lotus Stare",
+        "level": 2,
+        "range": "Sight",
+        "duration": "1 round or more",
+        "casting_time": "1 round",
+        "save": "Will vs. spell check DC",
+        "description": [
+          "The cleric hypnotizes a target with the incomprehensible depths of the lotus stare."
+        ],
+        "manifestation": {
+          "text": "The cleric\u2019s eyes swirl in a kaleidoscopic blur of light and dark. The eyes of affected targets swirl in the same manner."
+        },
+        "results": {
+          "1-13": "Failure.",
+          "14-15": "Making eye contact with one target, the cleric forces it to stare into the swirling hypnotics of his gaze. The target receives a Will save. If it fails, then as long as the cleric concentrates fully and maintains eye contact, the creature is held immobile and cannot take any action. If eye contact is broken, the target regains its senses and can act as normal.",
+          "16-19": "Making brief eye contact with one target, the cleric forces it to stare into the swirling hypnotics of his gaze. The target receives a Will save. If it fails, then the cleric can break contact and the target remains hypnotized for 1d6+CL rounds or until the hypnosis is broken. An attack or other physical trauma will break the hypnosis. While hypnotized, the target acts on commands issued by the cleric, moving at half-speed and taking a -2 penalty to all actions. The target is considered to have animal-level intelligence while affected.",
+          "20-21": "Making brief eye contact with one target, the cleric forces it to stare into the swirling hypnotics of his gaze. The target receives a Will save. If it fails, then the cleric can break contact and the target remains hypnotized for 2d6+CL rounds. The hypnosis cannot be broken by physical means. While hypnotized, the target acts on commands issued by the cleric, moving at half-speed and taking a -2 penalty to all actions. The target is considered to have animal-level intelligence while affected.",
+          "22-25": "Making brief eye contact with one target, the cleric forces it to stare into the swirling hypnotics of his gaze. The target receives a Will save. If it fails, then the cleric can break contact and the target remains hypnotized for 1d4+CL days. The hypnosis cannot be broken by physical means. While hypnotized, the target acts on commands issued by the cleric, moving at half-speed and taking a -2 penalty to all actions. The target is considered to have animal-level intelligence while affected. The target receives a fresh Will save each day to end the effect.",
+          "26-29": "Making brief eye contact with multiple targets, the cleric forces them to stare into the swirling hypnotics of his gaze. The cleric can affect up to 10 targets in a gaze cone up to 40\u2019 long and 40\u2019 wide at its endpoint. The targets receive a Will save. For any target that fails, the cleric can break contact and the target remains hypnotized for 1d8+CL days. The hypnosis cannot be broken by physical means. While hypnotized, the target acts on commands issued by the cleric, moving at half-speed and taking a -2 penalty to all actions. The target is considered to have animal-level intelligence while affected. The target receives a fresh Will save each day to end the effect.",
+          "30-31": "Making brief eye contact with multiple targets, the cleric forces them to stare into the swirling hypnotics of his gaze. The cleric can affect up to 10 targets in a gaze cone up to 40\u2019 long and 40\u2019 wide at its endpoint. The targets receive a Will save. For any target that fails, the cleric can break contact and the target remains hypnotized for 1d8+CL weeks. The hypnosis cannot be broken by physical means. While hypnotized, the target acts on commands issued by the cleric, moving at half-speed and taking a -2 penalty to all actions. The target is considered to have animal-level intelligence while affected. The target receives a fresh Will save each day to end the effect.",
+          "32-33": "Making brief eye contact with multiple targets, the cleric forces them to stare into the swirling hypnotics of his gaze. The cleric can affect up to 20 targets in a gaze cone up to 80\u2019 long and 80\u2019 wide at its endpoint. The targets receive a Will save. For any target that fails, the cleric can break contact and the target remains hypnotized for 1d8+CL weeks. The hypnosis cannot be broken by physical means. While hypnotized, the target acts on commands issued by the cleric to the best of its normal, non-hypnotized ability. Targets move at normal speed and take no penalties to their actions while hypnotized. They retain their normal intelligence and can cast spells as normal (if applicable). However, they are still obviously hypnotized, for their eyes swirl with the strange patterns of the lotus. The target receives a fresh Will save each week to end the effect.",
+          "34+": "Making brief eye contact with multiple targets, the cleric forces them to stare into the swirling hypnotics of his gaze. The cleric can affect all targets in a gaze cone up to 80\u2019 long and 80\u2019 wide at its endpoint. Creatures of 2 HD or less are automatically affected; other targets receive a Will save. For affected targets, the cleric can break contact and the target remains hypnotized for 1d8+CL weeks. The hypnosis cannot be broken by physical means. While hypnotized, the target acts on commands issued by the cleric to the best of its normal, non-hypnotized ability. Targets move at normal speed and take no penalties to their actions while hypnotized. They retain their normal intelligence and can cast spells as normal (if applicable). However, they are still obviously hypnotized, for their eyes swirl with the strange patterns of the lotus. The target receives a fresh Will save each week to end the effect."
+        }
+      },
+      {
+        "name": "Neutralize Poison or Disease",
+        "level": 2,
+        "range": "Touch or further",
+        "duration": "Permanent",
+        "casting_time": "1 round",
+        "save": "N/A",
+        "description": [
+          "This spell stabilizes further disruption from poison or disease and may reverse existing effects. The cleric may cast this spell on himself or someone he touches. While the effects of poisons are easily distinguished, some diseases may be fairly complex in nature and their \u201ceffects\u201d may not be clear. The judge should adjudicate which are reasonably cured by this spell and which are not."
+        ],
+        "manifestation": {
+          "die": "1d4",
+          "table": {
+            "1": "the target is cured with no visible effect",
+            "2": "the target is cured and the mark of the cleric\u2019s deity appears as a birthmark or small scar in a place that was previously affected by the poison or disease",
+            "3": "the blinding rays of heavenly light shine forth on the target, making him feel an intense and almost painful heat, burning off the toxins that infest his body",
+            "4": "the target\u2019s skin peels instantaneously, as with a severe sunburn, and as the old skin sloughs off the new skin beneath appears younger and healthier as the toxins are removed"
+          }
+        },
+        "results": {
+          "1-13": "Failure.",
+          "14-15": "The cleric retards the subsequent effects of one poison or disease that is affecting the target and removes the remaining dosage or effect from the target\u2019s system. Any effects suffered already cannot be reversed.",
+          "16-19": "The cleric retards the subsequent effects of one poison or disease that is affecting the target and removes the remaining dosage or effect from the target\u2019s system. In addition, any effects suffered already are reversed over the same time frame under which they were first suffered. However, a creature that has already been killed by the poison or disease is not brought back to life.",
+          "20-21": "The target receives a +2 bonus to Fort saves to resist poison or disease for the next day. Additionally, the cleric retards the subsequent effects of one poison or disease that is affecting the target and removes the remaining dosage or effect from the target\u2019s system. In addition, any effects suffered already are reversed over the same time frame under which they were first suffered. However, a creature that has already been killed by the poison or disease is not brought back to life.",
+          "22-25": "The target receives a +4 bonus to Fort saves to resist poison or disease for the next day. Additionally, the cleric retards the subsequent effects of two poisons or diseases that are affecting the target and removes the remaining dosage or effect from the target\u2019s system. In addition, any effects suffered already are reversed over the same time frame under which they were first suffered. However, a creature that has already been killed by the poison or disease is not brought back to life.",
+          "26-29": "The cleric can lead a prayer in which up to 4 other creatures can participate. All creatures praying must link hands with each other and form a circle that terminates in the cleric\u2019s grasp. Those that pray with the cleric are completely cured of all poisons or diseases affecting them, and the poisons and diseases are removed from their systems. In addition, any effects suffered already are reversed over the same time frame under which they were first suffered. However, a creature that has already been killed by the poison or disease is not brought back to life. Finally, all allies participating in the prayer receive a +4 bonus to resist poisons and diseases for the next week.",
+          "30-31": "The cleric can lead a prayer in which up to 12 other creatures can participate. All creatures praying must link hands with each other and form a circle that terminates in the cleric\u2019s grasp. All creatures that pray with the cleric are completely cured of all poisons or diseases affecting them, and the poisons and diseases are removed from their systems. In addition, any effects suffered already are reversed over the course of the next 24 hours. However, a creature that has already been killed by the poison or disease is not brought back to life. Finally, all allies participating in the prayer are completely immune to all terrestrial poisons and diseases for the next week and receive a +4 bonus to resist supernatural or magical poisons and diseases for the next week.",
+          "32-33": "The cleric can lead a prayer in which up to 50 other creatures can participate. All creatures praying must link hands with each other and form a circle that terminates in the cleric\u2019s grasp. All creatures that pray with the cleric are completely cured of all poisons or diseases affecting them, and the poisons and diseases are removed from their systems. In addition, any effects suffered already are reversed over the course of the next 24 hours. However, a creature that has already been killed by the poison or disease is not brought back to life. Finally, all allies participating in the prayer are completely immune to all poisons and diseases for the next month.",
+          "34+": "The cleric can lead a prayer in which up to 200 other creatures can participate. All creatures praying must be within the cleric\u2019s line of sight. All creatures that pray with the cleric are completely cured of all poisons or diseases affecting them, and the poisons and diseases are removed from their systems. In addition, any effects suffered already are reversed immediately. However, a creature that has already been killed by the poison or disease is not brought back to life. Finally, all allies participating in the prayer are completely immune to all poisons and diseases for the next month."
+        }
+      },
+      {
+        "name": "Divine Symbol",
+        "level": 2,
+        "range": "Self",
+        "duration": "1d6 rounds or more",
+        "casting_time": "1 round",
+        "save": "N/A",
+        "description": [
+          "The cleric channels the divine power of his deity into his holy symbol, which becomes a rallying point for the faithful, a weapon of righteousness, and a bane to the unholy."
+        ],
+        "manifestation": {
+          "text": "The cleric holds his holy symbol aloft and utters words of prayer. He is suddenly illuminated in a bright light. Even as the light fades, the cleric\u2019s holy symbol burns with a brilliant radiance."
+        },
+        "results": {
+          "1-13": "Failure.",
+          "14-15": "For a duration of 1d6 rounds, the cleric can attack with his holy symbol as if it were a magical weapon of +1 enchantment. It deals 1d8+1 damage (modified by Str), with an additional +2 damage bonus against unholy creatures.",
+          "16-19": "For a duration of 2d6+CL rounds, the cleric can attack with his holy symbol as if it were a magical weapon of +1 enchantment. It deals 1d10+1 damage (modified by Str), with an additional +2 damage bonus against unholy creatures.",
+          "20-21": "For a duration of 2d6+CL rounds, the cleric can attack with his holy symbol as if it were a magical weapon of +2 enchantment. It deals 1d10+2 damage (modified by Str), with an additional +2 damage bonus against unholy creatures. In addition, as long as the cleric is visible to his allies and followers, they receive a +1 bonus to saving throws and morale checks.",
+          "22-25": "For a duration of 3d6+CL rounds, the cleric can attack with his holy symbol as if it were a magical weapon of +2 enchantment. It deals 1d12+2 damage (modified by Str), with an additional +4 damage bonus against unholy creatures. In addition, as long as the cleric is visible to his allies and followers, they receive a +1 bonus to saving throws and morale checks.",
+          "26-29": "For a duration of 3d6+CL rounds, the cleric can attack with his holy symbol as if it were a magical weapon of +2 enchantment. It deals 1d14+2 damage (modified by Str), with an additional +4 damage bonus against unholy creatures. In addition, as long as the cleric is visible to his allies and followers, they receive a +1 bonus to saving throws and morale checks. Finally, the cleric also receives a +4 bonus to all spell checks to turn unholy while using his holy symbol when under the influence of this spell.",
+          "30-31": "For a duration of 3d6+CL rounds, the cleric can attack with his holy symbol as if it were a magical weapon of +3 enchantment. It deals 1d16+3 damage (modified by Str), with an additional +4 damage bonus against unholy creatures. In addition, as long as the cleric is visible to his allies and followers, they receive a +2 bonus to saving throws and morale checks. Finally, the cleric also receives a +4 bonus to all spell checks to turn unholy while using his holy symbol when under the influence of this spell.",
+          "32-33": "For a duration of 1d6+CL days, the cleric can attack with his holy symbol as if it were a magical weapon of +4 enchantment. It deals 1d16+4 damage (modified by Str), with an additional +4 damage bonus against unholy creatures. In addition, as long as the cleric is visible to his allies and followers, they receive a +2 bonus to saving throws and morale checks. Finally, the cleric also receives a +6 bonus to all spell checks to turn unholy while using his holy symbol when under the influence of this spell.",
+          "34+": "For a duration of 1d6+CL days, the cleric can attack with his holy symbol as if it were a magical weapon of +4 enchantment. It deals 1d20+5 damage (modified by Str), with an additional +4 damage bonus against unholy creatures. In addition, as long as the cleric is visible to his allies and followers, they receive a +2 bonus to saving throws and morale checks. Finally, the cleric also receives a +6 bonus to all spell checks to turn unholy while using his holy symbol when under the influence of this spell."
+        }
+      },
+      {
+        "name": "Snake Charm",
+        "level": 2,
+        "range": "30\u2019 or more",
+        "duration": "Varies",
+        "casting_time": "1 round",
+        "save": "Will vs. spell check DC (sometimes)",
+        "description": [
+          "The cleric can control snakes within his presence or potentially summon snakes to do his bidding. The snakes will threaten, guard, attack, or otherwise behave as commanded."
+        ],
+        "manifestation": {
+          "die": "1d4",
+          "table": {
+            "1": "affected snakes are surrounded in a shimmering blue aura, which also surrounds the cleric",
+            "2": "snakes seem to have their faces change shape to resemble that of the cleric",
+            "3": "snakes have their scales change into a colorful pattern reminiscent of the cleric\u2019s clothes or hair color/style",
+            "4": "snakes turn pitch black"
+          }
+        },
+        "results": {
+          "1-13": "Failure.",
+          "14-15": "Nearby snakes acknowledge the cleric as their friend and ally. The range is 30\u2019. Mundane snakes up to 2 HD are affected automatically. Mundane snakes of 3 HD or more, as well as supernatural snake-like creatures up to 4 HD (such as naga, medusae, snake-men, etc.) receive a Will save to resist. Snake-like creatures of 5 HD or more are not affected. Affected creatures will not attack the cleric under any circumstances. They do not actively assist the cleric, but will not impede his passing. When the cleric passes more than 30\u2019 from any affected creature, it returns to its former attitude regarding him.",
+          "16-19": "Nearby snakes submit to the cleric as their master. They obey the cleric\u2019s bidding and fight on his behalf. The range is 100\u2019. The effect takes hold automatically on mundane snakes up to 3 HD. Larger mundane snakes and all other snake-like creatures receive a Will save to resist. Affected creatures will take simple actions on the cleric\u2019s behalf, such as \u201cguard\u201d or \u201cattack.\u201d They continue to obey until the cleric is out of their sight or for 1 hour, whichever comes first.",
+          "20-21": "Nearby snakes submit to the cleric as their master. They obey the cleric\u2019s bidding and fight on his behalf. The range is 100\u2019. The effect takes hold automatically on mundane snakes up to 3 HD. Larger mundane snakes and all other snake-like creatures receive a Will save to resist. Affected creatures will take simple actions on the cleric\u2019s behalf, such as \u201cguard\u201d or \u201cattack.\u201d They continue to obey until the cleric is out of their sight or for 1 day, whichever comes first.",
+          "22-25": "The spell summons one friendly snake of up to 2 HD, and additionally causes nearby snakes to submit to the cleric as their master. They obey the cleric\u2019s bidding and fight on his behalf. The range is 100\u2019. The effect takes hold automatically on mundane snakes up to 3 HD. Larger mundane snakes and all other snake-like creatures receive a Will save to resist. Affected creatures will take simple actions on the cleric\u2019s behalf, such as \u201cguard\u201d or \u201cattack.\u201d They continue to obey until the cleric is out of their sight or for 1 day, whichever comes first. The summoned snake is AC 14, has 2d8 HD, and a bite at +4 attack for 1d6 damage that also inflicts a poison (DC 12 Fort or suffer one effect; choose from: 1d4 Strength loss, 1d4 Agility loss, 1d4 Stamina loss, blindness, sleep, or half-movement). The snake can be summoned to any point within the cleric\u2019s line of sight. The snake is permanently summoned; it is simply transported here from elsewhere on the planet.",
+          "26-29": "The spell summons 1d4+1 friendly snakes of up to 2 HD, and additionally causes nearby snakes to submit to the cleric as their master. They obey the cleric\u2019s bidding and fight on his behalf. The range is 100\u2019. The effect takes hold automatically on mundane snakes up to 3 HD. Larger mundane snakes and all other snake-like creatures receive a Will save to resist. Affected creatures will take simple actions on the cleric\u2019s behalf, such as \u201cguard\u201d or \u201cattack.\u201d They continue to obey for one full day, even if the cleric leaves their sight. The summoned snakes are AC 14, have 2d8 HD, and a bite at +4 attack for 1d6 damage that also inflicts a poison (DC 12 Fort or suffer one effect; choose from: 1d4 Strength loss, 1d4 Agility loss, 1d4 Stamina loss, blindness, sleep, or half-movement). The snakes can be summoned to any point within the cleric\u2019s line of sight. The snakes are permanently summoned; they are simply transported here from elsewhere on the planet.",
+          "30-31": "The spell summons 2d4+CL friendly snakes of up to 2 HD, or 1d4+1 large snakes of 5 HD, and additionally causes nearby snakes to submit to the cleric as their master. They will obey the cleric\u2019s bidding and fight on his behalf. The range is 100\u2019. The effect takes hold automatically on mundane snakes up to 3 HD. Larger mundane snakes and all other snake-like creatures receive a Will save to resist. Affected creatures will take simple actions on the cleric\u2019s behalf, such as \u201cguard\u201d or \u201cattack.\u201d They continue to obey for one full day, even if the cleric leaves their sight. The summoned snakes are AC 14 and have 2d8 or 5d8 HD. Depending on their Hit Dice, they have a bite attack (2HD: +4 for 1d6 damage; 5HD: +8 for 3d6 damage). The bite also inflicts poison (DC 12 Fort or suffer one effect; choose from: 1d4 Strength loss, 1d4 Agility loss, 1d4 Stamina loss, blindness, sleep, or half-movement). The snakes can be summoned to any point within the cleric\u2019s line of sight. The snakes are permanently summoned; they are simply transported here from elsewhere on the planet.",
+          "32-33": "The spell summons 2d4+CL friendly snakes of up to 2 HD, or 1d4+1 large snakes of 5 HD, and additionally causes nearby snakes to submit to the cleric as their master. They will obey the cleric\u2019s bidding and fight on his behalf. The range is 100\u2019. The effect takes hold automatically on mundane snakes up to 3 HD. Larger mundane snakes and all other snake-like creatures receive a Will save to resist. Affected creatures will take simple actions on the cleric\u2019s behalf, such as \u201cguard\u201d or \u201cattack.\u201d They continue to obey for one full week, even if the cleric leaves their sight. The summoned snakes are AC 14 and have 2d8 or 5d8 HD. Depending on their Hit Dice, they have a bite attack (2HD: +4 for 1d6 damage; 5HD: +8 for 3d6 damage). The bite also inflicts poison (DC 12 Fort or suffer one effect; choose from: 1d4 Strength loss, 1d4 Agility loss, 1d4 Stamina loss, blindness, sleep, or half-movement). The snakes can be summoned to any point within the cleric\u2019s line of sight. The snakes are permanently summoned; they are simply transported here from elsewhere on the planet.",
+          "34+": "The spell summons 2d4+CL friendly snakes of up to 2 HD, or 1d4+1 large snakes of 5 HD, and additionally causes nearby snakes to submit to the cleric as their master. They will obey the cleric\u2019s bidding and fight on his behalf. The range is 100\u2019. The effect takes hold automatically on mundane snakes up to 3 HD. Larger mundane snakes and all other snake-like creatures receive a Will save to resist. Affected creatures will take simple actions on the cleric\u2019s behalf, such as \u201cguard\u201d or \u201cattack.\u201d The duration is indefinite unless magically dispelled \u2013 the targets forever regard the cleric as a friend. The summoned snakes are AC 14 and have 2d8 or 5d8 HD. Depending on their Hit Dice, they have a bite attack (2HD: +4 for 1d6 damage; 5HD: +8 for 3d6 damage). The bite also inflicts poison (DC 12 Fort or suffer one effect; choose from: 1d4 Strength loss, 1d4 Agility loss, 1d4 Stamina loss, blindness, sleep, or half-movement). The snakes can be summoned to any point within the cleric\u2019s line of sight. The snakes are permanently summoned; they are simply transported here from elsewhere on the planet."
+        }
+      }
+    ],
+    "level_3": [
+      {
+        "name": "True Name",
+        "range": "100\u2019 per CL or unlimited (see below)",
+        "duration": "Instantaneous",
+        "casting_time": "1 action",
+        "save": "Will vs. spell check DC",
+        "description": [
+          "The cleric calls upon his deity to reveal the true name of an individual or creature, allowing him to moreeasily affect the named target with his magic. This spell works only on intelligent creatures and magicalconstructions that were named by their creator. Un-dead, slimes, animals, and similar creatures that donot possess names are immune to this spell. Other creatures may or may not be affected at the judge\u2019s discretion. A successful Will save indicates that the target\u2019s true name remains hidden from the cleric.",
+          "In order to gain the knowledge of a creature\u2019s true name (or one of them; many creatures possess a numberof secret names of varying power), the cleric must either be within range and have a clear view of thetarget or possess a personal item or physical component (blood, hair, fingernails, etc.) of the target. If thecleric has a portion of the target\u2019s physical body, this spell can be cast at any distance provided that thetarget is on the same plane of existence as the cleric.",
+          "Once a creature\u2019s true name is known, the cleric permanently enjoys the benefits indicated by the spellcheck below. He can attempt to recast the spell to further deduce the target\u2019s secret name(s), but a failureon subsequent castings of the spell makes the target permanently immune to further attempts by thecleric \u2013 he has learned all he can about his target. Due to the complexities and magical nature of truenames, the cleric cannot easily share a true name with another person. Attempts to write or speak thetrue name become garbled in the communication process and the would-be recipient of the name mustmake a spell check with a result equal to or greater than that of the cleric\u2019s spell check to comprehendthe priest\u2019s attempt to share the true name. Failure means it is impossible for the recipient to understand the cleric and he cannot make another attempt to comprehend the true name unless the cleric recasts thes pell.",
+          "An individual whose true name has fallen into the possession of another can attempt to nullify that nameand negate all bonuses granted to the possessor of the name. This usually requires the intervention of apatron or god, undertaking a quest, subjecting oneself to powerful memory- or identity-erasing magics,or other means determined by the judge."
+        ],
+        "manifestation": {
+          "die": "1d4",
+          "table": {
+            "1": "a divine servant of the cleric\u2019s deity appears and whispers the target\u2019s true name into his ear",
+            "2": "true name appears in the air before the cleric, written in celestial fire and visible only to him",
+            "3": "the cleric is subject to a brief hallucination of the target\u2019s naming at birth",
+            "4": "a nearby animal croaks the target\u2019s true name in a harsh, unearthly voice."
+          }
+        },
+        "results": {
+          "1-15": "Failure.",
+          "16-17": "The cleric learns the simplest inkling of the target\u2019s lesser secret name. The target suffers a -1 penalty to all saving throws against spells cast by the cleric and/or others in possession of the target\u2019s true name.",
+          "18-21": "The cleric learns the actual pronunciations of the target\u2019s lesser secret name. The target suffers a -2 penaltyto all saving throws against spells cast by the cleric and/or others in possession of the target\u2019s truename.",
+          "22-23": "The cleric learns of the target\u2019s greater secret name. The target suffers a -3 penalty to all saving throwsagainst spells cast by the cleric and/or others in possession of the target\u2019s true name. In addition, all attemptsto magically sway, dominate, or dismiss the target (banish, binding, charm person, lotus stare, word ofcommand, etc.) gain a +2 bonus to the spell check.",
+          "24-26": "The cleric learns of the target\u2019s greater secret name. The target suffers a -3 penalty to all saving throwsagainst spells cast by the cleric and/or others in possession of the target\u2019s true name. In addition, all attemptsto magically sway, dominate, or dismiss the target (banish, binding, charm person, lotus stare, word of command, etc.) gain a +3 bonus to the spell check.",
+          "27-31": "The cleric learns the target\u2019s true secret name. The target suffers a -4 penalty to all saving throws againstspells cast by the cleric and/or others in possession of the target\u2019s true name. Any attempt to magicallysway, dominate, or dismiss the target (banish, binding, charm person, lotus stare, word of command, etc.) gaina +4 bonus to the spell check. In addition, all other spells checks made against the target enjoy a +1 bonusto the spell check.",
+          "32-33": "The cleric learns the target\u2019s true secret name. The target suffers a -4 penalty to all saving throws againstspells cast by the cleric and/or others in possession of the target\u2019s true name. Any attempt to magicallysway, dominate, or dismiss the target (banish, binding, charm person, lotus stare, word of command, etc.) gaina +4 bonus to the spell check. In addition, all other spells checks made against the target enjoy a +2 bonus.",
+          "34-35": "The cleric learns not only the target\u2019s true name but the true names of all its living blood relatives. Anyonewithin the target\u2019s family suffers a -5 penalty to all saving throws against spells cast by the clericand/or others in possession of the target\u2019s true name. Any attempt to magically sway, dominate, or dismissthe target (banish, binding, charm person, lotus stare, word of command, etc.) gain a +5 bonus to the spellcheck. In addition, all other spells checks made against the target enjoy a +3 bonus.",
+          "36+": "The cleric learns the true name of the target\u2019s dynasty, allowing him to better magically affect not onlythe target but any relatives living, dead, or yet to be born. Any creatures of the target\u2019s family line suffer anegative penalty equal to -5 or the cleric\u2019s CL +2 (whichever is greater) to all saving throws against spellscast by the cleric and/or others in possession of the target\u2019s true name. In addition, all spell checks (ofany type) made against the target or his dynasty gain a positive bonus equal to +4 or the cleric\u2019s CL +2(whichever is greater)."
+        }
+      },
+      {
+        "name": "Remove Curse",
+        "level": 3,
+        "range": "Touch",
+        "duration": "Instantaneous",
+        "casting_time": "1 round",
+        "save": "See below",
+        "description": [
+          "The cleric calls upon divine power to banish the baleful effects of a curse on a person or object. As referencedin the spell descriptions below, a minor curse is one that causes a loss of 2 or less ability scorepoints; a moderate curse is one that impacts 3-4 ability score points or has a limiting effect of some kind(penalty to rolls, reduced speed, etc.); and a major curse is one that impacts 5+ ability score points or has adebilitating effect (blindness, deafness, immobility, etc.). When a save is called for, the affected individualor object either makes a second saving throw against the curse (save and DC are the same as the originalcurse), or, if no save was allowed against the original curse, the creature or object may make either a Fortor Will save (player\u2019s discretion) against a DC of 10 + the HD of creature that bestowed the curse. If thesave is successful, the cursed creature or object is no longer affected by the curse. If the save fails, thecurse remains in effect and 24 hours must pass before the cleric can again attempt to remove the curse."
+        ],
+        "manifestation": {
+          "die": "1d4",
+          "table": {
+            "1": "sparkling water flows from the cleric\u2019s hand to wash the target creature clean",
+            "2": "the target vomits up a black goop that quickly vanishes",
+            "3": "the cleric brushes the target with his hand, peeling away corrupt flesh to reveal unblemished skin beneath",
+            "4": "a divine fire burns away the curse."
+          }
+        },
+        "results": {
+          "1-15": "Failure.",
+          "16-17": "A single cursed individual or object is allowed to make a new saving throw to escape the effects of a minor curse.",
+          "18-21": "A number of cursed individuals or objects equal to the cleric\u2019s CL are allowed to make a saving throw toescape the effects of a minor curse. If only a single cursed creature or object is targeted, they gain a bonusto their saving throw equal to the CL.",
+          "22-23": "The cleric automatically removes a minor curse from a single individual or allows a saving throw to remove a moderate curse from a single cursed individual or object.",
+          "24-26": "The cleric automatically removes a minor curse from a number of individuals or objects equal to his CL orallows a saving throw to remove a moderate curse from a number of cursed individuals or objects equal to his CL. If only a single cursed creature or object is targeted, it gains a bonus to the saving throw equalto the CL.",
+          "27-31": "The cleric automatically removes a minor or moderate curse from a single individual or allows a saving throw to remove a major curse for a single cursed individual or object.",
+          "32-33": "The cleric automatically removes a minor or moderate curse from a number of individuals or objectsequal to his CL or allows a saving throw to remove a major curse for a number of cursed individuals orobjects equal to his CL. If only a single cursed creature or object is targeted, they gain a bonus to theirsaving throw equal to the CL.",
+          "34-35": "The cleric automatically removes any curse affecting a single creature or object, regardless of the curse\u2019s potency.",
+          "36+": "The cleric automatically removes any curse affecting a number of creatures equal to his CL. In addition, ifthe creature or creatures that bestowed the curse(s) is currently alive, it automatically becomes the victimof its own curse regardless of its location or distance away from the cleric."
+        }
+      },
+      {
+        "name": "Spiritual Weapon",
+        "level": 3,
+        "range": "60\u2019 + 20\u2019 per CL",
+        "duration": "1 round per CL",
+        "casting_time": "1 action",
+        "save": "None",
+        "description": [
+          "The cleric empowers his own personal weapon with his faith, allowing it to smite his enemies as if wieldedby an unseen warrior. Attacks with this weapon use the cleric\u2019s normal melee attack modifier and hisnormal attack dice, although the melee attack roll is adjusted by the cleric\u2019s Strength or Personality modifier(whichever is higher). Greater spell checks increase attack and damage rolls, as well as add additionalaction dice. The weapon uses the cleric\u2019s crit die and table for determining the results of a critical hit. Ifcast upon a magical weapon, the cleric adds any \u201cpluses\u201d the weapon has to his spell check. The spiritualweapon itself cannot be targeted or damaged by physical attacks, but can be rendered harmless with adispel magic or a similar magic-negating effect.",
+          "Additionally, while the spiritual weapon is empowered, it also gains one or more special abilities. Thecleric may choose one of the following, as noted in the spell descriptions:",
+          "**Unholy avenger:** The weapon inflicts an additional +1 damage against unholy creatures",
+          "**Holy shock:** Creatures struck by the blade must make a DC 10 Fort save or be dazed (-1 to all rolls for next turn).",
+          "**Light of the lord:** The weapon glows a brilliant yellow, providing illumination equivalent to torchlight.",
+          "**Sacred defender: The weapon parries attacks aimed at the cleric by the creature it is directed to fight, giving that creature a -2 penalty to all attacks against the cleric."
+        ],
+        "Manifestation": "The cleric\u2019s weapon glows with a divine radiance and leaps into the air, moving about as if wielded by an invisible champion.",
+        "results": {
+          "1-15": "Failure.",
+          "16-17": "The cleric can direct the weapon to attack a single target within range. The weapon has the cleric\u2019s normalchance to hit (modified by Strength or Personality) and inflicts normal damage (also modified byStrength or Personality). The weapon has one special ability, chosen by the character as noted above. Theweapon continues attacking without any concentration on the cleric\u2019s part, but if the cleric wishes to attacka different target, he must first call the weapon back to his current position and direct it to the newtarget. This takes one action.",
+          "18-21": "The cleric can direct the weapon to attack a single target within range. The weapon gains an additional+1 bonus to hit and inflicts an additional 1d3 damage (in addition to any other modifiers and damagedice). The weapon has one special ability, chosen by the character as noted above. The weapon continuesattacking without any concentration on the cleric\u2019s part, but if the cleric wishes to attack a different target,he must first call the weapon back to his current position and direct it to the new target. This takes oneaction.",
+          "22-23": "The cleric can direct the weapon to attack any target within range. The weapon gains an additional +2bonus to hit and inflicts an additional 1d4 damage (in addition to any other modifiers and damage dice).The weapon has one special ability, chosen by the character as noted above. The weapon continues attackingwithout any concentration on the cleric\u2019s part, and he can direct it to a new target with only athought. When the spell\u2019s duration ends, the weapon returns to the cleric\u2019s hand.",
+          "24-26": "The cleric can direct the weapon to attack any target within range. The weapon gains an additional +3bonus to hit and inflicts an additional 1d5 damage (in addition to any other modifiers and damage dice).The weapon has two special abilities, chosen by the character as noted above. The weapon continues attackingwithout any concentration on the cleric\u2019s part, and he can direct it to a new target with only athought. When the spell\u2019s duration ends, the weapon returns to the cleric\u2019s hand.",
+          "27-31": "The cleric can direct the weapon to attack any target within range. The weapon gains an additional actiondie for the purpose of making multiple attacks per round. The additional action die is the next lowest inthe dice chain based on the cleric\u2019s current action dice. These attacks can be split between two targets solong as they are within 10\u2019 of one another. The weapon gains an additional +3 bonus to hit and inflicts anadditional 1d5 damage (in addition to any other modifiers and damage dice). The weapon has two specialabilities, chosen by the character as noted above. The weapon continues attacking without any concentration on the cleric\u2019s part, and he can direct it to a new target with only a thought. When the spell\u2019s durationends, the weapon returns to the cleric\u2019s hand.",
+          "32-33": "The cleric can direct the weapon to attack any target within range. He also gains an additional action diefor the purpose of making multiple attacks per round. The additional action die is the next lowest in thedice chain based on the cleric\u2019s current action dice. These attacks can be split between two targets so longas they are within 10\u2019 of one another. The weapon gains an additional +4 bonus to hit and inflicts an additional1d6 damage (in addition to any other modifiers and damage dice). The weapon has three specialabilities, chosen by the character as noted above. The weapon continues attacking without any concentration on the cleric\u2019s part, and he can direct it to a new target with only a thought. When the spell\u2019s durationends, the weapon returns to the cleric\u2019s hand.",
+          "34-35": "The cleric can direct the weapon to attack any target within range. He also gains two additional actiondice for the purpose of making multiple attacks per round. The additional action dice are the next lowestin the dice chain based on the cleric\u2019s current action dice. These attacks can be split between threetargets so long as they are within 10\u2019 of one another. The weapon gains an additional +4 bonus to hit andinflicts an additional 1d6 damage (in addition to any other modifiers and damage dice). The weapon hasthree special abilities, chosen by the character as noted above. The weapon continues attacking withoutany concentration on the cleric\u2019s part, and he can direct it to a new target with only a thought. When thespell\u2019s duration ends, the weapon returns to the cleric\u2019s hand.",
+          "36+": "The cleric can direct the weapon to attack any target within range. He also gains two additional actiondice for the purpose of making multiple attacks per round, and both additional action dice are 1d24 dice.These attacks can be split between three targets so long as they are within 10\u2019 of one another. The weapongains an additional +5 bonus to hit and inflicts an additional 1d8 damage (in addition to any other modifiersand damage dice). The weapon has all four special abilities. The weapon continues attacking withoutany concentration on the cleric\u2019s part, and he can direct it to a new target with only a thought. When thespell\u2019s duration ends, the weapon returns to the cleric\u2019s hand."
+        }
+      }
+    ]
+  }
+}

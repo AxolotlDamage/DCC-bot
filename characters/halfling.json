@@ -1,0 +1,128 @@
+{
+    "name": "halfling",
+    "alignment": "Lawful",
+    "class": "Halfling",
+    "level": 1,
+    "owner": 480727765881192448,
+    "occupation": "Halfling dyer",
+    "weapon": "Staff",
+    "inventory": [
+        {
+            "name": "Staff",
+            "qty": 1
+        },
+        {
+            "name": "Fabric (3 yards)",
+            "qty": 1
+        },
+        {
+            "name": "dagger",
+            "qty": 1
+        },
+        {
+            "name": "short sword",
+            "qty": 1
+        }
+    ],
+    "birth_augur": {
+        "sign": "Harsh winter",
+        "effect": "All attack rolls"
+    },
+    "max_luck_mod": -1,
+    "hp": {
+        "current": 5,
+        "max": 5
+    },
+    "luck": {
+        "current": 8,
+        "max": 8
+    },
+    "ac": 9,
+    "saves": {
+        "reflex": 0,
+        "fortitude": 1,
+        "will": 0
+    },
+    "initiative": -1,
+    "speed": 20,
+    "attack": 0,
+    "attack_bonus": 0,
+    "cp": 32,
+    "abilities": {
+        "STR": {
+            "max": 14,
+            "current": 14,
+            "mod": 1
+        },
+        "AGI": {
+            "max": 7,
+            "current": 7,
+            "mod": -1
+        },
+        "STA": {
+            "max": 12,
+            "current": 12,
+            "mod": 0
+        },
+        "INT": {
+            "max": 14,
+            "current": 14,
+            "mod": 1
+        },
+        "PER": {
+            "max": 12,
+            "current": 12,
+            "mod": 0
+        },
+        "LCK": {
+            "max": 8,
+            "current": 8,
+            "mod": -1
+        }
+    },
+    "armor": "unarmored",
+    "shield": false,
+    "fumble_die": "d4",
+    "action_die": "1d20",
+    "crit_die": "1d10",
+    "crit_table": "III",
+    "languages": [
+        "Common",
+        "Halfling",
+        "Kobold",
+        "Law",
+        "Pixie"
+    ],
+    "notes": {
+        "levelup_log": [
+            {
+                "from_level": 0,
+                "to_level": 1,
+                "class": "Halfling",
+                "hp_gain": 3,
+                "roll": "1d6",
+                "sta_mod": 0,
+                "by": 480727765881192448,
+                "note": ""
+            }
+        ]
+    },
+    "weapon_training": [
+        "staff"
+    ],
+    "weapon_proficiencies": [
+        "staff"
+    ],
+    "action_dice": "1d20",
+    "luck_die": "d3",
+    "class_saves": {
+        "reflex": 1,
+        "fortitude": 1,
+        "will": 0
+    },
+    "title": "Sheriff",
+    "hit_die": "1d6",
+    "traits": [
+        "Two-weapon fighting (no penalty)"
+    ]
+}

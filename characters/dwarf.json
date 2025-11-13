@@ -1,0 +1,196 @@
+{
+  "name": "Dwarf",
+  "alignment": "Chaotic",
+  "class": "Dwarf",
+  "level": 6,
+  "owner": 480727765881192448,
+  "occupation": "Barber",
+  "weapon": "longsword",
+  "inventory": [
+    {
+      "name": "razor",
+      "qty": 1
+    },
+    {
+      "name": "scissors",
+      "qty": 1
+    },
+    {
+      "name": "shield",
+      "qty": 1
+    },
+    {
+      "name": "battleaxe",
+      "qty": 1
+    },
+    {
+      "name": "longsword",
+      "qty": 1
+    }
+  ],
+  "birth_augur": {
+    "sign": "Seventh son",
+    "effect": "Spell checks"
+  },
+  "max_luck_mod": 1,
+  "hp": {
+    "current": 34,
+    "max": 34
+  },
+  "luck": {
+    "current": 15,
+    "max": 15
+  },
+  "ac": 11,
+  "saves": {
+    "reflex": 2,
+    "fortitude": 4,
+    "will": 2
+  },
+  "initiative": 0,
+  "speed": 20,
+  "attack": 0,
+  "attack_bonus": 0,
+  "cp": 32,
+  "abilities": {
+    "STR": {
+      "max": 16,
+      "current": 16,
+      "mod": 2
+    },
+    "AGI": {
+      "max": 11,
+      "current": 11,
+      "mod": 0
+    },
+    "STA": {
+      "max": 12,
+      "current": 12,
+      "mod": 0
+    },
+    "INT": {
+      "max": 10,
+      "current": 10,
+      "mod": 0
+    },
+    "PER": {
+      "max": 11,
+      "current": 11,
+      "mod": 0
+    },
+    "LCK": {
+      "max": 15,
+      "current": 15,
+      "mod": 1
+    }
+  },
+  "armor": "unarmored",
+  "shield": true,
+  "fumble_die": "d4",
+  "action_die": "1d20",
+  "crit_die": "1d24",
+  "crit_table": "V",
+  "languages": [
+    "Common",
+    "Dwarf",
+    "Gnome"
+  ],
+  "notes": {
+    "levelup_log": [
+      {
+        "from_level": 0,
+        "to_level": 1,
+        "class": "Dwarf",
+        "hp_gain": 9,
+        "roll": "1d10",
+        "sta_mod": 0,
+        "by": 480727765881192448,
+        "note": ""
+      },
+      {
+        "from_level": 1,
+        "to_level": 2,
+        "class": "Dwarf",
+        "hp_gain": 5,
+        "roll": "1d10",
+        "sta_mod": 0,
+        "by": 480727765881192448,
+        "note": ""
+      },
+      {
+        "from_level": 2,
+        "to_level": 3,
+        "class": "Dwarf",
+        "hp_gain": 3,
+        "roll": "1d10",
+        "sta_mod": 0,
+        "by": 480727765881192448,
+        "note": ""
+      },
+      {
+        "from_level": 3,
+        "to_level": 4,
+        "class": "Dwarf",
+        "hp_gain": 8,
+        "roll": "1d10",
+        "sta_mod": 0,
+        "by": 480727765881192448,
+        "note": ""
+      },
+      {
+        "from_level": 4,
+        "to_level": 5,
+        "class": "Dwarf",
+        "hp_gain": 2,
+        "roll": "1d10",
+        "sta_mod": 0,
+        "by": 480727765881192448,
+        "note": ""
+      },
+      {
+        "from_level": 5,
+        "to_level": 6,
+        "class": "Dwarf",
+        "hp_gain": 4,
+        "roll": "1d10",
+        "sta_mod": 0,
+        "by": 480727765881192448,
+        "note": ""
+      }
+    ]
+  },
+  "weapon_training": [
+    "battleaxe",
+    "club",
+    "hand axe",
+    "longsword",
+    "mace",
+    "razor",
+    "short sword",
+    "staff",
+    "warhammer"
+  ],
+  "weapon_proficiencies": [
+    "battleaxe",
+    "club",
+    "hand axe",
+    "longsword",
+    "mace",
+    "razor",
+    "short sword",
+    "staff",
+    "warhammer"
+  ],
+  "deed_die": "d8",
+  "action_dice": "1d20+1d16",
+  "class_saves": {
+    "reflex": 2,
+    "fortitude": 4,
+    "will": 2
+  },
+  "title": "Iconoclast",
+  "hit_die": "1d10",
+  "infravision": 60,
+  "dwarf_luck_weapon": "battleaxe",
+  "dwarf_luck_weapon_mod": 1
+}

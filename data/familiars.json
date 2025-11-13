@@ -1,0 +1,182 @@
+{
+  "result_bands": [
+    {
+      "alignment": "Lawful",
+      "bands": [
+        { "min": 12, "max": 17, "familiar_type": "guardian" },
+        { "min": 18, "max": 23, "familiar_type": "focal" },
+        { "min": 24, "max": 29, "familiar_type": "focal" },
+        { "min": 30, "max": 999, "familiar_type": "arcane" }
+      ]
+    },
+    {
+      "alignment": "Neutral",
+      "bands": [
+        { "min": 12, "max": 17, "familiar_type": "guardian" },
+        { "min": 18, "max": 23, "familiar_type": "arcane" },
+        { "min": 24, "max": 29, "familiar_type": "focal" },
+        { "min": 30, "max": 999, "familiar_type": "demonic" }
+      ]
+    },
+    {
+      "alignment": "Chaotic",
+      "bands": [
+        { "min": 12, "max": 17, "familiar_type": "guardian" },
+        { "min": 18, "max": 23, "familiar_type": "demonic" },
+        { "min": 24, "max": 29, "familiar_type": "arcane" },
+        { "min": 30, "max": 999, "familiar_type": "focal" }
+      ]
+    }
+  ],
+  "base_traits": {
+    "hit_points_formula": "1d4+2",
+    "ac": 14,
+    "intelligence": 5,
+    "saving_throws": "use_wizard_saves",
+    "telepathy": true,
+    "loyalty": "absolute",
+    "wizard_hp_bonus": "equal_to_familiar_hp",
+    "shared_ability_bonus": "+4 when wizard uses a natural ability the familiar possesses"
+  },
+  "familiar_types": {
+    "guardian": {
+      "extra_hp_formula": "1d4+2",
+      "attack_bonus": 4,
+      "attack_damage": "1d6",
+      "crit_die": "1d12",
+      "crit_table": "III",
+      "ac_bonus": 2,
+      "save_bonus": 1,
+      "scales_with_caster_attack_bonus": true
+    },
+    "focal": {
+      "shared_vision": true,
+      "cast_through_familiar": true,
+      "spell_check_bonus": 1,
+      "attack_bonus": 1,
+      "attack_damage": "1d3"
+    },
+    "arcane": {
+      "grants_random_spell": true,
+      "spell_casting_rules": "wizard may cast familiar spell like normal",
+      "attack_bonus": 1,
+      "attack_damage": "1d3"
+    },
+    "demonic": {
+      "absorbs_half_corruption": true,
+      "soul_claim": true,
+      "fort_bonus_vs_disease_poison": 4,
+      "shared_negative_effects": true,
+      "attack_bonus": 2,
+      "attack_damage": "1d4"
+    }
+  },
+  "physical_table": [
+    {
+      "roll": 1,
+      "lawful": { "creature": "Eagle", "benefit_raw": "excellent vision" },
+      "neutral": { "creature": "Badger", "benefit_raw": "melee attacks deal extra +1 damage" },
+      "chaotic": { "creature": "Giant centipede", "benefit_raw": "10’ climb speed" }
+    },
+    {
+      "roll": 2,
+      "lawful": { "creature": "White cat", "benefit_raw": "move very silently" },
+      "neutral": { "creature": "Wolverine", "benefit_raw": "+2 hit points" },
+      "chaotic": { "creature": "Black cat", "benefit_raw": "move very silently" }
+    },
+    {
+      "roll": 3,
+      "lawful": { "creature": "Hawk", "benefit_raw": "excellent vision" },
+      "neutral": { "creature": "Owl", "benefit_raw": "can see at night as well as normal human can see in day plus excellent hearing" },
+      "chaotic": { "creature": "Bat", "benefit_raw": "extraordinary hearing" }
+    },
+    {
+      "roll": 4,
+      "lawful": { "creature": "Brownie", "benefit_raw": "excellent at hiding in forest" },
+      "neutral": { "creature": "Pixie", "benefit_raw": "excellent at hiding in forest" },
+      "chaotic": { "creature": "Cobra", "benefit_raw": "poisoned bite; DC 16 Fort save or lose 1d6 Stamina" }
+    },
+    {
+      "roll": 5,
+      "lawful": { "creature": "Miniature armored knight with a visor that is never lifted", "benefit_raw": "+1 AC" },
+      "neutral": { "creature": "Miniature minotaur", "benefit_raw": "+1 Strength" },
+      "chaotic": { "creature": "Tarantula", "benefit_raw": "poison: Fort DC 14 or temporary loss of 1 Agility" }
+    },
+    {
+      "roll": 6,
+      "lawful": { "creature": "Giant bee", "benefit_raw": "melee attacks deal extra +1 stinging damage" },
+      "neutral": { "creature": "Giant cricket", "benefit_raw": "loud commanding voice" },
+      "chaotic": { "creature": "Weasel", "benefit_raw": "supernatural ability to squeeze into tight places" }
+    },
+    {
+      "roll": 7,
+      "lawful": { "creature": "Faithful hound", "benefit_raw": "+2 to morale checks for followers and retainers" },
+      "neutral": { "creature": "Lizard", "benefit_raw": "40’ movement" },
+      "chaotic": { "creature": "Spider monkey", "benefit_raw": "20’ climb speed" }
+    },
+    {
+      "roll": 8,
+      "lawful": { "creature": "Giant ant", "benefit_raw": "+1 to attempts at ESP telepathy scrying etc." },
+      "neutral": { "creature": "Turtle", "benefit_raw": "+2 AC but movement reduced by -5’" },
+      "chaotic": { "creature": "Pseudo-dragon", "benefit_raw": "breath weapon 1/day: cone 20’ long x 10’ wide 2d6 fire damage" }
+    },
+    {
+      "roll": 9,
+      "lawful": { "creature": "Extraplanar ant", "benefit_raw": "+1 to attempts at planar travel" },
+      "neutral": { "creature": "Toad", "benefit_raw": "can breathe underwater for up to 20 minutes" },
+      "chaotic": { "creature": "Miniature woman of extraordinary beauty", "benefit_raw": "+2 Personality" }
+    },
+    {
+      "roll": 10,
+      "lawful": { "creature": "Miniature ancient wizard", "benefit_raw": "grants an extra life (familiar dies instead of wizard on fatal blow)" },
+      "neutral": { "creature": "Tiny elemental", "benefit_raw": "+1 to checks/saves related to element (earth/air/fire/water/etc.)" },
+      "chaotic": { "creature": "Python", "benefit_raw": "constriction: +1d4/+2d4/+3d4/etc. damage each round after first" }
+    },
+    {
+      "roll": 11,
+      "lawful": { "creature": "Giant wasp", "benefit_raw": "poison: Fort DC 12 or temporary loss of 1 Strength" },
+      "neutral": { "creature": "Crow", "benefit_raw": "detects gems and shiny objects" },
+      "chaotic": { "creature": "Tiny viper", "benefit_raw": "extraordinary sense of smell" }
+    },
+    {
+      "roll": 12,
+      "lawful": { "creature": "Miniature robed wizard", "benefit_raw": "+1 to spell checks on one randomly determined spell" },
+      "neutral": { "creature": "Horned slug", "benefit_raw": "paralysis: Fort DC 12 or paralyzed 1d4+CL rounds" },
+      "chaotic": { "creature": "Tiny demon", "benefit_raw": "+2 Luck; Luck restores nightly like thief/halfling" }
+    },
+    {
+      "roll": 13,
+      "lawful": { "creature": "Miniature gorilla", "benefit_raw": "+1 Strength" },
+      "neutral": { "creature": "Giant beetle", "benefit_raw": "+1 AC" },
+      "chaotic": { "creature": "Scorpion", "benefit_raw": "+2 to Fort saves vs poison" }
+    },
+    {
+      "roll": 14,
+      "lawful": { "creature": "Miniature young wizard", "benefit_raw": "+1 Stamina" },
+      "neutral": { "creature": "Rat", "benefit_raw": "120’ infravision" },
+      "chaotic": { "creature": "Skeletal rat", "benefit_raw": "+1 damage against undead" }
+    }
+  ],
+  "personalities": [
+    { "roll": 1,  "personality": "Grumpy" },
+    { "roll": 2,  "personality": "Angry" },
+    { "roll": 3,  "personality": "Eager and curious" },
+    { "roll": 4,  "personality": "Complains constantly about creaky joints" },
+    { "roll": 5,  "personality": "Normally mellow but becomes inexplicably animated when discussing (1d6) (1) opposite sex, (2) gnomes, (3) clouds, (4) flowers, (5) pancakes, (6) leather armor" },
+    { "roll": 6,  "personality": "Cranky" },
+    { "roll": 7,  "personality": "Narcissistic" },
+    { "roll": 8,  "personality": "Wide" },
+    { "roll": 9,  "personality": "Vapid (polishes nails constantly)" },
+    { "roll": 10, "personality": "Garrulous (won’t shut up)" },
+    { "roll": 11, "personality": "Stingy" },
+    { "roll": 12, "personality": "Jolly" },
+    { "roll": 13, "personality": "Introspective" },
+    { "roll": 14, "personality": "Convivial" },
+    { "roll": 15, "personality": "Lazy" },
+    { "roll": 16, "personality": "Aloof" },
+    { "roll": 17, "personality": "Charitable" },
+    { "roll": 18, "personality": "Sexy" },
+    { "roll": 19, "personality": "Mellow" },
+    { "roll": 20, "personality": "Sleepy" }
+  ]
+}

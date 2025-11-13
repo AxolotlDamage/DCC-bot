@@ -1,7 +1,7 @@
 import os, json, random, re
 import discord
 from discord.ext import commands
-from modules.utils import get_modifier, roll_dice
+from modules.utils import get_modifier, roll_dice, effective_initiative_die
 
 # Public state (kept simple for now; future: per-guild dict)
 INITIATIVE_OPEN = False
@@ -84,25 +84,82 @@ def register(bot: commands.Bot):
                 agi_mod = get_modifier(int(agi_field))
         except Exception:
             pass
-        two_handed = False
-        try:
-            w = character.get('weapon')
-            if isinstance(w, dict):
-                two_handed = bool(w.get('two_handed', False))
-            elif isinstance(w, str):
-                from modules.data_constants import WEAPON_TABLE
-                wd = WEAPON_TABLE.get(w.lower())
-                if isinstance(wd, dict):
-                    two_handed = bool(wd.get('two_handed', False))
-        except Exception:
-            pass
-        die = 16 if two_handed else 20
+        die = effective_initiative_die(character)
         roll = random.randint(1, die)
         total = roll + agi_mod
         entry = {"name": char_name, "display": f"{char_name} ({total})", "roll": int(total), "owner": character.get('owner')}
         INITIATIVE_ORDER.append(entry)
         INITIATIVE_ORDER.sort(key=lambda x: x.get('roll',0), reverse=True)
         await ctx.send(f"✅ `{char_name}` joined initiative: rolled {roll} + {agi_mod} = **{total}**. Use `!inext` to begin/advance turns.")
+
+    @bot.command(name='ijoin_mounted')
+    async def ijoin_mounted(ctx, rider_name: str = None, mount_name: str = None):
+        """Join initiative as a mounted pair using the worse AGI modifier; die based on rider's equipment."""
+        global INITIATIVE_OPEN, INITIATIVE_ORDER
+        if not INITIATIVE_OPEN:
+            await ctx.send("⚠️ Initiative is not open. Start it with `!init`.")
+            return
+        if not rider_name or not mount_name:
+            await ctx.send("Usage: `!ijoin_mounted <RiderName> <MountName>`")
+            return
+        rider_file = os.path.join(SAVE_FOLDER, f"{rider_name}.json")
+        mount_file = os.path.join(SAVE_FOLDER, f"{mount_name}.json")
+        if not os.path.exists(rider_file):
+            await ctx.send(f"❌ Rider `{rider_name}` not found.")
+            return
+        if not os.path.exists(mount_file):
+            await ctx.send(f"❌ Mount `{mount_name}` not found.")
+            return
+        try:
+            with open(rider_file,'r', encoding='utf-8') as f:
+                rider = json.load(f)
+            with open(mount_file,'r', encoding='utf-8') as f:
+                mount = json.load(f)
+        except Exception as e:
+            await ctx.send(f"⚠️ Failed to load records: {e}")
+            return
+        # Compute worse AGI modifier
+        r_agi = _ability_mod_from_char(rider, 'AGI')
+        m_agi = _ability_mod_from_char(mount, 'AGI')
+        worse_mod = min(int(r_agi or 0), int(m_agi or 0))
+        die = effective_initiative_die(rider)
+        roll = random.randint(1, die)
+        total = roll + worse_mod
+        display = f"{rider_name} mounted on {mount_name} ({total})"
+        entry = {"name": f"{rider_name} (mounted)", "display": display, "roll": int(total), "owner": rider.get('owner')}
+        INITIATIVE_ORDER.append(entry)
+        INITIATIVE_ORDER.sort(key=lambda x: x.get('roll',0), reverse=True)
+        await ctx.send(f"✅ `{rider_name}` (mounted on {mount_name}) joined initiative: rolled {roll} + {worse_mod} = **{total}**. Use `!inext` to begin/advance turns.")
+
+    @bot.command(name='ispook')
+    async def ispook(ctx, rider_name: str = None, training_bonus: int = 0, dc: int = 10):
+        """Make a rider Agility check to control a spooked mount. Usage: !ispook <RiderName> [training_bonus] [dc]"""
+        if not rider_name:
+            await ctx.send("Usage: `!ispook <RiderName> [training_bonus] [dc]`")
+            return
+        rider_file = os.path.join(SAVE_FOLDER, f"{rider_name}.json")
+        if not os.path.exists(rider_file):
+            await ctx.send(f"❌ Rider `{rider_name}` not found.")
+            return
+        try:
+            with open(rider_file,'r', encoding='utf-8') as f:
+                rider = json.load(f)
+        except Exception as e:
+            await ctx.send(f"⚠️ Failed to load rider: {e}")
+            return
+        try:
+            training_bonus = int(training_bonus)
+        except Exception:
+            training_bonus = 0
+        try:
+            dc = int(dc)
+        except Exception:
+            dc = 10
+        agi_mod = _ability_mod_from_char(rider, 'AGI')
+        roll = random.randint(1,20)
+        total = roll + int(agi_mod) + int(training_bonus)
+        outcome = "SUCCESS" if total >= dc else "FAIL"
+        await ctx.send(f"🐎 Spook check for `{rider_name}`: rolled {roll} + AGI {agi_mod:+} + training {training_bonus:+} = **{total}** vs DC {dc} → {outcome}.")
 
     @bot.command(name='inext')
     async def inext(ctx):
@@ -117,6 +174,62 @@ def register(bot: commands.Bot):
             if CURRENT_TURN_INDEX >= len(INITIATIVE_ORDER):
                 CURRENT_TURN_INDEX = 0
                 COMBAT_ROUND += 1
+        # Dying system turn tick: decrement remaining_turns for current combatant if dying
+        try:
+            cur_entry = INITIATIVE_ORDER[CURRENT_TURN_INDEX]
+            cname = str(cur_entry.get('name') or '').strip().lower()
+            path = os.path.join(SAVE_FOLDER, f"{cname}.json")
+            if os.path.exists(path):
+                with open(path,'r',encoding='utf-8') as f:
+                    rec = json.load(f)
+                hp_block = rec.get('hp') if isinstance(rec.get('hp'), dict) else {}
+                cur_hp = int(hp_block.get('current', 0) or 0)
+                dying = rec.get('dying') if isinstance(rec.get('dying'), dict) else None
+                if cur_hp == 0 and not rec.get('dead') and dying and 'remaining_turns' in dying:
+                    dying['remaining_turns'] = max(0, int(dying.get('remaining_turns',0)) - 1)
+                    if dying['remaining_turns'] <= 0:
+                        # Death occurs now
+                        rec['dead'] = True
+                        try:
+                            import time as _t
+                            rec['time_of_death'] = int(_t.time())
+                        except Exception:
+                            pass
+                        rec.pop('dying', None)
+                        await ctx.send(f"☠️ {cur_entry.get('name')} has succumbed (no healing received in time).")
+                    else:
+                        await ctx.send(f"💀 {cur_entry.get('name')} is DYING — {dying['remaining_turns']} turn(s) remain to receive healing.")
+                elif cur_hp > 0 and dying:
+                    # Stabilized implicitly by HP restore — apply permanent -1 STA, then clear dying
+                    try:
+                        abl = rec.setdefault('abilities', {})
+                        sta = abl.setdefault('STA', {})
+                        try:
+                            mx = int(sta.get('max', sta.get('current', sta.get('score', 1)) or 1))
+                        except Exception:
+                            mx = 1
+                        try:
+                            cur_sta = int(sta.get('current', mx) or mx)
+                        except Exception:
+                            cur_sta = mx
+                        new_max = max(1, mx - 1)
+                        new_cur = max(1, min(new_max, cur_sta - 1))
+                        sta['max'] = int(new_max)
+                        sta['current'] = int(new_cur)
+                        try:
+                            from modules.utils import get_modifier
+                            sta['mod'] = int(get_modifier(int(new_cur)))
+                        except Exception:
+                            pass
+                    except Exception:
+                        pass
+                    rec.pop('dying', None)
+                    await ctx.send(f"🩹 {cur_entry.get('name')} is no longer dying (HP restored). ⚠️ Lasting injury: STA -1 (permanent)")
+                # Persist any changes
+                with open(path,'w',encoding='utf-8') as f:
+                    json.dump(rec, f, indent=2)
+        except Exception:
+            pass
         lines = [f"__Initiative Order — Round {COMBAT_ROUND}:__"]
         for i,e in enumerate(INITIATIVE_ORDER):
             marker = "➡️" if i == CURRENT_TURN_INDEX else "   "

@@ -1,0 +1,1645 @@
+{
+    "name": "Wizard",
+    "alignment": "Neutral",
+    "class": "Wizard",
+    "level": 6,
+    "owner": 480727765881192448,
+    "occupation": "Weaver",
+    "weapon": "dagger",
+    "inventory": [
+        "dagger",
+        "fine cloth"
+    ],
+    "birth_augur": {
+        "sign": "Harsh winter",
+        "effect": "All attack rolls"
+    },
+    "max_luck_mod": 2,
+    "hp": {
+        "current": 27,
+        "max": 27
+    },
+    "luck": {
+        "current": 17,
+        "max": 17
+    },
+    "ac": 10,
+    "saves": {
+        "reflex": 1,
+        "fortitude": 3,
+        "will": 3
+    },
+    "initiative": 0,
+    "speed": 30,
+    "attack": 0,
+    "attack_bonus": 3,
+    "cp": 26,
+    "abilities": {
+        "STR": {
+            "max": 13,
+            "current": 13,
+            "mod": 1
+        },
+        "AGI": {
+            "max": 11,
+            "current": 11,
+            "mod": 0
+        },
+        "STA": {
+            "max": 13,
+            "current": 13,
+            "mod": 1
+        },
+        "INT": {
+            "max": 16,
+            "current": 16,
+            "mod": 0
+        },
+        "PER": {
+            "max": 7,
+            "current": 7,
+            "mod": -1
+        },
+        "LCK": {
+            "max": 17,
+            "current": 17,
+            "mod": 2
+        }
+    },
+    "armor": "unarmored",
+    "shield": false,
+    "fumble_die": "d4",
+    "action_die": "1d20",
+    "crit_die": "1d10",
+    "crit_table": "I",
+    "languages": [
+        "Neutrality"
+    ],
+    "notes": {
+        "levelup_log": [
+            {
+                "from_level": 0,
+                "to_level": 1,
+                "class": "Wizard",
+                "hp_gain": 4,
+                "roll": "1d4",
+                "sta_mod": 1,
+                "by": 480727765881192448,
+                "note": ""
+            },
+            {
+                "from_level": 1,
+                "to_level": 2,
+                "class": "Wizard",
+                "hp_gain": 5,
+                "roll": "1d4",
+                "sta_mod": 1,
+                "by": 480727765881192448,
+                "note": ""
+            },
+            {
+                "from_level": 2,
+                "to_level": 3,
+                "class": "Wizard",
+                "hp_gain": 2,
+                "roll": "1d4",
+                "sta_mod": 1,
+                "by": 480727765881192448,
+                "note": ""
+            },
+            {
+                "from_level": 3,
+                "to_level": 4,
+                "class": "Wizard",
+                "hp_gain": 2,
+                "roll": "1d4",
+                "sta_mod": 1,
+                "by": 480727765881192448,
+                "note": ""
+            },
+            {
+                "from_level": 4,
+                "to_level": 5,
+                "class": "Wizard",
+                "hp_gain": 4,
+                "roll": "1d4",
+                "sta_mod": 1,
+                "by": 480727765881192448,
+                "note": ""
+            },
+            {
+                "from_level": 5,
+                "to_level": 6,
+                "class": "Wizard",
+                "hp_gain": 5,
+                "roll": "1d4",
+                "sta_mod": 1,
+                "by": 480727765881192448,
+                "note": ""
+            }
+        ],
+        "patron_log": [
+            {
+                "level": 1,
+                "patron": "Bobugbubilz",
+                "by": 480727765881192448
+            }
+        ],
+        "spells_learned": [
+            {
+                "level": 1,
+                "by": 480727765881192448,
+                "wizard": [
+                    "L1: Cantrip, Magic Missile, Feather Fall, Mending, Ward Portal"
+                ]
+            },
+            {
+                "level": 2,
+                "by": 480727765881192448,
+                "wizard": [
+                    "L1: Sleep"
+                ]
+            },
+            {
+                "level": 3,
+                "by": 480727765881192448,
+                "wizard": [
+                    "L2: Phantasm, Invisible Companion, Scorching Ray, Shatter"
+                ]
+            },
+            {
+                "level": 4,
+                "by": 480727765881192448,
+                "wizard": [
+                    "L1: Choking Cloud",
+                    "L2: Strength"
+                ]
+            },
+            {
+                "level": 5,
+                "by": 480727765881192448,
+                "wizard": [
+                    "L2: Detect Invisible",
+                    "L3: Turn to Stone, Write Magic, Emirikol\u2019s Entropic Maelstrom"
+                ]
+            },
+            {
+                "level": 6,
+                "by": 480727765881192448,
+                "wizard": [
+                    "L1: Invoke Patron",
+                    "L3: Fireball"
+                ]
+            }
+        ]
+    },
+    "weapon_training": [
+        "dagger"
+    ],
+    "weapon_proficiencies": [
+        "dagger"
+    ],
+    "action_dice": "1d20+1d16",
+    "class_saves": {
+        "reflex": 1,
+        "fortitude": 2,
+        "will": 4
+    },
+    "hit_die": "1d4",
+    "title": "Sorcerer",
+    "patron": "Bobugbubilz",
+    "spells": {
+        "level_1": [
+            {
+                "name": "Cantrip",
+                "level": 1,
+                "range": {
+                    "text": "Varies."
+                },
+                "duration": {
+                    "text": "Varies."
+                },
+                "casting_time": "1 action",
+                "save": {
+                    "text": "None"
+                },
+                "description": [
+                    "As wizards learn their craft, they practice many minor incantations that produce simple visual or auditory effects. This spell can be used to apply magical energy to many minor tasks. With the inherent risks that come from spellcasting, few wizards are so bold as to frequently invoke cantrips, but their availability is sometimes valuable. The cantrip spell can be used to enact any effect the caster pronounces at casting, within the limits of the spell, as outlined on the spell check table below."
+                ],
+                "manifestation": {
+                    "text": "Varies."
+                },
+                "corruption": "{}.",
+                "misfire": {
+                    "die": "1d4",
+                    "table": {
+                        "1": "Caster accidentally summons a large bee that proceeds to chase him.",
+                        "2": "Caster generates a patch of glue that attaches his boot to the floor until it is broken with a DC 15 Strength check.",
+                        "3": "Caster\u2019s hair changes color (at judge\u2019s discretion).",
+                        "4": "Caster\u2019s eyes change color (at judge\u2019s discretion)."
+                    }
+                },
+                "results": {
+                    "1": {
+                        "text": "Lost, failure, and misfire.",
+                        "misfire": true,
+                        "lost": true
+                    },
+                    "2-11": {
+                        "text": "Lost. Failure.",
+                        "lost": true
+                    },
+                    "12-13": {
+                        "text": "The caster creates a simple visual effect at a distance of up to 20\u2019 per caster level. For example, a flash of light, dancing lights, a ray of moonlight, or a patch of darkness."
+                    },
+                    "14-17": {
+                        "text": "As above, or the caster can create a simple auditory effect at similar range. For example, a whispered sentence, enhancing his voice to a booming shout, a fake dog bark, or basic ventriloquism."
+                    },
+                    "18-19": {
+                        "text": "As above, or the caster can create a simple kinetic effect at similar range. For example, shove a mug off a table, tear the buttons off a dress, twist a knob, or cause a deck of cards to shuffle itself."
+                    },
+                    "20+": {
+                        "text": "As above, or the caster can generate a dangerous fluid or energy of some kind that does up to 1d3 damage. For example, a dollop of acid or a freezing chill."
+                    }
+                },
+                "mercurial": {
+                    "roll": 96,
+                    "effect": "Powerful caster. Instead of rolling as normal on a spell check, the wizard rolls a die improved by one step on the dice chain (e.g., d20 becomes d24).",
+                    "luck_mod": 2,
+                    "raw": 94
+                }
+            },
+            {
+                "name": "Magic Missile",
+                "level": 1,
+                "range": "150\u2019 or more",
+                "duration": "Instantaneous",
+                "casting_time": "1 action or 1 turn (see below)",
+                "save": {
+                    "text": "None"
+                },
+                "description": [
+                    "The caster hurls a magical missile that automatically hits an enemy."
+                ],
+                "manifestation": {
+                    "die": "1d10",
+                    "table": {
+                        "1": "meteor",
+                        "2": "flaming arrow",
+                        "3": "force arrow",
+                        "4": "screaming, clawing eagle",
+                        "5": "black beam",
+                        "6": "ball lightning",
+                        "7": "splash of acid",
+                        "8": "ray of frost",
+                        "9": "force dagger",
+                        "10": "force axe"
+                    }
+                },
+                "corruption": {
+                    "die": "1d8",
+                    "table": {
+                        "1": "caster\u2019s hands and forearms change color to match shades of most commonly cast magic missile: (1) electric yellow, (2) icy blue, (3) acid green, (4) vivid red",
+                        "2": "pupils and irises vanish while eyes turn a chalky white",
+                        "3": "fingertips turn translucent and nearly invisible, appearing ghost-like or as if they were composed of pure force energy",
+                        "4": "from now on, every time he casts magic missile, the caster turns invisible for 1d6 rounds",
+                        "5": "caster gains a permanent force stone that rapidly orbits his head, impacting with any creature that approaches within 3\u2019 to cause searing pain and 1 point of damage every round \u2013 which, unfortunately, includes allies attempting to heal or those who fight adjacent to the caster in melee",
+                        "6-7": "minor corruption",
+                        "8": "major corruption"
+                    }
+                },
+                "misfire": {
+                    "die": "1d6",
+                    "table": {
+                        "1": "Explosion of missiles sprays in all directions \u2013 all creatures within 100\u2019 (allies and enemies) are hit by 1d4-1 missiles, each doing 1 point of damage.",
+                        "2": "Missiles launch then ricochet back on caster, who is hit by 1d3-1 missiles for 1 point of damage each.",
+                        "3": "Explosion of force energy centered on caster, causing 1d6 damage to caster and all within 10\u2019 (DC 10 Ref save for half).",
+                        "4": "Delayed blast \u2013 no effect now, but at a random point sometime in the next 24 hours, determined whenever the caster rolls his next 1 on any dice roll (not just a d20), a single magic missile bolts forth to strike one randomly determined character within 100\u2019 for 1d4 damage (strikes the caster if there are no other targets) \u2013 if no 1 is rolled in 24 hours, risk passes without damage.",
+                        "5": "Caster becomes charged with force energy, such that the next creature or object he touches suffers a blast damage for 1d6+1 damage to target and 1 point of damage to caster.",
+                        "6": "Force energy manifests in downward direction, burning a hole in the ground under caster \u2013 ground beneath him rapidly disintegrates to a depth of 1d20 feet, and he sinks with the falling depth of the ground to find himself at bottom of pit \u2013 there is no initial falling damage since he \u201crides\u201d the drop in ground level but depth of pit may open to lower level of the dungeon (potentially causing damage), and he must now climb out."
+                    }
+                },
+                "results": {
+                    "1": {
+                        "text": "Lost, failure, and worse! Roll 1d6 modified by Luck: (0 or less) corruption + patron taint + misfire; (1-2) corruption; (3) patron taint (or corruption if no patron); (4+) misfire.",
+                        "misfire": true,
+                        "corruption": true,
+                        "lost": true
+                    },
+                    "2-11": {
+                        "text": "Lost. Failure.",
+                        "lost": true
+                    },
+                    "12-13": {
+                        "text": "The caster throws a single missile that does 1 point of damage. He must have line of sight to the target. The missile never misses, though it may be blocked by certain magic (e.g., magic shield)."
+                    },
+                    "14-17": {
+                        "text": "The caster throws a single missile that does damage equal to 1d4 + caster level. He must have line of sight to the target. The missile never misses, though it may be blocked by certain magic (e.g., magic shield)."
+                    },
+                    "18-19": {
+                        "text": "The caster throws 1d4 missiles that deal damage equal to 1d4 + caster level. All missiles must be aimed at a single target to which the caster has line of sight. The missiles never miss, though they may be blocked by certain magic (e.g., magic shield)."
+                    },
+                    "20-23": {
+                        "text": "The caster throws 1d4+2 missiles that do damage equal to 1d6 + caster level. Each missile can be aimed at a separate target to which the caster has line of sight. The missiles never miss, though they may be blocked by certain magic (e.g., magic shield)."
+                    },
+                    "24-27": {
+                        "text": "The caster throws a single powerful missile that does damage equal to 4d12 + caster level. The missile must be aimed at a single target to which the caster has line of sight, at a maximum range of 1,000\u2019. The missile never misses, though it may be blocked by certain magic (e.g., magic shield)."
+                    },
+                    "28-29": {
+                        "text": "The caster throws 1d6+3 missiles that do damage equal to 1d8 + caster level. Each missile can be aimed at a single target at any range, as long as the caster has line of sight. The missiles never miss, though they may be blocked by certain magic (e.g., magic shield)."
+                    },
+                    "30-31": {
+                        "text": "The caster throws 2d6+1 missiles that each do damage equal to 1d8 + caster level. Each missile can be aimed at a separate target. Range is line of sight, regardless of whether a direct path exists; e.g., the caster may launch a magic missile through a crystal ball or other scrying device. These missiles have limited ability to defy magic shield and other protections; compare this spell check against the spell check used to create the magic shield. If the magic missile check is higher, the magic shield has only a 50% chance of absorbing the missiles (roll individually for each missile). Any missiles that make it through do damage equal to 1d8 + caster level, as noted above."
+                    },
+                    "32+": {
+                        "text": "The caster throws 3d4+2 missiles that each do damage equal to 1d10 + caster level. He may direct these missiles individually as a single action, or he may direct them all at a single target that is not present or visible, provided he has specific knowledge of that target. In this case, the caster must have a physical memento of the target (hair, fingernail, vial of blood, etc.) and spend 1 turn concentrating to cast the spell, then continue concentrating as the missiles seek their target. The missiles seek out this target even if it is concealed or invisible, though they have a maximum range of 100 miles. The missiles turn, curve, retrace their route, and make every effort to reach the target, although they cannot cross planes. The missiles can travel up to 10 miles per second provided no obstacles are present, but speed is much lower if, for example, they must navigate underground caverns. Provided a direct route exists, the missiles strike the target unerringly."
+                    }
+                },
+                "mercurial": {
+                    "roll": 33,
+                    "effect": "Spectral manifestation. A ghostly figure appears and interacts with the caster for 1d4 rounds.",
+                    "luck_mod": 2,
+                    "raw": 31
+                }
+            },
+            {
+                "name": "Feather Fall",
+                "level": 1,
+                "range": "25\u2019",
+                "duration": "1 round per caster level or until landing",
+                "casting_time": "instantaneous",
+                "save": {
+                    "text": "Will to avoid"
+                },
+                "description": [
+                    "The caster impedes his own or another person\u2019s rate of descent when falling. This allows the target to avoid injury or death or to glide upon the breeze. Note that this spell can be cast instantaneously, out of initiative order, if the caster or a target within range is falling."
+                ],
+                "manifestation": {
+                    "die": "1d4",
+                    "table": {
+                        "1": "Folds of aerodynamic flesh sprout from the target\u2019s arms and legs.",
+                        "2": "The target glows with a wispy, featherlike aura of canary yellow.",
+                        "3": "The target\u2019s body hair is replaced with downy feathers.",
+                        "4": "The target\u2019s body curls like a fallen leaf to rock upon the winds."
+                    }
+                },
+                "corruption": {
+                    "die": "1d5",
+                    "table": {
+                        "1": "Caster\u2019s hair stands on end as if permanently plummeting through the air.",
+                        "2": "The caster makes all descents (climbing down ropes, walking down stairs, sliding down poles, etc.) at half normal speed.",
+                        "3": "Caster becomes subject to sporadic winds, which do not affect other characters, and must make a Strength check to stay upright (DC 5 for light winds, DC 10 for strong winds, and DC 15 against gusts).",
+                        "4": "Caster\u2019s hair permanently replaced by feathers.",
+                        "5": "Sound of whistling wind accompanies the caster wherever he goes."
+                    }
+                },
+                "misfire": {
+                    "die": "1d4",
+                    "table": {
+                        "1": "Caster\u2019s speed of descent is increased, resulting in an additional 1d6 damage upon impact.",
+                        "2": "Caster abruptly rises 10\u2019 into the air before falling to the ground (taking 1d6 points of damage, or 2d6 if there is a hard surface 10\u2019 or less above the caster\u2019s head).",
+                        "3": "Caster\u2019s clothing and other possessions turn ethereal for 1d6x10 minutes and cannot be worn or used.",
+                        "4": "Caster is blown 10-30 feet in a random direction by a gust of ghostly wind."
+                    }
+                },
+                "results": {
+                    "1": {
+                        "text": "Lost, failure, and worse! Roll 1d6 modified by Luck: (0 or less) corruption + patron taint + misfire; (1) corruption; (2) patron taint (or corruption if no patron); (3+) misfire.",
+                        "misfire": true,
+                        "corruption": true,
+                        "lost": true
+                    },
+                    "2-11": {
+                        "text": "Lost. Failure.",
+                        "lost": true
+                    },
+                    "12-13": {
+                        "text": "Caster reduces the speed at which he falls. With a successful Fortitude save (DC 10 +1 for each 10\u2019 fallen), he takes no damage. On a failed save, he suffers only half damage."
+                    },
+                    "14-17": {
+                        "text": "Caster falls at a graceful rate of 50\u2019 per round and takes no damage if he lands before the spell expires. Otherwise, he suffers half damage and is allowed a Fort save (DC 10 +1 for each 20\u2019 fallen) to avoid all damage."
+                    },
+                    "18-19": {
+                        "text": "Caster and three additional creatures within range fall at a rate of 50\u2019 round. They take no damage if they land before the spell expires. Otherwise, they suffer half damage and are allowed a Fort save (DC 10 +1 for each 20\u2019 fallen) to avoid all damage."
+                    },
+                    "20-23": {
+                        "text": "Caster and six additional creatures fall at a rate of 50\u2019 round. They take no damage if they land before the spell expires. Otherwise they suffer half damage and are allowed a Fort save (DC 10 +1 for each 20\u2019 fallen) to avoid all damage."
+                    },
+                    "24-27": {
+                        "text": "Caster gains the ability to glide on the air by leaping from a height 30\u2019 or more above the ground. The caster soars on the breeze, drifting back to earth at a vertical rate of 10\u2019 per round, arriving on the ground when he reaches the maximum distance he can glide. His movement rate is 60\u2019 per round while gliding, and if he fails to reach solid ground before the spell expires, he falls and suffers normal damage upon impact."
+                    },
+                    "28-29": {
+                        "text": "Caster and up to three additional creatures can glide on the winds. They soar on the breeze, drifting back to earth at a vertical rate of 10\u2019 per round, arriving on the ground when reaching the maximum distance they can glide. Their movement rate is 60\u2019 per round while gliding, and if they fail to reach solid ground before the spell expires, they fall and suffer normal damage upon impact."
+                    },
+                    "30-31": {
+                        "text": "Caster and up to six additional creatures can glide on the winds. They soar on the breeze, drifting back to earth at a vertical rate of 10\u2019 per round, arriving on the ground when reaching the maximum distance they can glide. Their movement rate is 60\u2019 per round while gliding, and if they fail to reach solid ground before the spell expires, they fall and suffer normal damage upon impact."
+                    },
+                    "32+": {
+                        "text": "Caster can fall any distance regardless of height or duration of fall without taking damage. Additionally, the caster is immune to any related hazards, such as thin atmosphere, intense cold, or even high temperatures generated by re-entry into an atmosphere from a vacuum."
+                    }
+                },
+                "mercurial": {
+                    "roll": 80,
+                    "effect": "Dimensional schism. By casting the spell, the wizard hurls himself into the warp of multiple realities. 1d7+1 duplicates of the caster appear, identical in nearly every respect, but each drawn from its own parallel universe. Attacks against the caster are randomly assigned across the doppelgangers. The doppelgangers remain for 1 round per spell level. There is a 1% chance per spell level that the original caster vanishes into one of the alternate realities, replaced by a nearly identical incarnation of opposite alignment and patron.",
+                    "luck_mod": 2,
+                    "raw": 78
+                }
+            },
+            {
+                "name": "Mending",
+                "level": 1,
+                "range": "5\u2019",
+                "duration": {
+                    "text": "Varies."
+                },
+                "casting_time": "1 round",
+                "save": {
+                    "text": "None"
+                },
+                "description": [
+                    "The caster can repair damaged objects, generally of a simple and mundane nature. The reverse spell, tear, can cause minor defects and offers a Fort save to the affected object."
+                ],
+                "corruption": {
+                    "die": "1d1",
+                    "table": {
+                        "1": "Minor corruption."
+                    }
+                },
+                "misfire": {
+                    "die": "1d6",
+                    "table": {
+                        "1": "Caster\u2019s clothes unravel and fall into a pile of threads at his feet.",
+                        "2": "All straps, laces, buckles, and fasteners within 20\u2019 of caster come undone, causing pants to fall off, shields to fall to the ground, sacks to spill their contents, boots to come unlaced, backpacks to slip from shoulders, etc.",
+                        "3": "Deep gouts of rust appear on all metal weapons within 10\u2019, imposing a permanent -1 penalty to damage.",
+                        "4": "A greenish patina tarnishes all precious metals on the caster\u2019s person, reducing their value (and making their metal content suspect) until they are polished.",
+                        "5": "The most complicated mechanical object within 20\u2019 (probably a crossbow but review character sheets to be sure) breaks in a manner that is very difficult to repair.",
+                        "6": "Caster suffers a minor but aggravating wound, such as a stubbed toe or bad hangnail, which causes no damage but inflicts a -1 penalty to all rolls for 10 minutes."
+                    }
+                },
+                "manifestation": {
+                    "die": "1d4",
+                    "table": {
+                        "1": "Object glows.",
+                        "2": "Object disappears then reappears mended.",
+                        "3": "Swarm of tiny gnomes crawl out from under nooks and crannies to repair object with hammer and anvil, then they run away.",
+                        "4": "Object melts and then reforms mended."
+                    }
+                },
+                "results": {
+                    "1": {
+                        "text": "Lost, failure, and worse! Roll 1d6 modified by Luck: (0 or less) corruption + misfire; (1) corruption; (2+) misfire.",
+                        "misfire": true,
+                        "corruption": true,
+                        "lost": true
+                    },
+                    "2-11": {
+                        "text": "Lost. Failure.",
+                        "lost": true
+                    },
+                    "12-13": {
+                        "text": "The caster repairs a minor defect in a simple object of non-magical, non-living nature. The repair lasts for 24 hours. The defect to be repaired must be of a single material, be no more than 1 cubic foot in volume, and contain no moving parts or complex mechanisms. Once repaired, the object is as good as new. Examples: mend a torn shirt, repair a dent in a helmet, connect the two halves of a broken sword, or restring a broken bow."
+                    },
+                    "14-17": {
+                        "text": "The caster repairs a minor defect in a simple object of non-magical, non-living nature. The repair lasts for one week. The defect to be repaired must be of a single material, be no more than 1 cubic foot in volume, and contain no moving parts or complex mechanisms. Once repaired, the object is as good as new. Examples: mend a torn shirt, repair a dent in a helmet, connect the two halves of a broken sword, or restring a broken bow."
+                    },
+                    "18-19": {
+                        "text": "The caster permanently repairs a minor defect in a simple object of non-magical, non-living nature. The defect to be repaired must be of a single material, be no more than 1 cubic foot in volume, and contain no moving parts or complex mechanisms. Once repaired, the object is as good as new. Examples: mend a torn shirt, repair a dent in a helmet, connect the two halves of a broken sword, or restring a broken bow. There is a 50% chance that the repaired object is actually substituted for a similar whole object. For example, instead of mending a torn tunic, an intact but different tunic appears. Somewhere, someone\u2019s intact tunic was replaced by a torn one!"
+                    },
+                    "20-23": {
+                        "text": "The caster permanently repairs one normal, complex object with moving parts and multiple elements. For example, he could repair a crossbow or a lock. The size of the object can be up to the caster\u2019s weight or volume. There is no chance of substitution."
+                    },
+                    "24-27": {
+                        "text": "The caster permanently repairs a large, complex object of mundane origin, with moving parts and multiple elements, at a range of up to 100\u2019. For example, he could restore a crumbled statue to its original form or rebuild a collapsed wagon. The object can have a weight or volume up to four times the caster\u2019s own."
+                    },
+                    "28-29": {
+                        "text": "The caster permanently repairs a very large, complex object of mundane origin, even if it has moving parts and multiple elements, at a range of up to 100\u2019. For example, he could reform the broken battlements of a tower with this spell. Larger objects take longer to mend, typically requiring concentration of one round per ton of weight."
+                    },
+                    "30-31": {
+                        "text": "The caster repairs very large objects of great complexity at a range of 100\u2019, even if they are magical in nature. Note that the specific object in question may require additional components beyond the scope of the normal casting of this spell. For example, a chinked magic sword could be mended normally, but mending a broken wizard\u2019s staff may require the same elemental energies that were present when it was created."
+                    },
+                    "32+": {
+                        "text": "The caster repairs very large objects, even if they are complex or magical in nature, at a range of 100\u2019. Optionally, the caster can cast this spell on a living creature to mend its wounds. Casting this spell on a living creature heals one debility per casting (e.g., blindness, deafness, a severed limb, etc.) or the equivalent of 2d6 hit points of damage."
+                    }
+                },
+                "mercurial": {
+                    "roll": 78,
+                    "effect": "Mentalism. The wizard can cast the spell using ESP alone. He need not move, speak, breathe, or use any material ingredients to invoke the effects.",
+                    "luck_mod": 2,
+                    "raw": 76
+                }
+            },
+            {
+                "name": "Ward Portal",
+                "level": 1,
+                "range": "10\u2019",
+                "duration": "Varies",
+                "casting_time": "1 action",
+                "save": "None",
+                "description": [
+                    "The caster magically wards a portal against passage. Any door, trap door, gate, portcullis, grate, or other such portal can be affected."
+                ],
+                "manifestation": {
+                    "die": "1d6",
+                    "table": {
+                        "1": "sigil engraved upon portal",
+                        "2": "portal clouded by unnatural shadow",
+                        "3": "portal turns to stone/iron/steel/rock",
+                        "4": "magic circle encloses portal",
+                        "5": "mass of chains and ropes binds portal",
+                        "6": "no visible effect"
+                    }
+                },
+                "corruption": {
+                    "die": "1d6",
+                    "table": {
+                        "1": "minor",
+                        "2": "minor",
+                        "3": "minor",
+                        "4": "major",
+                        "5": "major",
+                        "6": "greater"
+                    }
+                },
+                "misfire": {
+                    "die": "1d4",
+                    "table": {
+                        "1": "for next 1d6 hours, any door the caster approaches automatically slams shut and locks",
+                        "2": "all doors within 100\u2019 slam shut and lock",
+                        "3": "all doors within 100\u2019 automatically unlock and open",
+                        "4": "1d4 illusory doors appear on wall beside nearest door"
+                    }
+                },
+                "results": {
+                    "1": "Lost, failure, and worse! Roll 1d6 modified by Luck: (0 or less) corruption + patron taint + misfire; (1-2) corruption; (3+) misfire.",
+                    "2-11": "Lost. Failure.",
+                    "12-13": "Portal is stuck fast but can still be opened by mortal means with immense effort (DC 20 Strength check).",
+                    "14-17": "Portal is held in place for 2d6x10 minutes. It cannot be opened by mortal means, though a knock spell or powerful magical creature can open it.",
+                    "18-19": "Portal is held in place for 2d6 x 10 hours. It cannot be opened by mortal means, though a knock spell or powerful magical creature can open it.",
+                    "20-23": "Portal completely disappears, leaving in its place only a blank space of wall for 2d6 x10 hours. During this time, no passage is possible via normal means. Portal can be detected with a detect invisibility spell; if detected, it is treated as locked, and cannot be opened by mortal means except through a knock spell or similar powerful magic. When the portal re-appears, it remains locked for another 1d4 x10 hours.",
+                    "24-27": "Portal completely disappears, leaving in its place only a blank space of wall for 2d6 x10 days. During this time, no passage is possible via normal means. Portal can be detected with a detect invisibility spell; if detected, it is treated as locked, and cannot be opened by mortal means except through a knock spell or similar powerful magic. When the portal re-appears, it remains locked for another 2d6 x10 weeks. Additionally, any creature that opens the portal during the time of the ongoing effect (through magical means, of course) is subject to a curse: Will save or -2 Luck.",
+                    "28-29": "Portal completely disappears, leaving in its place only a blank space of wall for 4d6 x10 days. During this time, no passage is possible via normal means. Portal can be detected with a detect invisibility spell; if detected, it is treated as locked, and cannot be opened by mortal means except through a knock spell or similar powerful magic. When the portal re-appears, it remains locked for another 4d6 x10 weeks. Additionally, any creature that opens the portal during the time of the ongoing effect (through magical means, of course) is subject to a curse: Will save or -2 Luck.",
+                    "30-31": "Portal completely disappears, leaving in its place only a blank space of wall for 4d6 x10 days. The portal will reappear and unlock by the mental command of the caster. Otherwise, during this time, no passage is possible via normal means. Portal can be detected with a detect invisibility spell; if detected, it is treated as locked, and cannot be opened by mortal means except through a knock spell or similar powerful magic. When the portal re-appears, it remains locked for another 4d6 x10 weeks. Additionally, any creature that opens the portal during the time of the ongoing effect (through magical means, of course) is subject to a curse: Will save or -2 Luck. Finally, a guardian is summoned. Any creature that attempts to open the door is attacked by something that lashes out from the door with: (roll 1d4) (1) tentacles, (2) fangs, (3) claws, (4) barbed tail. The attacking appendage has the following statistics: Atk +6, 1d6 dmg, AC 16, 20 hp.",
+                    "32+": "Portal completely disappears, leaving in its place only a blank space of wall. This is an ongoing permanent effect. The portal will reappear and unlock by the mental command of the caster, but until then, no passage is possible via normal means. Portal can be detected with a detect invisibility spell; if detected, it is treated as locked, and cannot be opened by mortal means except through a knock spell or similar powerful magic. Any creature that forces open the portal against the caster\u2019s intent is subject to a curse: Will save or -2 Luck. Finally, a guardian is summoned. Any creature that attempts to open the door is attacked by something that lashes out from the door with: (roll 1d4) (1) tentacles, (2) fangs, (3) claws, (4) barbed tail. The attacking appendage has the following statistics: Atk +12, 2d6 dmg, AC 18, 40 hp."
+                },
+                "mercurial": {
+                    "roll": 100,
+                    "effect": "Roll again twice, but instead of rolling d%, roll 4d20 modified by the wizard\u2019s Luck adjustment (in increments of 10%).",
+                    "luck_mod": 2,
+                    "raw": 98
+                }
+            },
+            {
+                "name": "Sleep",
+                "level": 1,
+                "range": "60\u2019",
+                "duration": "Varies",
+                "casting_time": "1 action",
+                "save": "Will vs. spell check DC",
+                "description": [
+                    "The caster lulls a target into a deep, sound sleep."
+                ],
+                "manifestation": {
+                    "die": "1d4",
+                    "table": {
+                        "1": "ray of shimmering dust",
+                        "2": "swan\u2019s wings which rise from the earth to enfold target",
+                        "3": "soft white clouds that engulf target\u2019s head",
+                        "4": "waves of blue light"
+                    }
+                },
+                "corruption": {
+                    "die": "1d6",
+                    "table": {
+                        "1": "caster acquires persistent insomnia, which has no immediate obvious effect but manifests as an ongoing penalty to all rolls. as his sleep deprivation increases, starting with -1 and increasing to -2 after a week and -3 after a month",
+                        "2": "caster emits a noxious odor that causes heads to turn within 20\u2019",
+                        "3": "minor",
+                        "4": "minor",
+                        "5": "major",
+                        "6": "major"
+                    }
+                },
+                "misfire": {
+                    "die": "1d4",
+                    "table": {
+                        "1": "caster immediately falls into a natural sleep",
+                        "2": "caster plus 1d4 closest allies immediately fall into a natural sleep",
+                        "3": "caster collapses into a coma, from which he can only be awakened with medical attention or magical means",
+                        "4": "caster jolts all creatures within 50\u2019 to total alertness, cancelling all sleep (magical or otherwise) as well as all dazes, hallucinations, and other distractions"
+                    }
+                },
+                "results": {
+                    "1": "Lost, failure, and worse! Roll 1d6 modified by Luck: (0 or less) corruption + misfire; (1) corruption; (2+) misfire.",
+                    "2-11": "Lost. Failure.",
+                    "12-13": "One target within range must make its save or fall asleep for 1d6 turns. Target can be awakened through normal means. When casting the spell, the caster must specify an interrupt condition which automatically awakens the target. For example, being kissed by a prince, smelling the fragrance of a rose, or hearing a clock strike midnight. The caster must possess material components related to the interrupt condition.",
+                    "14-17": "Up to two targets within range must save or fall asleep for 1d6 turns. Targets can be awakened through normal means. When casting the spell, the caster must specify an interrupt condition which automatically awakens the target. For example, being kissed by a prince, smelling the fragrance of a rose, or hearing a clock strike midnight. The caster must possess material components related to the interrupt condition.",
+                    "18-19": "Up to three targets within range must save or fall asleep for 1d4 hours. Targets can be awakened through normal means. When casting the spell, the caster must specify an interrupt condition which automatically awakens the target. For example, being kissed by a prince, smelling the fragrance of a rose, or hearing a clock strike midnight. The caster must possess material components related to the interrupt condition.",
+                    "20-23": "Up to four targets must save or fall into a normal sleep for 1d6 hours, or one target can be placed in a supernatural sleep for 1d4 hours. While normal sleep can be interrupted by normal means, the supernatural sleep can be disrupted only via dispel magic or similar cancellation effects. However, both normal and supernatural sleep must have a specified interrupt condition which automatically awakens the target. For example, being kissed by a prince, smelling the fragrance of a rose, or hearing a clock strike midnight. The caster must possess material components related to the interrupt condition.",
+                    "24-27": "Up to eight targets must save or fall into a normal sleep for 1d7 days, or one target can be placed in a supernatural sleep for 1d3 days with no saving throw. While normal sleep can be interrupted by normal means, the supernatural sleep can be disrupted only via dispel magic or similar cancellation effects. However, both normal and supernatural sleep must have a specified interrupt condition which automatically awakens the target. For example, being kissed by a prince, smelling the fragrance of a rose, or hearing a clock strike midnight. The caster must possess material components related to the interrupt condition.",
+                    "28-29": "With a range of 200\u2019, the caster can place a single target into a supernatural, ongoing, endless sleep with no saving throw; or normal ongoing sleep (with a save) to a group of up to 16 targets. While the normal sleep can interrupted by normal means, the supernatural sleep can be interrupted only by one specified interrupt condition (e.g., the kiss of a prince or the fragrance of a rose) or anti-magic effects such as dispel magic.",
+                    "30-31": "The caster puts great crowds of people to sleep. All unfriendly creatures within a 200\u2019 radius must make a saving throw or fall asleep. The sleep is natural and the targets can be awakened with normal means (rough shaking, water on the face, etc.). The creatures remain asleep for 1d7+1 days if not awakened.",
+                    "32+": "Natural slumber to all things: the caster causes the world around him to slow and sleep. All creatures within 500 yards fall asleep. Creatures of 4 or fewer HD receive no save. The affected creatures include birds, insects, and small animals as well as people. Both friendly and unfriendly creatures are affected. Plants are also affected; those that close their petals or retract flowers at night behave as if it is nighttime. The effect is supernatural in aspect and cannot be disturbed. The affected world continues to slumber until a specific interrupt condition occurs (e.g., the new moon rises, or 100 years have passed). Only powerful magic can end the effect sooner."
+                },
+                "mercurial": {
+                    "roll": 48,
+                    "effect": "No change. The spell manifests as standard.",
+                    "luck_mod": 2,
+                    "raw": 46
+                }
+            },
+            {
+                "name": "Choking Cloud",
+                "level": 1,
+                "range": "50\u2019 or more",
+                "duration": {
+                    "text": "Varies."
+                },
+                "casting_time": "1 action",
+                "save": {
+                    "text": "None"
+                },
+                "description": [
+                    "The caster summons forth a cloud of caustic, acidic mist that chokes his target."
+                ],
+                "manifestation": {
+                    "die": "1d8",
+                    "table": {
+                        "1": "black cloud",
+                        "2": "translucent mist",
+                        "3": "explosion of ash",
+                        "4": "geyser that erupts from the ground below the target",
+                        "5": "yellow-green cloud",
+                        "6": "red mist",
+                        "7": "thick, oily fog",
+                        "8": "blue cloud"
+                    }
+                },
+                "corruption": {
+                    "die": "1d8",
+                    "table": {
+                        "1": "Caster\u2019s breath is now a toxic gas; whenever he exhales, anyone immediately adjacent must make a DC 12 Fort save or be ill for 1d4 hours (-1 to all rolls while sickened).",
+                        "2": "Caster is surrounded at all times by a toxic cloud which automatically sickens everyone within 5\u2019 for 1d4 hours unless they make a DC 12 Fort save (-1 to all rolls while sickened).",
+                        "3": "Caster\u2019s eyes change to translucent orbs which reveal a whirling cloud of gas.",
+                        "4": "Certain kinds of creatures are able to detect the caster automatically if he is within half a mile and are attracted to him, notably incorporeal and ethereal creatures, as well as any monster from the elemental plane of air.",
+                        "5-8": "Minor corruption."
+                    }
+                },
+                "misfire": {
+                    "die": "1d4",
+                    "table": {
+                        "1": "Cloud of toxic gas explodes at a point centered on the caster (1d4x10\u2019 radius, 1d4 damage to all within plus DC 12 Fort save or blinded for 1d4 rounds).",
+                        "2": "Caster creates cloud successfully, but it is a healing cloud that heals 1d4 damage to all within 20\u2019 of intended target.",
+                        "3": "Cloud of toxic gas inadvertently catches fire, sparked by some nearby torch or lantern, and explodes as it emerges from the caster\u2019s hand, causing 1d8 fire damage to the caster and everyone within 10\u2019 of him.",
+                        "4": "Caster successfully creates cloud, but it is entirely useless, serving only to create a vague, misty cloud that has no other impact."
+                    }
+                },
+                "results": {
+                    "1": {
+                        "text": "Lost, failure, and worse! Roll 1d6 modified by Luck: (0 or less) corruption + misfire + patron taint; (1) corruption; (2) patron taint (or corruption if no patron); (3+) misfire.",
+                        "misfire": true,
+                        "corruption": true,
+                        "lost": true
+                    },
+                    "2-11": {
+                        "text": "Lost. Failure.",
+                        "lost": true
+                    },
+                    "12-13": {
+                        "text": "One designated target is engulfed in a caustic, stinking cloud for 1d4 rounds, suffering a -1 penalty to all rolls (including attacks, damage, skills, and saves). The cloud follows the target; it cannot escape."
+                    },
+                    "14-17": {
+                        "text": "Up to 1d4 small individual clouds of toxic gas appear around selected multiple targets, all of which must be within range. Each cloud inflicts a -1 penalty to all rolls (including attacks, damage, skills, and saves) for 1d4 rounds. The clouds follow their targets; they cannot escape."
+                    },
+                    "18-19": {
+                        "text": "A single acidic, poisonous cloud appears with a radius of 20\u2019 centered on a target of the caster\u2019s choosing. For 1d4+2 rounds, targets in the cloud suffer a -2 penalty to all rolls (attacks, damage, skills, and saves) and take 1 point of damage each round. The caster can direct the cloud by concentrating; it moves up to 50\u2019 per round at his command."
+                    },
+                    "20-23": {
+                        "text": "A single acidic, poisonous cloud appears with a radius of 20\u2019 centered on a target of the caster\u2019s choosing. For 2d4+4 rounds, targets in the cloud suffer a -2 penalty to all rolls (attacks, damage, skills, and saves), take 2 points of damage each round, and must make a Fort save when first exposed or be poisoned (-1d4 Agility, duration 1 day). The caster can direct the cloud by concentrating; it moves up to 50\u2019 per round at his command."
+                    },
+                    "24-27": {
+                        "text": "A single acidic, poisonous cloud appears with a radius of 20\u2019 centered on a target of the caster\u2019s choosing within a 100\u2019 range. For 2d4+4 rounds, targets in the cloud suffer a -4 penalty to all rolls (attacks, damage, skills, and saves), take 4 points of damage each round, and must make a Fort save when first exposed or be poisoned (-2d4 Agility, duration 1 day). The caster can direct the cloud by concentrating; it moves up to 50\u2019 per round at his command."
+                    },
+                    "28-29": {
+                        "text": "A single acidic, poisonous cloud appears with a radius of 30\u2019 centered on a target of the caster\u2019s choosing within a 200\u2019 range. For 3d4+6 rounds, targets in the cloud suffer a -4 penalty to all rolls (attacks, damage, skills, and saves), take 8 points of damage each round, and must make a Fort save when first exposed or be poisoned (-3d4 Agility, duration 1d4 days). The caster can direct the cloud by concentrating; it moves up to 50\u2019 per round at his command."
+                    },
+                    "30-31": {
+                        "text": "The caster can create two acidic, poisonous clouds. Each appears with a radius of 30\u2019 centered on a target of the caster\u2019s choosing within a 200\u2019 range. For 3d4+6 rounds, targets in the clouds suffer a -4 penalty to all rolls (attacks, damage, skills, and saves), take 8 points of damage each round, and must make a Fort save when first exposed or be poisoned (-3d4 Agility, duration 1d4 days). The caster can direct the clouds at will, without concentrating; they move up to 50\u2019 per round at his command."
+                    },
+                    "32+": {
+                        "text": "The caster calls down three toxic clouds of unmatched lethality. For each cloud, he can choose a size ranging from a single target up to a 30\u2019 radius. The clouds can be targeted anywhere within 500\u2019. The clouds come into existence instantly and remain for 1d4 turns. Each target within the clouds must make a Fort save or be killed immediately. Those that survive suffer a -6 penalty to all rolls (attacks, damage, skills, and saves) and take 10 points of damage each round from the toxic gases. The caster can direct the clouds at will, without concentrating; they move up to 50\u2019 per round at his command."
+                    }
+                },
+                "mercurial": {
+                    "roll": 45,
+                    "effect": "No change. The spell manifests as standard.",
+                    "luck_mod": 2,
+                    "raw": "1d100=43; luck=+2"
+                }
+            },
+            {
+                "name": "Invoke Patron",
+                "level": 1,
+                "range": "Self",
+                "duration": {
+                    "text": "Varies."
+                },
+                "casting_time": "1 round (may be cast only a limited number of times, according to results of patron bond)",
+                "save": {
+                    "text": "None"
+                },
+                "description": [
+                    "In order to learn this spell, the caster must first cast patron bond. The particulars of this spell vary according to the terms of the patron. In casting this spell, the wizard invokes the name of a supernatural patron to request aid. This spell requires at least 1 point of spellburn. The patron responds by sending aid according to the nature of its followers; the judge will provide specifics. Note that continued casting of this spell may taint the wizard spiritually and physically."
+                ],
+                "manifestation": {
+                    "text": "Varies."
+                },
+                "corruption": {
+                    "die": "1d8",
+                    "table": {
+                        "1-4": "Minor corruption.",
+                        "5-7": "Major corruption.",
+                        "8": "Greater corruption."
+                    }
+                },
+                "misfire": {},
+                "results": {
+                    "1": {
+                        "text": "Lost, failure, and worse! Roll 1d6 modified by Luck: (3 or less) corruption + patron taint; (4-5) corruption; (6+) patron taint.",
+                        "corruption": true,
+                        "patron_taint": true,
+                        "lost": true
+                    },
+                    "2-11": {
+                        "text": "Failure. Unlike other spells, invoke patron may not be lost for the day. Depending on the results of patron bond, the wizard may still be able to cast it.",
+                        "lost": false
+                    },
+                    "12-13": {
+                        "text": "Per judge."
+                    },
+                    "14-17": {
+                        "text": "Per judge."
+                    },
+                    "18-19": {
+                        "text": "Per judge."
+                    },
+                    "20-23": {
+                        "text": "Per judge."
+                    },
+                    "24-27": {
+                        "text": "Per judge."
+                    },
+                    "28-29": {
+                        "text": "Per judge."
+                    },
+                    "30-31": {
+                        "text": "Per judge."
+                    },
+                    "32+": {
+                        "text": "Per judge."
+                    }
+                },
+                "mercurial": {
+                    "roll": 51,
+                    "effect": "No change. The spell manifests as standard.",
+                    "luck_mod": 2,
+                    "raw": "1d100=49; luck=+2"
+                }
+            }
+        ],
+        "level_2": [
+            {
+                "name": "Phantasm",
+                "level": 2,
+                "range": "100\u2019 or more",
+                "duration": "1 round or longer, with concentration",
+                "casting_time": "1 round",
+                "save": "Will vs. spell check DC",
+                "description": [
+                    "With this spell, the caster creates a simple illusion. The illusion is strictly visual, with no aural, tactile, or olfactory components. With concentration, the caster can manipulate the illusion."
+                ],
+                "manifestation": {
+                    "text": "See below."
+                },
+                "corruption": {
+                    "die": "1d6",
+                    "table": {
+                        "1": "the caster\u2019s left hand is transformed into a phantasm, becoming insubstantial and unable to grasp objects, although it appears real; the caster can no longer use two-handed weapons or otherwise manipulate objects with his left hand",
+                        "2": "the caster becomes a matter-magnet, automatically granting \u201creal\u201d solidity to any illusion he touches",
+                        "3-5": "minor",
+                        "6": "major"
+                    }
+                },
+                "misfire": {
+                    "die": "1d4",
+                    "table": {
+                        "1": "the caster transforms one nearby ally into a phantasm, causing that ally\u2019s image to \u201cloop\u201d on the same motions taken over the last few rounds, until the ally re-appears in 1d6+1 rounds with no memory of what has happened",
+                        "2": "the caster creates a completely unbelievable phantasm, such as a translucent man or a very poorly animated scarecrow, which proceeds to follow him around for the rest of the day",
+                        "3": "the caster summons into existence an extremely believable illusion of a deadly beast (such as a lion) which appears nearby and lunges at him before vanishing at the moment of impact, forcing a DC 10 Fort save or inflicting a -1 shock penalty to all rolls for the next 1d6 rounds",
+                        "4": "the caster cannot control his illusions and generates a series of fantastic images related to faeries, gnomes, and unicorns, which frolic about him for the next 1d4 hours, drawing attention to him in almost all circumstances"
+                    }
+                },
+                "results": {
+                    "1": {
+                        "text": "Lost, failure, and worse! Roll 1d6 modified by Luck: (0 or less) corruption + patron taint + misfire; (1-3) corruption; (4) patron taint (or corruption if no patron); (5+) misfire.",
+                        "misfire": true,
+                        "corruption": true,
+                        "lost": true
+                    },
+                    "2-11": {
+                        "text": "Lost. Failure.",
+                        "lost": true
+                    },
+                    "12-13": {
+                        "text": "Failure, but spell is not lost."
+                    },
+                    "14-15": {
+                        "text": "With full concentration for one round, the caster can create an image up to man-sized. The image must be something of which the caster has visual reference (such as a table resting nearby, or an adjacent ally) or has seen recently and studied carefully for at least one hour. The image springs into existence at a point indicated by the caster within 100\u2019 and line of sight. It cannot move. It remains in place up to a maximum of 2 turns, as long as the caster concentrates. A creature with reason to disbelieve the illusion can make a Will save to see through it. Any creature that touches the illusion automatically discovers it is not real."
+                    },
+                    "16-19": {
+                        "text": "With full concentration for one round, the caster can create an image up to man-sized. The image must be something of which the caster has visual reference (such as a table resting nearby, or an adjacent ally) or has seen recently and studied carefully for at least one hour. The image springs into existence at a point indicated by the caster within 100\u2019 and line of sight. The caster can cause the phantasm to move up to 5\u2019 per round with concentration, though it is not animated. For example, he could cause a phantasmal lantern to bob in the air as if carried by a man, but if he made a phantasmal man carrying a lantern, the entire phantasm would simply shift in place by 5\u2019 rather than appear to actually walk. The phantasm remains in place up to a maximum of 2 turns, as long as the caster concentrates. A creature with reason to disbelieve the illusion can make a Will save to see through it. Any creature that touches the illusion automatically discovers it is not real."
+                    },
+                    "20-21": {
+                        "text": "With full concentration for one round, the caster can create an image up to man-sized. The image must be something of which the caster has visual reference (such as a table resting nearby, or an adjacent ally) or has seen recently and studied carefully for at least one hour. The image springs into existence at a point indicated by the caster within 100\u2019 and line of sight. The caster can cause the phantasm to move up to 30\u2019 per round with concentration, and the phantasm will animate as if it is actually moving, provided the caster has visual reference or has carefully studied examples. For example, he could cause a phantasmal soldier to appear to actually walk. The phantasm remains in place up to a maximum of 1 hour, as long as the caster concentrates, and must remain within 100\u2019of the caster even while moving. If it moves beyond this range, it vanishes. A creature with reason to disbelieve the illusion can make a Will save to see through it. Any creature that touches the illusion automatically discovers it is not real."
+                    },
+                    "22-25": {
+                        "text": "With full concentration for one round, the caster can create an image up to giant-sized, which he can cause to \u201cloop\u201d on a predetermined visual track. The image must be something of which the caster has visual reference (such as a table resting nearby, or an adjacent ally) or has seen recently and studied carefully for at least one hour. The image springs into existence at a point indicated by the caster within 1,000\u2019 and line of sight. The caster can cause the phantasm to move up to 30\u2019 per round with concentration, and the phantasm will animate as if it is actually moving, provided the caster has visual reference or has carefully studied examples. For example, he could cause a phantasmal soldier to appear to actually walk. To create a repeating visual loop, the caster must concentrate to establish the initial path of movement and motions. Thereafter, if his concentration lapses, the phantasm repeats that movement track until the spell expires or until the caster initiates concentration again to change the track. The phantasm remains in place up to a maximum of 1 hour, \u201clooping\u201d whenever the caster\u2019s concentration lapses. It must remain within 1,000\u2019 of the caster, even while moving. If it moves beyond this range, it vanishes. A creature with reason to disbelieve the illusion can make a Will save to see through it. Any creature that touches the illusion automatically discovers it is not real."
+                    },
+                    "26-29": {
+                        "text": "With full concentration for one round, the caster can create an image of up to castle-sized, which he can cause to \u201cloop\u201d on a predetermined visual track. The image must be something of which the caster has visual reference (such as a table resting nearby, or an adjacent ally) or has seen recently and studied carefully for at least one hour. The image springs into existence at a point indicated by the caster within 1,000\u2019 and line of sight, but once created it can move beyond this range. The caster can cause the phantasm to move up to 60\u2019 per round with concentration, and the phantasm will animate as if it is actually moving, provided the caster has visual reference or has carefully studied examples. For example, he could cause a phantasmal soldier to appear to actually walk. To create a repeating visual loop, the caster must concentrate to establish the initial path of movement and motions. Thereafter, if his concentration lapses, the phantasm repeats that movement track until the spell expires or until the caster initiates concentration again to change the track. The phantasm remains in place up to a maximum of 1 day, \u201clooping\u201d whenever the caster\u2019s concentration lapses. It remains in existence even if the caster leaves the 1,000\u2019 range, automatically \u201clooping\u201d when the caster is gone. A creature with reason to disbelieve the illusion can make a Will save to see through it. Any creature that touches the illusion automatically discovers it is not real."
+                    },
+                    "30-31": {
+                        "text": "With full concentration for one round, the caster can create an image up to castle-sized, which he can cause to \u201cloop\u201d on a predetermined visual track. The image must be something of which the caster has visual reference (such as a table resting nearby, or an adjacent ally) or has seen recently and studied carefully for at least one hour. The image can be complex, such as a castle with knights marching along its ramparts. The image springs into existence at a point indicated by the caster within 1,000\u2019 and line of sight, but once created it can move beyond this range. The caster can cause the phantasm to move up to 60\u2019 per round with concentration, and the phantasm will animate as if it is actually moving, provided the caster has visual reference or has carefully studied examples. For example, he could cause a phantasmal soldier to appear to actually walk. To create a repeating visual loop, the caster must concentrate to establish the initial path of movement and motions. Thereafter, if his concentration lapses, the phantasm repeats that movement track until the spell expires or until the caster initiates concentration again to change the track. The phantasm remains in place up to a maximum of 1 week, \u201clooping\u201d whenever the caster\u2019s concentration lapses. It remains in existence even if the caster leaves the 1,000\u2019 range, automatically \u201clooping\u201d when the caster is gone. A creature with reason to disbelieve the illusion can make a Will save to see through it. Any creature that touches the illusion automatically discovers it is not real."
+                    },
+                    "32-33": {
+                        "text": "With full concentration for one round, the caster can create an image up to castle-sized, which he can cause to \u201cloop\u201d on a predetermined visual track. The image must be something of which the caster has visual reference (such as a table resting nearby, or an adjacent ally) or has seen recently and studied carefully for at least one hour. The image can be complex, such as a castle with knights marching along its ramparts. The image springs into existence at a point indicated by the caster within 1,000\u2019 and line of sight, but once created it can move beyond this range. The caster can cause the phantasm to move up to 60\u2019 per round with concentration, and the phantasm will animate as if it is actually moving, provided the caster has visual reference or has carefully studied examples. For example, he could cause a phantasmal soldier to appear to actually walk. To create a repeating visual loop, the caster must concentrate to establish the initial path of movement and motions. Thereafter, if his concentration lapses, the phantasm repeats that movement track until the spell expires or until the caster initiates concentration again to change the track. The phantasm remains in place up to a maximum of 1 month, \u201clooping\u201d whenever the caster\u2019s concentration lapses. It remains in existence even if the caster leaves the 1,000\u2019 range, automatically \u201clooping\u201d when the caster is gone. A creature with reason to disbelieve the illusion can make a Will save to see through it. Any creature that touches the illusion automatically discovers it is not real."
+                    },
+                    "34+": {
+                        "text": "With full concentration for one round, the caster can create any image he can imagine, of any size or complexity, and make it appear three-dimensional and real. The image can contain many complex motions. The caster need not have visual reference, and the strength of this spellcasting will \u201cfill in the gaps\u201d on images he imagines but has not seen, though sometimes such use of the spell creates inaccuracies in the details that may alert a viewer to the scene\u2019s illusionary nature. The image springs into existence at a point indicated by the caster anywhere within line of sight, but once created it can move beyond this range. The caster can cause the phantasm to move up to 100\u2019 per round, and the phantasm will animate as if it is actually moving. To create a repeating visual loop, the caster must concentrate to establish the initial path of movement and motions. Thereafter, if his concentration lapses, the phantasm repeats that movement track until the spell expires or until the caster initiates concentration again to change the track. The phantasm remains in place up to a maximum of 1 year, \u201clooping\u201d whenever the caster\u2019s concentration lapses. It remains in existence even if the caster leaves the scene of creation, automatically \u201clooping\u201d when the caster is gone. A creature with reason to disbelieve the illusion can make a Will save to see through it. Any creature that touches the illusion automatically discovers it is not real."
+                    }
+                },
+                "mercurial": {
+                    "roll": 13,
+                    "effect": "Slow cast. The spell requires twice the normal time to cast.",
+                    "luck_mod": 2,
+                    "raw": "1d100=11; luck=+2"
+                }
+            },
+            {
+                "name": "Invisible Companion",
+                "level": 2,
+                "range": "Varies",
+                "duration": "Varies",
+                "casting_time": "1 turn",
+                "save": "N/A",
+                "description": [
+                    "General The caster summons forth an invisible creature to do his bidding. This invisible companion is under the caster\u2019s control and undertakes various tasks."
+                ],
+                "manifestation": {
+                    "text": "N/A \u2013 invisible!"
+                },
+                "corruption": {
+                    "die": "1d6",
+                    "table": {
+                        "1-3": "minor",
+                        "4-5": "major",
+                        "6": "greater"
+                    }
+                },
+                "misfire": {
+                    "die": "1d4",
+                    "table": {
+                        "1": "the caster accidentally turns his nearest ally invisible for 1d6 rounds",
+                        "2": "the caster accidentally turns his nearest enemy invisible for 1d6 rounds",
+                        "3": "the caster summons a visible companion which is deformed and horrible to look upon, such that until it is dismissed or 1d6 turns pass, the caster and all who look upon it must make DC 8 Fort saves or spend a round nauseated and vomiting",
+                        "4": "the caster summons an invisible \u201ccompanion\u201d which is an obese, flatulent amphibian that will not leave until 1d6 hours have passed and makes constant noises and odors until then."
+                    }
+                },
+                "results": {
+                    "1": {
+                        "text": "Lost, failure, and worse! Roll 1d6 modified by Luck: (0 or less) corruption + patron taint + misfire; (1-3) corruption; (4) patron taint (or corruption if no patron); (5+) misfire.",
+                        "lost": true,
+                        "misfire": true,
+                        "patron_taint": true,
+                        "corruption": true
+                    },
+                    "2-11": {
+                        "text": "Lost. Failure.",
+                        "lost": true
+                    },
+                    "12-13": {
+                        "text": "Failure, but spell is not lost."
+                    },
+                    "14-15": {
+                        "text": "The caster summons an invisible companion who serves for up to 1 turn or until dismissed or killed and provided it is contained within a magic circle that the caster draws. After that turn, or when the circle is broken, the companion departs. The companion moves within the circle at 30\u2019, is considered to have ability scores of 12, can carry the same amount of gear as a strong man, and can perform any action a normal man could perform. It listens but never speaks. It has AC 16, 1d8 hp, and all attacks against it have a 50% chance of missing due to its invisibility. It can wield weapons at a +1 attack bonus. It is, of course, invisible, but does leave footprints or handprints depending on the activities directed by the caster."
+                    },
+                    "16-19": {
+                        "text": "The caster summons an invisible companion who serves for up to 1d6 turns or until dismissed or killed. No magic circle is required. It can venture up to 100\u2019 from the caster. The companion moves at 30\u2019, is considered to have ability scores of 12, can carry the same amount of gear as a strong man, and can perform any action a normal man could perform. It listens but never speaks. It has AC 16, 1d8 hp, and all attacks against it have a 50% chance of missing due to its invisibility. It can wield weapons at a +1 attack bonus. It is, of course, invisible, but does leave footprints or handprints depending on the activities directed by the caster."
+                    },
+                    "20-21": {
+                        "text": "The caster summons an invisible companion who serves for up to 2d6 hours or until dismissed or killed. No magic circle is required. It can venture up to 1 mile from the caster. The companion moves at 30\u2019, is considered to have ability scores of 16, can carry the same amount of gear as a strong man, and can perform any action a normal man could perform. It listens but never speaks. It has AC 18, 2d8 hp, and all attacks against it have a 50% chance of missing due to its invisibility. It can wield weapons at a +3 attack bonus. It is, of course, invisible, but does leave footprints or handprints depending on the activities directed by the caster."
+                    },
+                    "22-25": {
+                        "text": "The caster summons an invisible companion who serves for up to 1 day or until dismissed or killed. No magic circle is required. The companion moves at 60\u2019 and can fly. It leaves no footprints or handprints. It is considered to have ability scores of 16, can carry a man in its arms, and can perform any action a normal man could perform. It listens but never speaks. It has AC 20, 3d8 hp, and all attacks against it have a 50% chance of missing due to its invisibility. It can wield weapons at a +5 attack bonus."
+                    },
+                    "26-29": {
+                        "text": "The caster summons an invisible companion who serves for up to 1d6+1 days or until dismissed or killed. No magic circle is required. The companion moves at 120\u2019 and can fly. It is considered to have ability scores of 18 and can perform any action a normal man could perform. Its alien intelligence prevents it from carrying on mundane conversations, but it can communicate simple information verbally in the Common tongue. There is a 10% chance that it has some knowledge that is useful to the caster (whether from prior tasks or something from its native plane), provided he asks the right questions. It has AC 20, 5d8 hp, and all attacks against it have a 50% chance of missing due to its invisibility. It can wield weapons at a +6 attack bonus, and its attacks are considered magical."
+                    },
+                    "30-31": {
+                        "text": "The caster summons an invisible companion who serves for up to a month or until dismissed or killed. No magic circle is required. The companion moves at 120\u2019 and can fly. It is considered to have ability scores of 20 and can perform any action a normal man could perform. It can carry as much weight as a large mule. Its alien intelligence prevents it from carrying on mundane conversations, but it can communicate simple information verbally in the Common tongue. There is a 20% chance that it has some knowledge that is useful to the caster (whether from prior tasks or something from its native plane), provided he asks the right questions. It has AC 21, 7d8 hp, and all attacks against it have a 50% chance of missing due to its invisibility. It can wield weapons at a +7 attack bonus, and its attacks are considered magical."
+                    },
+                    "32-33": {
+                        "text": "The caster summons an invisible companion who serves for up to one year or until dismissed or killed. No magic circle is required. The companion moves at 120\u2019 and can fly. It is considered to have ability scores of 21 and can perform any action a normal man could perform. It can carry as much weight as a large mule. Its alien intelligence prevents it from carrying on mundane conversations, but it can communicate simple information verbally in the Common tongue. There is a 50% chance that it has some knowledge that is useful to the caster (whether from prior tasks or something from its native plane), provided he asks the right questions. It has AC 22, 9d8 hp, and all attacks against it have a 50% chance of missing due to its invisibility. It can wield weapons at a +8 attack bonus, and its attacks are considered magical."
+                    },
+                    "34+": {
+                        "text": "The caster reaches out into the infinite cosmos to call forth the invisible servant most useful to his purposes. This companion appears and pledges permanent service until it is dismissed, killed, or dies of old age (in 2d20+60 years). The companion moves at 150\u2019 and can fly. It is not man-shaped, and although its exact form is difficult to discern, it makes its capabilities known at the time most useful to the caster. As long as the companion is present, the caster can make a DC 10 Luck check once per week in a dire situation, and on a success it is revealed that the invisible companion has some heretofore unknown ability that is helpful in that situation (judge\u2019s discretion). For example, the companion may be able to pick locks, or create fresh water, or heal wounds. The companion is considered to have ability scores of 22 and can carry as much weight as a large draft horse. It can communicate simple information verbally in the Common tongue. There is a 75% chance that it has some knowledge that is useful to the caster (whether from prior tasks or something from its native plane), provided he asks the right questions. It has AC 23, 11d8 hp, and all attacks against it have a 50% chance of missing due to its invisibility. It can wield weapons at a +9 attack bonus, and its attacks are considered magical."
+                    }
+                },
+                "mercurial": {
+                    "roll": 66,
+                    "effect": "Accidental alchemist. Each time the spell is cast, one random item within 20 feet of the caster is turned to lead and another is turned to gold. Both objects probably weigh more than they previously did, and the gold object is worth twice its normal cost or 1gp, whichever is more.",
+                    "luck_mod": 2,
+                    "raw": "1d100=64; luck=+2"
+                }
+            },
+            {
+                "name": "Scorching Ray",
+                "level": 2,
+                "range": "80\u2019",
+                "duration": "Instantaneous",
+                "casting_time": "1 action",
+                "save": "Ref partial (see below)",
+                "description": [
+                    "The caster summons the flames of Hell to immolate his foes."
+                ],
+                "manifestation": {
+                    "die": "1d5",
+                    "table": {
+                        "1": "arcing ray of fire",
+                        "2": "laser beam",
+                        "3": "flaming bullet",
+                        "4": "sizzling gout of flame",
+                        "5": "burning hands followed by spray of sparks. Color of fire varies \u2013 red, yellow, blue, or green."
+                    }
+                },
+                "corruption": {
+                    "die": "1d8",
+                    "table": {
+                        "1": "all hair on the caster\u2019s head is permanently burned off (including eyebrows and facial hair)",
+                        "2": "the caster\u2019s hands and arms are blackened, as if they had been charred and burned",
+                        "3": "the caster\u2019s skin is permanently sunburned, causing discomfort and pain when he wears armor or rough fabrics",
+                        "4": "the caster\u2019s face is caught in a burst of flame, melting his flesh into a horribly grotesque appearance",
+                        "5": "the caster develops an extreme sensitivity to heat, automatically taking an extra +1 damage on all dice related to fire damage from now on",
+                        "6": "greater",
+                        "7": "major",
+                        "8": "minor"
+                    }
+                },
+                "misfire": {
+                    "die": "1d4",
+                    "table": {
+                        "1": "caster explodes a ball of fire centered on himself, causing 1d6 damage and burning up all flammable objects on his person",
+                        "2": "caster sends forth an errant ray of fire that causes 1d6 damage to one randomly determined ally within 30\u2019",
+                        "3": "caster lights the nearest ally on fire briefly for 1d4 damage",
+                        "4": "caster inadvertently reverses the spell, summoning a wave of chilling cold that automatically extinguishes all flames within 100\u2019 of him"
+                    }
+                },
+                "results": {
+                    "1": {
+                        "text": "Lost, failure, and worse! Roll 1d6 modified by Luck: (0 or less) corruption + patron taint + misfire; (1-2) corruption; (3) patron taint (or corruption if no patron); (4+) misfire.",
+                        "misfire": true,
+                        "corruption": true,
+                        "lost": true
+                    },
+                    "2-11": {
+                        "text": "Lost. Failure.",
+                        "lost": true
+                    },
+                    "12-13": {
+                        "text": "Failure, but spell is not lost."
+                    },
+                    "14-15": {
+                        "text": "One target takes 1d6 + caster level damage. Additionally, it must make a Reflex save vs. spell check or catch fire. Each round thereafter it suffers an additional 1d6 damage until it succeeds on a DC 15 Reflex save to extinguish the fire. Flammable objects on the target (e.g., scrolls or tomes) have a 75% chance of catching fire unless protected."
+                    },
+                    "16-19": {
+                        "text": "One target takes 1d8 + caster level damage. Additionally, it must make a DC 15 Reflex save or catch fire. Each round thereafter it suffers an additional 1d6 damage until it succeeds on a DC 15 Reflex save to extinguish the fire. Flammable objects on the target (e.g., scrolls or tomes) have a 75% chance of catching fire unless protected."
+                    },
+                    "20-21": {
+                        "text": "The caster can launch two rays, at the same target or at two targets. Each ray does 1d10 + caster level damage. Additionally, each target must make a DC 15 Reflex save or catch fire. Each round thereafter the target suffers an additional 1d6 damage until it succeeds on a DC 15 Reflex save to extinguish the fire. Flammable objects on the target (e.g., scrolls or tomes) have a 75% chance of catching fire unless protected."
+                    },
+                    "22-25": {
+                        "text": "The caster can launch three rays, at the same target or different targets. Each ray does 1d12 + caster level damage. Additionally, each target must make a DC 15 Reflex save or catch fire. Each round thereafter the target suffers an additional 1d6 damage until it succeeds on a DC 15 Reflex save to extinguish the fire. Flammable objects on the target (e.g., scrolls or tomes) have a 75% chance of catching fire unless protected."
+                    },
+                    "26-29": {
+                        "text": "The caster sends forth a fanning wave of flames. The attack is shaped like a cone, centered on the caster and expanding to a width of 40\u2019 at its farthest end 80\u2019 away. All targets within the cone take 1d12 + caster level damage. Additionally, each target must make a DC 15 Reflex save or catch fire. Each round thereafter the target suffers an additional 1d6 damage until it succeeds on a DC 15 Reflex save to extinguish the fire. Flammable objects on the target (e.g., scrolls or tomes) have a 75% chance of catching fire unless protected."
+                    },
+                    "30-31": {
+                        "text": "The caster detonates a blast of fire centered on himself. He suffers no damage, but all targets within 20\u2019 are automatically immolated for 1d12 points of damage. In addition, the blast sends out up to a dozen jets of flame, each 80\u2019 long and aimed at a single target. Each jet does 1d20 + caster level damage and automatically catches the target on fire for an additional 1d6 damage each round until the target makes a DC 15 Reflex save. Flammable objects on the target (e.g., scrolls or tomes) automatically catch fire. No target can be damaged by more than one jet of flame."
+                    },
+                    "32-33": {
+                        "text": "The caster detonates a blast of fire centered on himself. He suffers no damage, but all targets within 30\u2019 are automatically immolated for 1d20 points of damage. In addition, the blast sends out up to a dozen jets of flame, each 80\u2019 long and aimed at a single target. Each jet does 1d20 + caster level damage and automatically catches the target on fire for an additional 1d8 damage each round until the target makes a DC 15 Reflex save. Flammable objects on the target (e.g., scrolls or tomes) automatically catch fire. No target can be damaged by more than one jet of flame."
+                    },
+                    "34+": {
+                        "text": "The caster summons a jet of magma and flame from the earth\u2019s core, which explodes upward from his feet then blasts out at his enemies. He can direct a scorching ray of flame at any target he can see, to a range of 1,000\u2019. The amount of damage done by each ray depends on how much the caster must dilute the pure magma of the earth\u2019s core. A single target takes 6d20+CL damage; 2-5 targets each take 4d20+CL damage; 6-10 targets each take 3d12+CL damage; 11-30 targets each take 1d20+CL damage; 31-50 targets each take 1d12+CL damage; 51-100 targets each take 1d8 damage; and 101 or more targets each take 1d6 damage. Every target must succeed on a DC 15 Reflex save or catch fire, suffering an additional 1d6 damage every round thereafter until they again succeed on a DC 15 Reflex save."
+                    }
+                },
+                "mercurial": {
+                    "roll": 4,
+                    "effect": "Health bane. Casting this spell always temporarily reduces the wizard\u2019s Stamina by 1d3 points. This ability loss is in addition to any spellburn and is deducted before spellburn occurs.",
+                    "luck_mod": 2,
+                    "raw": "1d100=2; luck=+2"
+                }
+            },
+            {
+                "name": "Shatter",
+                "level": 2,
+                "range": "Touch or further",
+                "duration": "Instantaneous or longer",
+                "casting_time": "1 round",
+                "save": "N/A",
+                "description": [
+                    "The caster shatters a physical object. This spell causes damage to inanimate objects and is particularly effective at objects made of crystal or glass. It has the potential to not only damage the object immediately but also cause ongoing fractures that make it more susceptible to future damage."
+                ],
+                "manifestation": {
+                    "die": "1d4",
+                    "table": {
+                        "1": "object simply shatters",
+                        "2": "blast as if an explosion",
+                        "3": "flash of light",
+                        "4": "bolt of lightning from the sky strikes the object"
+                    }
+                },
+                "corruption": {
+                    "die": "1d6",
+                    "table": {
+                        "1-3": "minor",
+                        "4-5": "major",
+                        "6": "greater"
+                    }
+                },
+                "misfire": {
+                    "die": "1d5",
+                    "table": {
+                        "1": "one randomly determined object on the caster\u2019s person shatters",
+                        "2": "randomly determine one ally within 20\u2019 (or caster if no nearby ally) and all mundane possessions of that ally have risk of shattering, as follows: magical objects have 10% chance, metal and stone objects have 25% chance, wooden and crystal/gemlike objects have 50% chance, cloth and all other soft objects have 75% chance of crumbling apart",
+                        "3": "instead of shattering targeted object, spell infuses it with greater strength of construction, rendering it automatically resistant to the next shatter spell cast against it, but resistance wears off after one use",
+                        "4": "all non-magical weapons in the hands of creatures (both allies and enemies) within 25\u2019 shatter (only affects those weapons held not those in backpacks or sheaths)",
+                        "5": "all armor within 25\u2019 (including shields and helms) comes apart and loses armor bonus (i.e., buckles unbuckle, straps fail, armor joints collapse, etc.)"
+                    }
+                },
+                "results": {
+                    "1": {
+                        "text": "Lost, failure, and worse! Roll 1d6 modified by Luck: (0 or less) corruption + patron taint + misfire; (1) corruption; (2) patron taint (or corruption if no patron); (3+) misfire.",
+                        "misfire": true,
+                        "corruption": true,
+                        "lost": true
+                    },
+                    "2-11": {
+                        "text": "Lost. Failure.",
+                        "lost": true
+                    },
+                    "12-13": {
+                        "text": "Failure, but spell is not lost."
+                    },
+                    "14-15": {
+                        "text": "By touching a mundane (non-magical) inanimate object made of wood, metal, crystal, glass, stone, or another similar substance, the caster creates a fracture at the point of contact. This automatically inflicts 1d4 points of damage to the object, bypassing any normal resistance to damage. Typically, a dagger has 1-4 hit points, a sword has 4-6 hit points, and larger objects have progressively more hit points, depending on their construction (glass is weakest, wood is stronger, stone is even stronger, metal is strongest). This effect is typically enough to break a doorknob or hinge, shatter a glass window, snap a dagger blade from its hilt, or crack a mirror, but not enough to burst down a door. Using this spell in combat is dangerous, as the caster is exposed to attack when he attempts to touch the target object; opponents receive a free strike if the caster tries to touch them with this spell, and the caster must also succeed in an attack roll to make contact."
+                    },
+                    "16-19": {
+                        "text": "By touching a mundane (non-magical) inanimate object made of wood, metal, crystal, glass, stone, or another similar substance, the caster creates a fracture at the point of contact. This automatically inflicts 3d4 points of damage to the object and an additional +2 points of damage if the object is glass or crystal or a gemstone, bypassing any normal resistance to damage. Typically, a dagger has 1-4 hit points, a sword has 4-6 hit points, and larger objects have progressively more hit points, depending on their construction (glass is weakest, wood is stronger, stone is even stronger, metal is strongest). This spell result is usually enough to shatter a sword, shield, or helm, break a wagon wheel, explode a mirror, or shatter a valuable gem (but not a diamond). Using this spell in combat is dangerous, as the caster is exposed to attack when he attempts to touch the target object; opponents receive a free strike if the caster tries to touch them with this spell, and the caster must also succeed in an attack roll to make contact."
+                    },
+                    "20-21": {
+                        "text": "By touching a mundane (non-magical) inanimate object made of wood, metal, crystal, glass, stone, or another similar substance, the caster create a fracture at the point of contact. This automatically inflicts 3d6+CL damage to the object and an additional +4 points of damage if the object is glass or crystal or a gemstone, bypassing any normal resistance to damage. Typically, a dagger has 1-4 hit points, a sword has 4-6 hit points, and larger objects have progressively more hit points, depending on their construction (glass is weakest, wood is stronger, stone is even stronger, metal is strongest). This spell result is usually enough to break down a door, crack a suit of plate mail, burst an ironbound chest in half, break a wagon in half, or shatter a diamond. Using this spell in combat is dangerous, as the caster is exposed to attack when he attempts to touch the target object; opponents receive a free strike if the caster tries to touch them with this spell, and the caster must also succeed in an attack roll to make contact."
+                    },
+                    "22-25": {
+                        "text": "By touching an inanimate object made of wood, metal, crystal, glass, stone, or another similar substance, the caster creates a fracture at the point of contact. This automatically inflicts 4d6+CL damage to mundane objects or 1d6 points of damage to magical objects (such as magic weapons). It inflicts an additional +4 points of damage if the object is glass or crystal or a gemstone, bypassing any normal resistance to damage. Typically, a dagger has 1-4 hit points, a sword has 4-6 hit points, and larger objects have progressively more hit points, depending on their construction (glass is weakest, wood is stronger, stone is even stronger, metal is strongest). This spell result is usually enough to break down a door, crack a suit of plate mail, burst an ironbound chest in half, break a wagon in half, or shatter a diamond. Using this spell in combat is dangerous, as the caster is exposed to attack when he attempts to touch the target object; opponents receive a free strike if the caster tries to touch them with this spell, and the caster must also succeed in an attack roll to make contact."
+                    },
+                    "26-29": {
+                        "text": "By touching an inanimate object made of wood, metal, crystal, glass, stone, or another similar substance, the caster creates a fracture at the point of contact. Alternatively, the caster can imbue the power of this spell on a single object (such as an arrow or dagger point). The spell is triggered when the object strikes something within the next round; after 1 round, the power dissipates. This allows the caster to enchant an arrow that can then be used to shatter an enemy\u2019s armor (for example). The spell automatically inflicts 4d8+CL damage to mundane objects or 2d6 points of damage to magical objects (such as magic weapons). It inflicts an additional +4 points of damage if the object is glass or crystal or a gemstone, bypassing any normal resistance to damage. Typically, a dagger has 1-4 hit points, a sword has 4-6 hit points, and larger objects have progressively more hit points, depending on their construction (glass is weakest, wood is stronger, stone is even stronger, metal is strongest). This spell result is usually enough to break down a door, crack a suit of plate mail, burst an ironbound chest in half, break a wagon in half, or shatter a diamond. Using this spell in combat is dangerous, as the caster is exposed to attack when he attempts to touch the target object; opponents receive a free strike if the caster tries to touch them with this spell, and the caster must also succeed in an attack roll to make contact."
+                    },
+                    "30-31": {
+                        "text": "By touching an inanimate object made of wood, metal, crystal, glass, stone, or another similar substance, the caster creates a fracture at the point of contact. Alternatively, the caster can imbue the power of this spell on a single object (such as an arrow or dagger point). The spell is triggered when the object strikes something within the next turn. This allows the caster to enchant an arrow that can then be used to shatter an enemy\u2019s armor (for example). The spell automatically inflicts 4d8+CL damage to mundane objects or 2d6 points of damage to magical objects (such as magic weapons). It inflicts an additional +4 points of damage if the object is glass or crystal or a gemstone, bypassing any normal resistance to damage. Typically, a dagger has 1-4 hit points, a sword has 4-6 hit points, and larger objects have progressively more hit points, depending on their construction (glass is weakest, wood is stronger, stone is even stronger, metal is strongest). This spell result is usually enough to break down a door, crack a suit of plate mail, burst an ironbound chest in half, break a wagon in half, or shatter a diamond. Using this spell in combat is dangerous, as the caster is exposed to attack when he attempts to touch the target object; opponents receive a free strike if the caster tries to touch them with this spell, and the caster must also succeed in an attack roll to make contact."
+                    },
+                    "32-33": {
+                        "text": "Within a range of 60\u2019, the caster can target an inanimate object made of wood, metal, crystal, glass, stone, or another similar substance, to create a fracture at the point of contact. Alternatively, the caster can imbue the power of this spell on a single object (such as an arrow or dagger point). The spell is triggered when that object strikes something within the next turn. This allows the caster to enchant an arrow that can then be used to shatter an enemy\u2019s armor (for example). The spell automatically inflicts 4d8+CL damage to mundane objects or 3d6+CL damage to magical objects (such as magic weapons). It inflicts an additional +4 points of damage if the object is glass or crystal or a gemstone, bypassing any normal resistance to damage. Typically, a dagger has 1-4 hit points, a sword has 4-6 hit points, and larger objects have progressively more hit points, depending on their construction (glass is weakest, wood is stronger, stone is even stronger, metal is strongest). This spell result is usually enough to break down a door, crack a suit of plate mail, burst an ironbound chest in half, break a wagon in half, or shatter a diamond."
+                    },
+                    "34+": {
+                        "text": "Within a range of 1,000\u2019, the caster can target an inanimate object made of wood, metal, crystal, glass, stone, or another similar substance, to create a fracture at the point of contact. At this level of casting, the caster can also target golems, automatons, living statues, and other animated but non-sentient creatures, which count as magical objects for purposes of the spell. Alternatively, the caster can imbue the power of this spell on a single object (such as an arrow or dagger point). The spell power remains on the object permanently, and the spell is triggered when that object strikes something. This allows the caster to enchant an arrow that can then be used to shatter an enemy\u2019s armor (for example). The spell automatically inflicts 6d8+CL damage to mundane objects or 4d6+CL damage to magical objects (such as magic weapons). It inflicts an additional +6 points of damage if the object is glass or crystal or a gemstone, bypassing any normal resistance to damage. Typically, a dagger has 1-4 hit points, a sword has 4-6 hit points, and larger objects have progressively more hit points, depending on their construction (glass is weakest, wood is stronger, stone is even stronger, metal is strongest). This spell result is usually enough to break down a door, crack a suit of plate mail, burst an ironbound chest in half, break a wagon in half, or shatter a diamond."
+                    }
+                },
+                "mercurial": {
+                    "roll": 71,
+                    "effect": "Worms of the earth. Pale white worms crawl forth from the earth whenever the wizard casts this spell, writhing in fiery agony (or unholy delight) before expiring on the open ground. Easily crushed underfoot, the worms disintegrate into greasy ash after 1d6 rounds.",
+                    "luck_mod": 2,
+                    "raw": "1d100=69; luck=+2"
+                }
+            },
+            {
+                "name": "Strength",
+                "level": 2,
+                "range": "Varies",
+                "duration": "Varies",
+                "casting_time": "1 action",
+                "save": "N/A",
+                "description": [
+                    "With an arcane incantation, the caster grants physical strength to a willing target."
+                ],
+                "manifestation": {
+                    "die": "1d4",
+                    "table": {
+                        "1": "biceps and muscles physically enlarge, potentially bursting clothing",
+                        "2": "muscles glow with infernal light",
+                        "3": "fierce aura surrounds target",
+                        "4": "no change"
+                    }
+                },
+                "corruption": {
+                    "die": "1d8",
+                    "table": {
+                        "1": "caster\u2019s muscles wither and age, permanently reducing his Strength by 1 point",
+                        "2": "caster has great difficulty summoning any kind of supernatural strength, such that from now on all spellburn of Strength requires 2 points of spellburn for every +1 to a spell check",
+                        "3": "caster permanently gains +1d4 points of Strength but at the cost of the same number of points of Intelligence",
+                        "4": "caster\u2019s muscles bulge disproportionately and chaotically, giving him a lopsided, hunchbacked appearance",
+                        "5-6": "minor",
+                        "7": "major",
+                        "8": "greater"
+                    }
+                },
+                "misfire": {
+                    "die": "1d4",
+                    "table": {
+                        "1": "caster inadvertently weakens himself, losing 1d4+1 points of Strength temporarily",
+                        "2": "caster saps the strength of those around him, reducing the Strength of everyone within 20\u2019 (allies and enemies alike) by 1d4+1 points",
+                        "3": "caster channels his allies\u2019 strength of will to his enemies\u2019 strength, such that the highest allied Willpower save within 20\u2019 becomes the total Strength modifier of all enemies within the same range",
+                        "4": "caster drops to the ground with the strength of an infant, completely unable to move (Str 0), and all of his Strength points flow to the nearest ally of his choice, whose Strength suddenly increases by the amount of the caster\u2019s decrease, with the lost Strength returning from target to caster at the end of 1d4 turns"
+                    }
+                },
+                "results": {
+                    "1": {
+                        "text": "Lost, failure, and worse! Roll 1d6 modified by Luck: (0 or less) corruption + patron taint + misfire; (1-2) corruption; (3) patron taint (or corruption if no patron); (4+) misfire.",
+                        "misfire": true,
+                        "corruption": true,
+                        "lost": true
+                    },
+                    "2-11": {
+                        "text": "Lost. Failure.",
+                        "lost": true
+                    },
+                    "12-13": {
+                        "text": "Failure, but spell is not lost."
+                    },
+                    "14-15": {
+                        "text": "One target the caster touches (including himself) is enhanced to a prodigious Strength of 18 (+3 bonus), which lasts for 1d6+1 rounds."
+                    },
+                    "16-19": {
+                        "text": "One target the caster touches briefly gains superhuman strength. The target is treated as having a Strength modifier of +10 until the end of the next round. The superhuman Strength immediately fades after the end of that round."
+                    },
+                    "20-21": {
+                        "text": "One target the caster touches gains Strength 20 (+4 bonus), which lasts for 1d6 turns."
+                    },
+                    "22-25": {
+                        "text": "A single target touched receives Strength 20 (+4 bonus) or two targets each receive Strength 18 (+3 bonus). The bonus lasts for 1d6 turns."
+                    },
+                    "26-29": {
+                        "text": "All allies within 20\u2019 of the caster gain Strength 18 (+3 bonus) for next 1d6 turns."
+                    },
+                    "30-31": {
+                        "text": "All allies within 20\u2019 of the caster take their next activation as if they had a +10 Strength modifier. Additionally, they gain Strength 18 (+4 bonus) for the next 1d6 hours thereafter."
+                    },
+                    "32-33": {
+                        "text": "All allies with 100\u2019 of the caster receive Strength 20 (+4 bonus) for the next 1d4 days."
+                    },
+                    "34+": {
+                        "text": "If caster completes a week-long ritual casting with a minimum of 10 points of spellburn, and both target and caster render appropriate sacrifices of great value, the target receives a one-time permanent bonus of +1 Strength. However, the target must make a Fortitude save or find his body unable to sustain the magical transformation. The save DC is equal to 15 + 2 for every point of Strength that has been magically added; i.e., the first save is DC 17, then if this spell is attempted again the save is DC 19, and so on. If the save is failed, the increased Strength fades after 1d6 weeks, and the caster finds that 1 point of his spellburn never truly heals (judge\u2019s discretion which ability is affected)."
+                    }
+                },
+                "mercurial": {
+                    "roll": 86,
+                    "effect": "Mystic twin. Casting the spell causes a fully functioning twin face to appear in the caster\u2019s chest. The face remains for 1d3 rounds. During that time, this dual face has its own 1d20 action die under the control of the player, with which it can speak, cast spells as the caster, or spout cryptic wisdom.",
+                    "luck_mod": 2,
+                    "raw": "1d100=84; luck=+2"
+                }
+            },
+            {
+                "name": "Detect Invisible",
+                "level": 2,
+                "range": "60\u2019 or more",
+                "duration": {
+                    "text": "Varies."
+                },
+                "casting_time": "1 action",
+                "save": {
+                    "text": "Will vs. spell check DC (sometimes)"
+                },
+                "description": [
+                    "The caster activates an inner sight to see the true nature of things. In doing so, he is able to see invisible creatures and objects.",
+                    "If the target creature or object is protected by an invisibility shield (per the invisibility spell), the caster\u2019s spell check counts as the DC for the target\u2019s Will save."
+                ],
+                "manifestation": {
+                    "die": "1d3",
+                    "table": {
+                        "1": "caster\u2019s eyes disappear, leaving only empty orbs",
+                        "2": "caster\u2019s eyes turn black",
+                        "3": "caster shrouded in a dim mist"
+                    }
+                },
+                "corruption": {
+                    "die": "1d6",
+                    "table": {
+                        "1-3": "minor",
+                        "4-5": "major",
+                        "6": "greater"
+                    }
+                },
+                "misfire": {
+                    "die": "1d4",
+                    "table": {
+                        "1": "caster inadvertently heightens the invisible effects of those around him, such that all invisible creatures automatically have the duration of their invisibility doubled",
+                        "2": "caster causes his head to become invisible for 1d4 hours",
+                        "3": "caster\u2019s shadow quadruples for 1d4 days, such that he always casts a total of 4 shadows in different directions, regardless of light sources, and they occasionally move independently, causing terror and panic among nearby peasants",
+                        "4": "caster causes one randomly determined creature within 20\u2019 to become invisible for 1d4 rounds"
+                    }
+                },
+                "results": {
+                    "1": {
+                        "text": "Lost, failure, and worse! Roll 1d6 modified by Luck: (0 or less) corruption + patron taint + misfire; (1-2) corruption; (3) patron taint; (4+) misfire.",
+                        "lost": true,
+                        "misfire": true,
+                        "patron_taint": true,
+                        "corruption": true
+                    },
+                    "2-11": {
+                        "text": "Lost. Failure.",
+                        "lost": true
+                    },
+                    "12-13": {
+                        "text": "Failure, but spell is not lost."
+                    },
+                    "14-15": {
+                        "text": "For a brief moment, the caster can see all invisible inanimate objects within 60\u2019. Unless protected by a powerful invisibility shield (per the invisibility spell), these objects flicker into sight then immediately disappear again, leaving the caster with an impression of their location. The caster cannot see invisible creatures."
+                    },
+                    "16-19": {
+                        "text": "Until the end of the next round, the caster can see all invisible objects and creatures within 60\u2019."
+                    },
+                    "20-21": {
+                        "text": "For the next turn, the caster can see all invisible objects and creatures within 60\u2019."
+                    },
+                    "22-25": {
+                        "text": "For the next turn, the caster can see all invisible objects and creatures within 60\u2019. Additionally, one ally touched is also able to see invisible things as the caster, as long as he maintains physical contact with the ally. The ally can change round-to-round if the caster touches a different person."
+                    },
+                    "26-29": {
+                        "text": "For the next turn, the caster can see all invisible objects and creatures within 200\u2019. Additionally, one ally touched is also able to see invisible things as the caster, as long as he maintains physical contact with the ally. The ally can change round-to-round if the caster touches a different person."
+                    },
+                    "30-31": {
+                        "text": "For the next hour, the caster and all allies within 10\u2019 can see all invisible objects and creatures within 200\u2019."
+                    },
+                    "32-33": {
+                        "text": "For the next hour, the caster and all allies within 10\u2019 can see all invisible objects and creatures within 200\u2019. Additionally, the caster can dispel invisibility. If the caster concentrates for one round on an invisible object or creature, it must make a Will save against his spell check DC. If the Will save fails, the target\u2019s invisibility is temporarily suppressed. The power is lost for one round per missed point of the check. For example, if the DC was 32 and the creature\u2019s Will save was 24, it would be visible for 8 rounds. This applies to creatures with native invisibility as well as spellcasters."
+                    },
+                    "34+": {
+                        "text": "With a powerful burst of radiant light, the caster suppresses the invisible nature of all invisible creatures and things within his line of sight. All objects, and creatures of 3 or less HD, are automatically made visible for a period of one hour. Additionally, they must make a Will save or become permanently visible. Creatures of 4+ HD receive a Will save to resist the spell; failure means they also become visible for one hour. Visible creatures can be seen by all creatures. Note this effect includes friendly creatures who are invisible, as well as enemies. Finally, the caster (and only the caster) can see all secret doors, concealed compartments, hidden latches, and other such things. This ability lasts for the next hour."
+                    }
+                },
+                "mercurial": {
+                    "roll": 35,
+                    "effect": "Ethereal shift. The caster becomes partially ethereal for 1d4 rounds, gaining resistance to physical damage but vulnerability to magic.",
+                    "luck_mod": 2,
+                    "raw": "1d100=33; luck=+2"
+                }
+            }
+        ],
+        "level_3": [
+            {
+                "name": "Turn to Stone",
+                "level": 3,
+                "range": "30\u2019 plus 10\u2019 per caster level",
+                "duration": "Various",
+                "casting_time": "1 round",
+                "save": "Fortitude to avoid",
+                "description": [
+                    "The caster turns other living beings to stone. A reverse version of this spell, turn to flesh, may be learned and can be used to cancel its effects.",
+                    "Note that casting this spell successfully against a creature of the water (such as a water elemental) automatically inflicts an extra 1d4 damage per caster level."
+                ],
+                "manifestation": {
+                    "die": "1d4",
+                    "table": {
+                        "1": "caster\u2019s head turns medusa-like (horrible visage, snakes for hair, etc.)",
+                        "2": "caster\u2019s eyes become orbs of polished marble",
+                        "3": "tendrils of stone rise from the ground to wrap around the target and burrow into its flesh",
+                        "4": "the target sweats beads of quartz that accumulate to form a shell around it"
+                    }
+                },
+                "corruption": {
+                    "die": "1d4",
+                    "table": {
+                        "1": "caster\u2019s hair become tiny, non-venomous serpents",
+                        "2": "caster\u2019s hands become crude and rocklike",
+                        "3": "the sound of grinding stone accompanies the caster when he walks",
+                        "4": "the caster\u2019s voice becomes unnaturally gravelly like stone grinding together"
+                    }
+                },
+                "misfire": {
+                    "die": "1d5",
+                    "table": {
+                        "1": "caster turns himself to stone for 1d6 rounds",
+                        "2": "caster\u2019s body turns rocky and ungainly for 1d6 hours",
+                        "3": "caster attracts loose stones and rubble to his position, inflicting anywhere from 1d3 to 1d30 points of damage at the judge\u2019s discretion depending on size and amount of available stones",
+                        "4": "caster becomes stone deaf for 1d3 hours and suffers a -2 penalty to spell checks during that time",
+                        "5": "caster inadvertently targets another creature; make a new spell check and apply the results to a random creature within range. If no other creature is within the area of the spell\u2019s power, the caster is afflicted by his own magic!"
+                    }
+                },
+                "results": {
+                    "1": {
+                        "text": "Lost, failure, and worse! Roll 1d6 modified by Luck: (0 or less) corruption + patron taint + misfire; (1-3) corruption; (4) patron taint (or corruption if no patron); (5+) misfire.",
+                        "lost": true,
+                        "corruption": true,
+                        "patron_taint": true,
+                        "misfire": true
+                    },
+                    "2-11": {
+                        "text": "Lost. Failure.",
+                        "lost": true
+                    },
+                    "12-15": {
+                        "text": "Failure, but spell is not lost."
+                    },
+                    "16-17": {
+                        "text": "The caster turns the target\u2019s body partially mineral, making it heavy and causing it to sprout rock-like protrusions from the flesh. If the target fails a save, it suffers a -4 penalty to all attack rolls, Reflex saving throws, and initiative, as well as all skill checks involving mobility. This effect lasts 1 hour per caster level."
+                    },
+                    "18-21": {
+                        "text": "The target turns partially to stone if it fails the save. If the target\u2019s upper body is affected, it loses the ability to attack, speak, or cast spells, and must make a DC 10 Agility check to avoid falling prone. If the target\u2019s lower body is affected, it is immobilized until the spell expires or is removed. The portion affected by the spell is either targeted by the caster or, if not specified, randomly determined by the judge. This effect lasts 1 hour per caster level."
+                    },
+                    "22-23": {
+                        "text": "The target turns to stone if it fails the save. The target remains petrified for 1 day per caster level and cannot perform any action. The target remains aware of its surroundings as if buried beneath a thick layer of earth (sounds are muted and sight is hazy and narrow in scope) and is otherwise incapacitated but does not starve or suffocate."
+                    },
+                    "24-26": {
+                        "text": "Up to two targets within range can be affected, and turn to stone if they fail their saves. They remain petrified for 1 day per caster level and cannot perform any action. They remain aware of their surroundings as if buried beneath a thick layer of earth (sounds are muted and sight is hazy and narrow in scope) and are otherwise incapacitated but do not starve or suffocate."
+                    },
+                    "27-31": {
+                        "text": "Up to four targets within range can be affected, and turn to stone if they fail their saves. They remain petrified for 1 day per caster level and cannot perform any action. They remain aware of their surroundings as if buried beneath a thick layer of earth (sounds are muted and sight is hazy and narrow in scope) and are otherwise incapacitated but do not starve or suffocate."
+                    },
+                    "32-33": {
+                        "text": "The caster transforms one target into stone with no save allowed. In addition, the caster can cause the target to shatter with the flick of his wrist if the target fails a Fort save against this destructive gesture. If the save is successful, the target still remains petrified for a period of 1 week per caster level. During this time, the target remains aware of its surroundings as if buried beneath a thick layer of earth (sounds are muted and sight is hazy and narrow in scope) and is otherwise incapacitated but does not starve or suffocate."
+                    },
+                    "34-35": {
+                        "text": "The caster transforms all creatures within his sight to stone unless they make a successful Fort save. The caster cannot choose to affect certain creatures and spare others; the petrifying magic affects all within view. The effects last for 1 month per caster level. Victims remain aware of their surroundings as if buried beneath a thick layer of earth (sounds are muted and sight is hazy and narrow in scope) and are otherwise incapacitated but do not starve or suffocate."
+                    },
+                    "36+": {
+                        "text": "The caster turns a small geographic region to stone. All living creatures (animals, humanoids, monsters, trees, crops, etc.) are petrified unless they make a successful Fort save. The effect is permanent until negated by restorative magics, powerful artifacts, or divine influence. The area affected is equal to 100 yards per caster level. Victims remain aware of their surroundings as if buried beneath a thick layer of earth (sounds are muted and sight is hazy and narrow in scope) and are otherwise incapacitated but do not starve or suffocate."
+                    }
+                },
+                "mercurial": {
+                    "roll": 18,
+                    "effect": "Vermin attractor. The spell attracts a swarm of bothersome insects to the caster\u2019s location that arrive 1d4 rounds after the spell is completed. These insects mill about the caster, biting for 1 point of damage and causing the caster to suffer a -1 penalty to all saving throws, initiative rolls, and spell checks for 1d10 rounds or until he takes adequate measures to disperse or escape the swarm.",
+                    "luck_mod": 2,
+                    "raw": "1d100=16; luck=+2"
+                }
+            },
+            {
+                "name": "Write Magic",
+                "level": 3,
+                "range": "N/A",
+                "duration": "N/A",
+                "casting_time": "See below",
+                "save": "N/A",
+                "description": [
+                    "The caster transcribes magical writings onto a scroll, which can be read at a later time to create a spell-like effect. The result of the spell check determines the level of spell the caster can transcribe, the number of spells that can be written, and if the caster can create any unique properties as part of the casting. Most spellcasters sign their scrolls, and they may attach curses or wards to prevent others from reading them.",
+                    "The caster must provide the materials to transcribe the scroll, including paper, vellum, or other such materials; a writing utensil; and a specific kind of ink, at a base cost of 200 gp per spell per level inscribed on a scroll. For example, transcribing a level 1 spell costs 200 gp; transcribing three level 1 spells costs 600 gp; transcribing a level 1 spell and a level 3 spell costs 800 gp. The caster may also choose to inscribe on tusks, etch on stone tablets, or use other atypical surfaces, which doubles the cost. The time to transcribe the scroll is typically one full day per spell per level. Unlike other spells, the judge, not the caster, makes the spell check roll to determine the caster\u2019s success.",
+                    "The caster must inscribe a spell he already knows and must declare before making the spell check what spells he is attempting to inscribe on a scroll. All material costs and time are spent based on what the caster intends to create. The result of the spell check determines the caster\u2019s success, which can be total, partial, or nonexistent.",
+                    "A spell cast from a scroll typically requires the reader to make a spell check. However, with sufficiently high results, the caster can allow the spell to take effect at a defined result."
+                ],
+                "manifestation": "The caster creates a magic scroll.",
+                "corruption": {
+                    "die": "1d8",
+                    "table": {
+                        "1": "minor",
+                        "2": "minor",
+                        "3": "minor",
+                        "4": "minor",
+                        "5": "major",
+                        "6": "major",
+                        "7": "greater",
+                        "8": "greater"
+                    }
+                },
+                "misfire": {
+                    "die": "1d4",
+                    "table": {
+                        "1": "One of the spells the caster is attempting to inscribe is accidentally activated through the inscription process, causing the spell to take effect immediately.",
+                        "2": "The caster copies down the spell and in the process forgets it, such that he cannot cast it for the remainder of the day.",
+                        "3": "The caster has a terrible memory loss and forgets all spells for the rest of the day.",
+                        "4": "One of the spells the caster attempts to inscribe is gone from his memory for 1d4+1 days, and he simply cannot remember it under any circumstances."
+                    }
+                },
+                "results": {
+                    "1": {
+                        "text": "Lost, failure, misfire and corruption!",
+                        "lost": true,
+                        "misfire": true,
+                        "corruption": true
+                    },
+                    "2-11": {
+                        "text": "Lost. Failure.",
+                        "lost": true
+                    },
+                    "12-15": {
+                        "text": "Failure, but spell is not lost."
+                    },
+                    "16-17": {
+                        "text": "The caster can transcribe one level 1 spell."
+                    },
+                    "18-21": {
+                        "text": "The caster can transcribe two level 1 spells."
+                    },
+                    "22-23": {
+                        "text": "The caster can transcribe one level 2 spell or three level 1 spells. Additionally, the caster can transcribe the scroll such that the reader other than himself or a designated subject may be subject to a curse or rune. The curse or rune must be generated via a separate spell, but that spell does not count toward the spells recorded on a scroll."
+                    },
+                    "24-26": {
+                        "text": "The caster can transcribe one level 3 spell or four spells of level 1 or 2. Additionally, the caster can transcribe the scroll such that a reader other than himself or a designated subject may be subject to a curse or rune. The curse or rune must be generated via a separate spell, but that spell does not count toward the spells recorded on a scroll."
+                    },
+                    "27-31": {
+                        "text": "The caster can transcribe one level 4 spell or five spells of levels 1, 2, or 3. Additionally, the caster can transcribe the scroll such that a reader other than himself or a designated subject may be subject to a curse or rune. The curse or rune must be generated via a separate spell, but that spell does not count toward the spells recorded on a scroll."
+                    },
+                    "32-33": {
+                        "text": "The caster can transcribe one level 5 spell or six spells of levels 1, 2, 3, or 4. Additionally, the caster can transcribe the scroll such that a reader other than himself or a designated subject may be subject to a curse or rune. The curse or rune must be generated via a separate spell, but that spell does not count toward the spells recorded on a scroll."
+                    },
+                    "34-35": {
+                        "text": "The caster can transcribe up to seven spells of any level. Additionally, the caster can transcribe the scroll such that a reader other than himself or a designated subject may be subject to a curse or rune. The curse or rune must be generated via a separate spell, but that spell does not count toward the spells recorded on a scroll. The caster can also transcribe the spells in a manner such that the spell check of the reader is influenced either positively or negatively. The caster can provide a modifier of -2, -1, +1, or +2 to the reader\u2019s spell check. This modifier can be conditionally based on the identity of the reader, the reader\u2019s alignment, or other conditions (for example, any chaotic reader of the scroll receives a -2 penalty to the check)."
+                    },
+                    "36+": {
+                        "text": "The caster can transcribe up to eight spells of any level. Additionally, the caster can transcribe the scroll such that a reader other than himself or a designated subject may be subject to a curse or rune. The curse or rune must be generated via a separate spell, but that spell does not count toward the spells recorded on a scroll. The caster can also transcribe the spells in a manner such that the spell check is pre-determined. The caster must make a spell check for each spell he writes. When the scroll is read, the spells are cast at that spell check result automatically, with no need for an additional check by the reader."
+                    }
+                },
+                "mercurial": {
+                    "roll": 13,
+                    "effect": "Slow cast. The spell requires twice the normal time to cast.",
+                    "luck_mod": 2,
+                    "raw": "1d100=11; luck=+2"
+                }
+            },
+            {
+                "name": "Emirikol\u2019s Entropic Maelstrom",
+                "level": 3,
+                "range": "50\u2019 + 10\u2019 per CL",
+                "duration": "1 round per CL",
+                "casting_time": "1 action",
+                "save": "Fort save",
+                "description": [
+                    "This spell produces an entropic storm that fills a 40\u2019 square area. Those caught within this maelstrom are attacked by the elemental forces of Chaos, resulting in age, decay, or transformation. All creatures of Lawful alignment suffer a -1 to saving throws to resist the spell; Chaotic creatures enjoy a +1 bonus to their saves."
+                ],
+                "manifestation": "A bank of lightning-filled, purple-black fog appears, and the howling of the damned is heard within its misty confines.",
+                "corruption": {
+                    "die": "1d4",
+                    "table": {
+                        "1": "caster\u2019s eyes are replaced by purplish-black orbs that crackle with silent lightning",
+                        "2": "caster\u2019s body is mottled with veins of unseemly colors (bile yellow, dull tan, phlegm ochre, etc.)",
+                        "3": "caster is afflicted with premature aging (hair turns grey, wrinkles and liver spots appear, etc.)",
+                        "4": "garments of cloth and leather decay at an alarming rate when worn, forcing the caster to replace his wardrobe weekly"
+                    }
+                },
+                "misfire": {
+                    "die": "1d5",
+                    "table": {
+                        "1": "caster must make a DC 10 Fort save or be temporarily aged 2d20 years for 24 hours",
+                        "2": "all the caster\u2019s non-magical possessions suddenly rust or rot away",
+                        "3": "entropic backlash knocks the caster back 15\u2019 feet and inflicts 1d4 damage",
+                        "4": "a rain of fish or frogs falls in a 40\u2019 area around the caster, causing all to make a DC 8 Fort save or suffer 1d3 damage from bludgeoning",
+                        "5": "caster and all other creatures within a 20\u2019 radius suddenly change places \u2013 the judge can reposition the affected targets by choice or at random"
+                    }
+                },
+                "results": {
+                    "1": {
+                        "text": "Lost, failure, and worse! Roll 1d6 modified by Luck: (0 or less) corruption + patron taint + misfire; (1-2) corruption; (3) patron taint (or corruption if no patron); (4+) misfire.",
+                        "lost": true,
+                        "corruption": true,
+                        "patron_taint": true,
+                        "misfire": true
+                    },
+                    "2-11": {
+                        "text": "Lost. Failure.",
+                        "lost": true
+                    },
+                    "12-15": {
+                        "text": "Failure, but spell is not lost."
+                    },
+                    "16-17": {
+                        "text": "The maelstrom affects non-living, non-magical metal and organic materials, causing them to decay and oxidize. Weapons, armor, and items made from iron, steel, wood, or leather must make a DC 10 Fort save or become brittle. These objects either impose a -2 penalty to attack and damage rolls or suffer a -2 reduction in AC, depending on the item. On a critical hit (by the weapon or against the armor), the item falls to pieces regardless of the critical hit roll result."
+                    },
+                    "18-21": {
+                        "text": "The maelstrom affects metal and organic materials, causing them to decay and oxidize. Even magical items and constructs of metal or organic materials are subject to this magical decay. Weapons, armor, and items made from iron, steel, wood, or leather must make a DC 15 Fort save or become brittle. These objects either impose a -2 penalty to attack and damage rolls or suffer a -2 reduction in AC, depending on the item. On a critical hit (by the weapon or against the armor), the item falls to pieces regardless of the critical hit roll result. Magical items must make a DC 10 Fort save to avoid the same fate and can add any \u201cpluses\u201d they possess to the saving throw roll. Constructed, magical creatures must make a Fort save vs. spell check result or suffer 1d10+CL damage from the maelstrom\u2019s effects."
+                    },
+                    "22-23": {
+                        "text": "All living creatures within the spell\u2019s area of effect must make a Fort saving throw or be overwhelmed by weariness and ennui. They temporarily lose 1d4 points of Strength and Stamina, and all attacks rolls, saving throws, spell checks, and ability checks are made at a -3 penalty for the duration of the spell."
+                    },
+                    "24-26": {
+                        "text": "All living creatures within the area of effect must make a Fort save or be affected by a random affliction. The judge should roll separately for each affected creature, as it is possible for different disabilities to affect the targets. Possible afflictions include: (roll 1d8) (1) blindness, (2) deafness, (3) paralyzation, (4) crippled (speed reduced to 5\u2019 round), (5) speak in tongues (no spell casting possible), (6) unconsciousness, (7) temporary insanity, and (8) temporary amnesia. The judge may substitute other afflictions as desired."
+                    },
+                    "27-31": {
+                        "text": "The maelstrom draws out and consumes magical energy within the area of effect, causing those who command spells to either feed the storm or suffer. Each round they are within the spell\u2019s area of effect, all spellcasters must make a Will save or be forced to release a portion of their magical energy in spell form. On a failed save, the caster\u2019s next action must be to cast a spell or suffer 1d6+CL damage. The caster can choose which spell he performs to feed the maelstrom and makes a spell check as normal. If the spell check is successful, the spell is devoured by the maelstrom and the caster takes no damage. On a failed spell check, the caster loses the spell for the day (regardless of a spell check failure result indicating otherwise) and takes 1d6+CL damage. Non-spellcasters automatically take 1d3+CL points of damage for every round they are in the area of effect."
+                    },
+                    "32-33": {
+                        "text": "All living creatures within the area of effect are aged 2d10 years (or 2d10x10 years if an elf or other long-lived race). They permanently lose a point of Strength, Stamina, and Agility and may suffer other cosmetic changes (hair goes gray or is lost, wrinkles, liver spots, etc.) at the judge\u2019s discretion."
+                    },
+                    "34-35": {
+                        "text": "All living creatures within the area of effect must make a Fort save or be transformed by the maelstrom. The spell affects the targets\u2019 physical make-up, altering flesh and bone into other, less seemly substances. The judge should roll separately for each affected creature, as it is possible for different transformations to affect the targets. Possible transformations include (roll 1d8) (1) glass, (2) bile, (3) sand, (4) primordial ooze, (5) phlegm, (6) tin, (7) dead vermin, (8) cancerous tissue. The judge may substitute other substances as desired. Transformed creatures can be restored by powerful magics provided circumstances allow the majority of their altered form to be salvageable."
+                    },
+                    "36+": {
+                        "text": "All mortal creatures within the area of effect are torn apart by the uncaring, chaotic forces that reside in the heart of the cosmos. Their physical forms dissolve into primordial sludge, their possessions are destroyed on the atomic level, and their life forces are consumed by entropy. Any who witness this utter destruction are paralyzed by the futility of existence for 1d6 rounds and may develop nervous tics or have their hair turn white in fright. Those destroyed by the spell cannot be restored to life by any means, nor can their belongings be recovered or recreated. Entropy wins in the end."
+                    }
+                },
+                "mercurial": {
+                    "roll": 39,
+                    "effect": "Mystic barrier. A magical barrier appears around the caster for 1d4 rounds, granting +4 AC.",
+                    "luck_mod": 2,
+                    "raw": "1d100=37; luck=+2"
+                }
+            },
+            {
+                "name": "Fireball",
+                "level": 3,
+                "range": "100\u2019 or more, exploding in a sphere of 20\u2019 radius or more",
+                "duration": "Instantaneous",
+                "casting_time": "1 round",
+                "save": "Reflex vs. spell check",
+                "description": [
+                    "The caster points his finger at a target, speaks a magic word, and throws a jet of flame that explodes at the designated point. A fireball fills a sphere of 20\u2019 radius, affecting all creatures within the target point. All creatures take damage unless they succeed in a Reflex save against the spell check DC, in which case they take half damage. The fireball is a flash explosion and typically does not cause humans to catch fire, but there is a 50% chance that highly flammable objects (such as dry cloth or paper) within the blast area may catch fire."
+                ],
+                "manifestation": {
+                    "die": "1d4",
+                    "table": {
+                        "1": "a flaming ball that catapults into the target and explodes in a fiery burst",
+                        "2": "a stream of liquid flame that douses the target in a raining cloud of fire",
+                        "3": "a singularity that appears at a point in space then explodes into a flowering burst of fire",
+                        "4": "a collection of spinning, whirling, fiery seeds that bounce forth to the target point, where they explode in flames"
+                    }
+                },
+                "corruption": {
+                    "die": "1d8",
+                    "table": {
+                        "1": "caster\u2019s hands and arms are blackened like charcoal",
+                        "2": "caster\u2019s skin takes on a charcoal-like hue and texture",
+                        "3": "all hair on the caster\u2019s body is burned off, and he is perpetually followed by a vague smell of burning hair",
+                        "4": "a small, invisible portal to the elemental plane of fire opens right above the caster and remains open, dripping globules of fire or lava around him on a regular basis; this manifests as sparkling lights around him at all times, and there is a 1% chance each day that a spark will light something on fire at an inopportune time",
+                        "5": "minor",
+                        "6": "major",
+                        "7": "major",
+                        "8": "greater"
+                    }
+                },
+                "misfire": {
+                    "die": "1d5",
+                    "table": {
+                        "1": "a small fireball explodes on the caster, causing 1d6 damage to him",
+                        "2": "a large fireball explodes centered on the caster, causing 3d6 damage to him and all creatures within 20\u2019",
+                        "3": "caster spontaneously combusts, taking 2d6 damage and causing all flammable objects on him (including clothes and scrolls) to instantaneously crumble to ash",
+                        "4": "caster summons the wrong element, generating a spray of ice that showers everything within 20\u2019 of him, causing no damage but potentially dousing any existing flames",
+                        "5": "caster\u2019s skin is badly sunburned across his entire body, and physical motion causes sharp pains (expressed as a -1 penalty to all physical actions) until the sunburn heals after one week"
+                    }
+                },
+                "results": {
+                    "1": {
+                        "text": "Lost, failure, and worse! Roll 1d6 modified by Luck: (0 or less) corruption + patron taint + misfire; (1-3) corruption; (4) patron taint (or corruption if no patron); (5+) misfire.",
+                        "lost": true,
+                        "corruption": true,
+                        "patron_taint": true,
+                        "misfire": true
+                    },
+                    "2-11": {
+                        "text": "Lost. Failure.",
+                        "lost": true
+                    },
+                    "12-15": {
+                        "text": "Failure, but spell is not lost."
+                    },
+                    "16-17": {
+                        "text": "The caster launches a fireball up to 100\u2019, doing 3d6 damage."
+                    },
+                    "18-21": {
+                        "text": "The caster launches a fireball up to 120\u2019, doing 4d6 damage."
+                    },
+                    "22-23": {
+                        "text": "The caster launches a fireball that jumps to different targets 1d4+1 times. The first target must be within 50\u2019, and that target takes 5d6 damage in an explosion of radius 20\u2019. The fireball then skips to a second target that must be from 20\u2019 to 50\u2019 from the first target, and this second target takes 1d6 damage in a small explosion that only affects that single target. The second target must be at least 20\u2019 away from the first target; this is the minimum \u201cskip\u201d distance. If there is a third, fourth, or fifth target, it must be another 20\u2019 away from the previous target, and it takes 1d6 damage. The fireball must skip the indicated number of times. If the caster runs out of targets, he can skip the fireball against inanimate objects."
+                    },
+                    "24-26": {
+                        "text": "The caster launches a fireball up to 160\u2019, doing 6d6 damage. The fireball arcs up like a catapult to a maximum 40\u2019 above ground at its peak. As such, it can curve around or over intermediate obstructions."
+                    },
+                    "27-31": {
+                        "text": "The caster launches a spray of small fireballs. There are three sprays of 1d3+1 fireballs each. Each spray can target the initial target and up to two additional targets (up to three targets in total). The targets can be up to 200\u2019 away. Each mini-fireball does 1d6 damage and has no blast radius."
+                    },
+                    "32-33": {
+                        "text": "The caster launches a single fireball up to 200\u2019, doing 10d6 damage. The caster can choose an area of effect ranging from a single human-sized target up to the full sphere of 20\u2019 radius. The fireball arcs to a height of 40\u2019 at its peak and can avoid intermediate objects."
+                    },
+                    "34-35": {
+                        "text": "The caster calls down a fireball from the heavens, targeting a point up to 500\u2019 away and doing 14d6 damage. The caster can choose an area of effect ranging from a single human-sized target up to a sphere of 30\u2019 radius. Instead of projecting from his fingertip, the fireball falls from above like a meteor strike, exploding in a fiery burst. The caster must have line-of-sight to his target, but he can cast around obstructions in this manner. For example, he may be able to view the target through a periscope or via a crystal ball of some kind."
+                    },
+                    "36+": {
+                        "text": "The caster launches a fireball at a target up to 1 mile away, doing 20d6 damage. The caster can choose an area of effect ranging from a single human-sized target up to a sphere of 40\u2019 radius. The caster need not have line-of-sight to his target. He can choose a geographic point of which he has knowledge (such as a specific hill, tree, or room) or a target of which he has a physical trace (such as a lock of hair or fingernail). The fireball explodes at the designated point."
+                    }
+                },
+                "mercurial": {
+                    "roll": 68,
+                    "effect": "Mirror magic. This spell causes an eldritch echo that duplicates the wizard\u2019s appearance as if he had cast a mirror image spell with a spell check of 16-19. However, each duplicate image created saps the caster of a single point of Personality until the image is dispersed.",
+                    "luck_mod": 2,
+                    "raw": "1d100=66; luck=+2"
+                }
+            }
+        ]
+    }
+}

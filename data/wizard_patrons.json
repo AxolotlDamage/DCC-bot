@@ -1,5 +1,4 @@
 {
-  "$schema": "file:///c:/Users/marco/OneDrive/Escritorio/Discord%20bot/data/wizard_patrons.schema.json",
   "patrons": [
     {
       "name": "Bobugbubilz",
@@ -181,7 +180,7 @@
       }
     },
     {
-      "name": "Sezrekan",
+      "name": "Sezrekan the Elder",
       "description": "Regarded as the wickedest of wizards ever to plague the Known World, Sezrekan the Elder was\nborn to a peasant family and cursed with the knowledge of higher worlds. Straining to hear the\nmusic of the heavenly spheres, the aspiring wizard found only chaos and madness. Forsaking\npatron and liege alike, Sezrekan sought to free himself of the world and his mortal coil, regardless of the\ncost. Those who claim him as their patron are expected to follow in the Master’s footsteps, sacrificing kith\nand kin in the single-minded pursuit of mastery of self and thereby the multiverse. The Old Master has\nlittle regard for those that cannot help themselves, offering his aid only to spellcasters of proven dedication\nand talent.",
       "invoke_patron": {
         "12-13": "Sezrekan cannot be troubled by such an insignificant petitioner. He grants the caster an additional\n6d4 hit points. These may be burned in spellburn, with every 4 hp equaling a point of attribute. At\nthe end of the hour, all the extra hit points are lost. Damage and spellburn are deducted first from\nthe additional hit points. For example, a caster that is granted 16 hit points and takes 14 points of\ndamage in the hour, would then lose only the 2 remaining hit points when the duration expires.",
@@ -498,7 +497,7 @@
       }
     }
     ,{
-      "name": "Obitu-Que",
+      "name": "Obitu-Que, Lord of the Five",
       "description": "The Lord of the Five is a pit fiend and balor general whose experimental mutations gave him five ruby-red eyes.\nHis physical form was defeated by a line of noble barbarians but his dominating spirit survives in areas of blight\nand decay, where his ceremonies are performed. He demands that his subjects pursue his cryptic agenda of conquest.\nHe is fast to respond to invocations, but the aid he sends may dominate the caster as much as aid him.\n\nInvoke Patron check results:",
       "invoke_patron": {
         "12-13": "Blight. All plants within 100’ of the caster wither and die. All living creatures in range (excluding allies and the\ncaster) grow suddenly weak, losing 1d4 Strength for the next hour.",

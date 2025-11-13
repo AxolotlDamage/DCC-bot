@@ -1,0 +1,639 @@
+{
+  "version": 1,
+  "tables": {
+    "CRIT_I": {
+      "name": "Crit Table I",
+      "description": "Critical hits table I for Level 0 and Wizards.",
+      "entries": {
+        "0-": {
+          "title": "Force of blow shivers your weapon free of your grasp!",
+          "effect": "Force of blow shivers your weapon free of your grasp! Inflict +1d6 damage with this strike and you are disarmed.",
+          "damage_bonus": "+1d6",
+          "tags": ["disarmed"]
+        },
+        "1": {
+          "title": "Opportunistic strike",
+          "effect": "Opportunistic strike! Inflict +1d3 damage with this strike.",
+          "damage_bonus": "+1d3"
+        },
+        "2": {
+          "title": "Foe jabbed in the eye!",
+          "effect": "Foe jabbed in the eye! Ugly bruising and inflict +1d4 damage with this strike.",
+          "damage_bonus": "+1d4"
+        },
+        "3": {
+          "title": "Stunning crack to forehead!",
+          "effect": "Stunning crack to forehead! Inflict +1d3 damage with this strike, and the foe falls to the bottom of the initiative count next round.",
+          "damage_bonus": "+1d3",
+          "tags": ["initiative_bottom_next_round"]
+        },
+        "4": {
+          "title": "Strike to foe’s kneecap!",
+          "effect": "Strike to foe’s kneecap! Inflict +1d4 damage with this strike and the foe suffers a -10’ penalty to speed until healed.",
+          "damage_bonus": "+1d4",
+          "tags": ["speed_penalty_-10_until_healed"]
+        },
+        "5": {
+          "title": "Solid strike to torso!",
+          "effect": "Solid strike to torso! Inflict +1d6 damage with this strike.",
+          "damage_bonus": "+1d6"
+        },
+        "6": {
+          "title": "Lucky strike disarms foe!",
+          "effect": "Lucky strike disarms foe! You gain a free attack if the enemy stoops to retrieve his weapon.",
+          "tags": ["disarm","free_attack_if_retrieve"]
+        },
+        "7": {
+          "title": "Smash foe’s hand!",
+          "effect": "Smash foe’s hand! Inflict +2d3 damage with this strike. You break two of the enemy’s fingers.",
+          "damage_bonus": "+2d3",
+          "tags": ["maim_fingers"]
+        },
+        "8": {
+          "title": "Numbing strike!",
+          "effect": "Numbing strike! Cursing in agony, the foe is unable to attack next round.",
+          "tags": ["skip_next_attack_round"]
+        },
+        "9": {
+          "title": "Smash nose!",
+          "effect": "Smash nose! Inflict +2d4 damage with this strike and blood streams down the enemy’s face.",
+          "damage_bonus": "+2d4"
+        },
+        "10": {
+          "title": "Trip!",
+          "effect": "Trip! Foe trips on his own feet and falls prone for the remainder of the round.",
+          "tags": ["prone_this_round"]
+        },
+        "11": {
+          "title": "Piercing strike!",
+          "effect": "Piercing strike! Inflict +2d4 damage with this strike.",
+          "damage_bonus": "+2d4"
+        },
+        "12": {
+          "title": "Strike to groin!",
+          "effect": "Strike to groin!The foe must make a DC 15 Fort save or spend the next two rounds retching.",
+          "save": {"type": "Fort", "dc": 15, "fail": "retch 2 rounds"}
+        },
+        "13": {
+          "title": "Blow smashes foe’s ankle!",
+          "effect": "Blow smashes foe’s ankle! Foe's movement speed is reduced by half.",
+          "tags": ["speed_halved"]
+        },
+        "14": {
+          "title": "Strike grazes temple!",
+          "effect": "Strike grazes temple! Blood blinds the foe for 1d3 rounds.",
+          "tags": ["blinded_1d3_rounds"]
+        },
+        "15": {
+          "title": "Stab enemy’s weapon hand!",
+          "effect": "Stab enemy’s weapon hand! The weapon is lost and knocked 1d10+5 feet away.",
+          "tags": ["disarm","knock_1d10_plus_5_feet"]
+        },
+        "16": {
+          "title": "Narrowly avoid foe’s counterstrike!",
+          "effect": "Narrowly avoid foe’s counterstrike! Inflict normal damage and make another attack roll. If the second attack hits, you inflict an additional +1d6 damage.",
+          "damage_bonus_on_second_hit": "+1d6"
+        },
+        "17": {
+          "title": "Blow to throat!",
+          "effect": "Blow to throat! Foe staggers around for 2 rounds and is unable to speak, cast spells, or attack.",
+          "tags": ["silenced_2_rounds","cannot_attack_2_rounds"]
+        },
+        "18": {
+          "title": "Foe falls into your attack!",
+          "effect": "Foe falls into your attack! Foe takes +2d6 damage from the strike and curses your luck.",
+          "damage_bonus": "+2d6"
+        },
+        "19": {
+          "title": "Miracle strike!",
+          "effect": "Miracle strike! The foe must make a DC 20 Fort save or fall unconscious.",
+          "save": {"type": "Fort", "dc": 20, "fail": "unconscious"}
+        },
+        "20+": {
+          "title": "Lucky blow dents foe’s skull!",
+          "effect": "Lucky blow dents foe’s skull! Inflict +2d6 damage with this strike. If the foe has no helm, he suffers a permanent loss of 1d4 Int.",
+          "damage_bonus": "+2d6",
+          "tags": ["perm_int_loss_1d4_if_no_helm"]
+        }
+      }
+  }
+    ,
+    "CRIT_II": {
+      "name": "Crit Table II",
+      "description": "Critical hits table II for Thieves and Elves.",
+      "entries": {
+        "0-": {
+          "title": "Miss!",
+          "effect": "Miss! Hesitation costs you the perfect strike!"
+        },
+        "1": {
+          "title": "Strike misses critical organs!",
+          "effect": "Strike misses critical organs! Inflict a paltry +2d3 damage with this strike.",
+          "damage_bonus": "+2d3"
+        },
+        "2": {
+          "title": "Slashes to head removes foe’s ear!",
+          "effect": "Slashes to head removes foe’s ear! Inflict +1d6 damage with this strike and leave the enemy with a nasty scar.",
+            "damage_bonus": "+1d6"
+        },
+        "3": {
+          "title": "Clean strike to back!",
+          "effect": "Inflict +2d6 damage with this strike.",
+            "damage_bonus": "+2d6"
+        },
+        "4": {
+          "title": "Blow to chest staggers foe!",
+          "effect": "You can make an immediate free attack."
+        },
+        "5": {
+          "title": "Blow pierces foe’s kidneys!",
+          "effect": "Inflict +3d3 damage with this strike, and the foe is stunned for 1 round.",
+            "damage_bonus": "+3d3"
+        },
+        "6": {
+          "title": "Foe dazed by ferocious attack!",
+          "effect": "Foe's speed and actions are reduced by half."
+        },
+        "7": {
+          "title": "Grazed vital organ",
+          "effect": "Strike to chest grazes vital organ. Inflict +3d4 damage with this strike.",
+          "damage_bonus": "+3d4"
+        },
+        "8": {
+          "title": "Cut face",
+          "effect": "Strike cuts a line down foe’s face. He is blinded by blood for 1d4 rounds."
+        },
+        "9": {
+          "title": "Foe falls prone",
+          "effect": "Foe stumbles over his own limbs, falling prone. Make another attack."
+        },
+        "10": {
+          "title": "Masterful strike",
+          "effect": "Masterful strike! Inflict +2d6 damage with this strike.",
+          "damage_bonus": "+2d6"
+        },
+        "11": {
+          "title": "Severed larynx",
+          "effect": "Strike severs larynx. Foe is reduced to making wet fish noises."
+        },
+        "12": {
+          "title": "Savage strike",
+          "effect": "Savage strike! Foe must succeed on a Fort save (DC 10 + PC level) or faint from the pain."
+        },
+        "13": {
+          "title": "Disoriented foe",
+          "effect": "Foe disoriented by quick strikes. Foe suffers a -4 penalty to attack rolls for 1d4 rounds."
+        },
+        "14": {
+          "title": "Head strike",
+          "effect": "Strike to head. Foe must make a Fort save (DC 10 + PC level) or fall unconscious."
+        },
+        "15": {
+          "title": "Driven to ground",
+          "effect": "Blow drives foe to ground. Inflict +2d6 damage with this strike, and the enemy is knocked prone.",
+          "damage_bonus": "+2d6"
+        },
+        "16": {
+          "title": "Eye popped",
+          "effect": "Lightning-fast shot to the face pops the foe’s eye like a grape. Foe is permanently blinded in one eye and can take no actions for 1d3 rounds."
+        },
+        "17": {
+          "title": "Pierced lung",
+          "effect": "Strike pierces lung. Inflict +2d6 damage with this strike, and the foe can take only one action on his next turn.",
+          "damage_bonus": "+2d6"
+        },
+        "18": {
+          "title": "Back of head",
+          "effect": "Devastating strike to back of head. Inflict +1d8 damage with this strike, and the foe must make a Fort save (DC 10 + PC level) or fall unconscious.",
+          "damage_bonus": "+1d8"
+        },
+        "19": {
+          "title": "Severed artery",
+          "effect": "Attack severs major artery. Inflict +1d10 damage with this strike, and the foe must make a Fort save (DC 10 + PC level) or fall unconscious from shock and massive blood loss.",
+          "damage_bonus": "+1d10"
+        },
+        "20": {
+          "title": "Throat slashed",
+          "effect": "Throat slashed! Inflict +2d6 damage with this strike, and the foe must make a Fort save (DC 13 + PC level) or die in 1d4 rounds.",
+          "damage_bonus": "+2d6"
+        },
+        "21": {
+          "title": "Spinal column",
+          "effect": "Strike pierces spinal column. Inflict +3d6 damage with this strike, and the foe must make a Fort save (DC 15 + PC level) or suffer paralysis.",
+          "damage_bonus": "+3d6"
+        },
+        "22": {
+          "title": "Chest skewered",
+          "effect": "Chest skewered, spearing a variety of organs. Inflict +2d6 damage with this strike, and the foe must make a Fort save (DC 13 + PC level) or die in 1d4 rounds.",
+          "damage_bonus": "+2d6"
+        },
+        "23": {
+          "title": "Through ear canal",
+          "effect": "Strike through ear canal enters the brain. Ear wax instantly removed, and the foe must make a Fort save (DC 15 + PC level) or die instantly. Inflict an extra +2d6 damage on successful save."
+        },
+        "24+": {
+          "title": "Through the heart",
+          "effect": "Strike through heart! Inflict +3d6 damage with this strike, and the foe must make a Fort save (DC 20 + PC level) or die instantly.",
+          "damage_bonus": "+3d6"
+        }
+      }
+    }
+    ,
+    "CRIT_III": {
+      "name": "Crit Table III",
+      "description": "Critical hits table III for Clerics, Halflings, Level 1-2 Warriors, and Level 1-3 Dwarves.",
+      "entries": {
+        "0-": {
+          "title": "Battle rage",
+          "effect": "Battle rage makes friend and foe indistinguishable. Foe is hit for +1d12 damage, and the ally nearest him is also hit by a rebounding blow for 1d4 damage.**",
+          "damage_bonus": "+1d12"
+        },
+        "1": {
+          "title": "Savage attack",
+          "effect": "Savage attack! Inflict +1d6 damage with this strike.",
+          "damage_bonus": "+1d6"
+        },
+        "2": {
+          "title": "Swept off feet",
+          "effect": "Attack sweeps foe off his feet. Next round, the enemy is prone."
+        },
+        "3": {
+          "title": "Steps into attack",
+          "effect": "Foe steps into attack. Inflict +1d8 damage with this strike.",
+          "damage_bonus": "+1d8"
+        },
+        "4": {
+          "title": "Hammered to knees",
+          "effect": "Powerful strike hammers foe to his knees. Make another attack."
+        },
+        "5": {
+          "title": "Nose smashed",
+          "effect": "Smash foe’s nose in an explosion of blood. Inflict +1d6 damage with this strike, and the foe loses his sense of smell for 1d4 hours.",
+          "damage_bonus": "+1d6"
+        },
+        "6": {
+          "title": "Brutal torso strike",
+          "effect": "Brutal strike to torso. Inflict +1d8 damage with this strike, and the foe suffers multiple broken ribs.",
+          "damage_bonus": "+1d8"
+        },
+        "7": {
+          "title": "Weapon knocked away",
+          "effect": "Strike to hand knocks weapon into the air. The weapon lands 1d20+5’ away."
+        },
+        "8": {
+          "title": "Deafening blow",
+          "effect": "Blow caroms off skull, deafening foe for 1d6 days. Inflict +1d6 damage with this strike.",
+          "damage_bonus": "+1d6"
+        },
+        "9": {
+          "title": "Femur splintered",
+          "effect": "Strike to leg splinters femur. Inflict +2d6 damage with this strike and foe loses 10’ of movement until healed.",
+          "damage_bonus": "+2d6"
+        },
+        "10": {
+          "title": "Sunder weapon",
+          "effect": "Sunder foe’s weapon! Shards of metal fill the air.*"
+        },
+        "11": {
+          "title": "Internal bleeding",
+          "effect": "Strike hammers foe’s belly causing massive internal bleeding. Unless he receives magical healing, the foe dies in 1d5 hours."
+        },
+        "12": {
+          "title": "Blow to cranium",
+          "effect": "Blow to cranium staggers foe. The foe must make a Fort save (10 + PC level) or sink to floor, unconscious."
+        },
+        "13": {
+          "title": "Jaw broken",
+          "effect": "Strike breaks foe’s jaw. Blood and shattered teeth ooze down the foe’s face. Inflict +1d8 damage with this strike.",
+          "damage_bonus": "+1d8"
+        },
+        "14": {
+          "title": "Torso hammered",
+          "effect": "Attack hammers foe’s torso. Inflict +2d8 damage with this strike.",
+          "damage_bonus": "+2d8"
+        },
+        "15": {
+          "title": "Shoulder dislocated",
+          "effect": "Strike dislocates shoulder! Inflict +1d8 damage and shield arm hangs loosely by muscle and skin; no AC bonus from shield.",
+          "damage_bonus": "+1d8"
+        },
+        "16": {
+          "title": "Attack hand ruined",
+          "effect": "Attack reduces foe’s attack hand to formless tissue; -4 penalty to future attacks."
+        },
+        "17": {
+          "title": "Hammered prone",
+          "effect": "Furious blows hammer target prone. Make another attack."
+        },
+        "18": {
+          "title": "Bone shards to brain",
+          "effect": "Blow hammers shards of bone into foe’s forebrain; gray matter oozes out. Inflict +1d8 damage with this strike, and the foe suffers 1d4 points of Int and Per loss.",
+          "damage_bonus": "+1d8"
+        },
+        "19": {
+          "title": "Devastating chest strike",
+          "effect": "Devastating strike to the chest. Inflict +2d8 damage with this strike.",
+          "damage_bonus": "+2d8"
+        },
+        "20": {
+          "title": "Stunning chest strike",
+          "effect": "Chest strike stuns foe for 1d3 rounds. Inflict +1d8 damage with this strike.",
+          "damage_bonus": "+1d8"
+        },
+        "21": {
+          "title": "Shattered femur",
+          "effect": "Strike to leg shatters femur, knocking foe to the ground. Foe’s movement drops by half. Inflict +2d8 damage with this strike and make another attack.",
+          "damage_bonus": "+2d8"
+        },
+        "22": {
+          "title": "Weapon arm sundered",
+          "effect": "Weapon arm sundered by strike. The weapon is lost along with any chance of making an attack with this arm."
+        },
+        "23": {
+          "title": "Skull cratered",
+          "effect": "Blow craters skull. Inflict +2d8 damage with this strike, and the target permanently loses 1d4 Int and Per.",
+          "damage_bonus": "+2d8"
+        },
+        "24": {
+          "title": "Throat masterstroke",
+          "effect": "Masterful strike to throat. Inflict +2d8 damage with this strike and the foe staggers about gasping for air for 1d4 rounds.",
+          "damage_bonus": "+2d8"
+        },
+        "25": {
+          "title": "Ribs through lungs",
+          "effect": "Attack punches shattered ribs through lungs. Foe loses 50% of his remaining hit points and vomits copious amounts of blood."
+        },
+        "26": {
+          "title": "Face shattered",
+          "effect": "Attack shatters foe’s face, destroying both eyes. Inflict +2d8 damage with this strike, and the foe is permanently blinded.",
+          "damage_bonus": "+2d8"
+        },
+        "27": {
+          "title": "Crushing chest blow",
+          "effect": "Crushing blow hammers chest. Inflict +3d8 damage with this strike, and the foe must make a Fort save (DC 15 + PC level) or be knocked unconscious.",
+          "damage_bonus": "+3d8"
+        },
+        "28+": {
+          "title": "Spinal column destroyed",
+          "effect": "Blow destroys spinal column. Inflict +3d8 damage with this strike, and the foe must make a Fort save (DC 15 + PC level) or suffer paralysis.",
+          "damage_bonus": "+3d8"
+        }
+      }
+    }
+    ,
+    "CRIT_IV": {
+      "name": "Crit Table IV",
+      "description": "Critical hits table IV for Level 3-4 Warriors, and Level 4+ Dwarves.",
+      "entries": {
+        "0-": {
+          "title": "Battle rage",
+          "effect": "Battle rage makes friend and foe indistinguishable. Foe is hit for +2d8 damage, and the ally nearest him is also hit by a rebounding blow for 1d4 damage.**",
+          "damage_bonus": "+2d8"
+        },
+        "1": {
+          "title": "Herculean blow",
+          "effect": "Herculean blow. Inflict +2d12 damage with this strike.",
+          "damage_bonus": "+2d12"
+        },
+        "2": {
+          "title": "Ferocious strike leaves foe’s weapon hand dangling",
+          "effect": "Ferocious strike leaves foe’s weapon hand dangling from the stump of a wrist. Inflict +1d12 damage with this strike.",
+          "damage_bonus": "+1d12"
+        },
+        "3": {
+          "title": "Strike sweeps foe to the ground",
+          "effect": "Strike sweeps foe to the ground. Inflict +1d12 damage with this strike and make another attack on prone enemy.",
+          "damage_bonus": "+1d12"
+        },
+        "4": {
+          "title": "Hammering blow drives nose cartilage into brain",
+          "effect": "Hammering blow drives nose cartilage into brain. Inflict +1d12 damage with this strike, and the foe suffers 1d6 Int loss.",
+          "damage_bonus": "+1d12"
+        },
+        "5": {
+          "title": "Foe’s weapon shattered",
+          "effect": "Foe’s weapon shattered.* If the foe has no weapon, inflict +2d12 damage with this strike.",
+          "damage_bonus": "+2d12_if_no_weapon"
+        },
+        "6": {
+          "title": "Breastbone shattered",
+          "effect": "Strike shatters foe’s breastbone. The foe must make a Fort save (DC 15 + PC level) or fall unconscious as his internal organs collapse."
+        },
+        "7": {
+          "title": "Driven back by assault",
+          "effect": "Foe driven back by furious assault. Inflict +2d12 damage with this strike, and the foe forgoes his next attack.",
+          "damage_bonus": "+2d12"
+        },
+        "8": {
+          "title": "Concussive strike",
+          "effect": "Concussive strike leaves foe dazed. Inflict +1d8 damage with this strike and make a second attack.",
+          "damage_bonus": "+1d8"
+        },
+        "9": {
+          "title": "Throat to spine mush",
+          "effect": "Blow to throat carries through to spinal column, reducing everything in between to pasty mush. Inflict +2d12 damage with this strike, and the foe loses speech for 1d4 weeks.",
+          "damage_bonus": "+2d12"
+        },
+        "10": {
+          "title": "Temple cratered",
+          "effect": "Blow craters temple. The foe must make a Fort save (DC 15 + PC level) or be blinded by pain and blood for 1d4 rounds."
+        },
+        "11": {
+          "title": "Face reduced to formless mass",
+          "effect": "Strike reduces face to a formless mass of flesh and bone fragments. Inflict +2d12 damage with this strike, and the foe has trouble making hard consonants.",
+          "damage_bonus": "+2d12"
+        },
+        "12": {
+          "title": "You see red!",
+          "effect": "You see red! Inflict +1d12 damage with this strike as you are overcome by battle rage!**",
+          "damage_bonus": "+1d12"
+        },
+        "13": {
+          "title": "Torso organs crushed",
+          "effect": "Hammering strike to torso crushes lesser organs into paste. Inflict +2d12 damage with this strike.",
+          "damage_bonus": "+2d12"
+        },
+        "14": {
+          "title": "Lower limbs numbed",
+          "effect": "Blow to spinal column numbs lower limbs. The foe suffers a -4 penalty to AC as he learns to walk again."
+        },
+        "15": {
+          "title": "Fearsome strike drives enemy prone",
+          "effect": "Fearsome strike drives enemy to the bloodsplattered floor. Foe cowers in fear, prone, for 1d4 rounds."
+        },
+        "16": {
+          "title": "Shield shattered",
+          "effect": "Blow shatters shield. Inflict +2d12 damage with this strike. If the foe has no shield, he is stunned by pain for 1d4 rounds.",
+          "damage_bonus": "+2d12"
+        },
+        "17": {
+          "title": "Kneecap explodes",
+          "effect": "Foe’s kneecap explodes into red mist. Foe’s movement drops to 0’, and you make another attack."
+        },
+        "18": {
+          "title": "Frontal lobotomy",
+          "effect": "Frontal lobotomy. Inflict +1d12 damage with this strike, and the foe must make a Fort save (DC 15 + PC level) or suffer amnesia. The foe is stunned for 1d4 rounds, regardless.",
+          "damage_bonus": "+1d12"
+        },
+        "19": {
+          "title": "Strike to weapon arm",
+          "effect": "Strike to weapon arm. Foe takes triple damage from his own weapon as it is hammered into his face. Foe drops weapon in dumbfounded awe."
+        },
+        "20": {
+          "title": "Spinal cord crushed",
+          "effect": "Blow crushes spinal cord. Inflict +3d12 damage with this strike, and the foe must make a Fort save (DC 15 + PC level) or suffer permanent paralysis.",
+          "damage_bonus": "+3d12"
+        },
+        "21": {
+          "title": "Organs reduced to jelly",
+          "effect": "Blow reduces internal organs to jelly. Death is inevitable in 1d8 rounds."
+        },
+        "22": {
+          "title": "Disemboweled",
+          "effect": "Target is disemboweled, spilling his entrails onto the ground. The foe dies of shock in 1d6 rounds."
+        },
+        "23": {
+          "title": "Heart exploded",
+          "effect": "Strike to chest explodes heart. Inflict +3d12 damage with this strike, and the foe must make a Fort save (DC 15 + PC level) or die instantly.",
+          "damage_bonus": "+3d12"
+        },
+        "24+": {
+          "title": "Skull crushed like a melon",
+          "effect": "Skull crushed like a melon. Inflict +3d12 damage with this strike, and the foe must make a Fort save (DC 20 + PC level) or die in 1d3 rounds.",
+          "damage_bonus": "+3d12"
+        }
+      }
+    }
+    ,
+    "CRIT_V": {
+      "name": "Crit Table V",
+      "description": "Critical hits table V for Level 5+ Warriors.",
+      "entries": {
+        "0-": {
+          "title": "Battle rage",
+          "effect": "Battle rage makes friend and foe indistinguishable. Foe is hit for +3d8 damage, and the ally nearest him is also hit by a rebounding blow for 1d4 damage.",
+          "damage_bonus": "+3d8"
+        },
+        "1": {
+          "title": "Foe’s weapon shattered",
+          "effect": "Foe’s weapon shattered. If the foe has no weapon, inflict +3d12 damage with this strike."
+        },
+        "2": {
+          "title": "Furious assault",
+          "effect": "Furious assault hurls foe back 1d10’. Any adjacent foes accidentally strike the target for damage.",
+          "tags": ["push_1d10_ft","adjacent_hit_target"]
+        },
+        "3": {
+          "title": "Ear destroyed",
+          "effect": "Blow to skull destroys ear. Inflict +1d12 damage with this strike, and the foe suffers permanent deafness.",
+          "damage_bonus": "+1d12",
+          "tags": ["permanent_deafness"]
+        },
+        "4": {
+          "title": "Strike to gut",
+          "effect": "Strike to gut! The foe must make a Fort save (DC 20 + PC level) or spend the next 2 rounds retching.",
+          "save": {"type": "Fort", "dc": "20 + PC level", "fail": "retch 2 rounds"}
+        },
+        "5": {
+          "title": "Wails for mercy",
+          "effect": "Foe casts weapon away and wails for mercy. Inflict +1d12 damage with this strike and make another attack.",
+          "damage_bonus": "+1d12"
+        },
+        "6": {
+          "title": "Scalped",
+          "effect": "Strike scalps foe. Blood courses down his face, and the foe is effectively blinded until healed.",
+          "tags": ["blinded_until_healed"]
+        },
+        "7": {
+          "title": "Entangled on weapon",
+          "effect": "Foe entangled on your weapon, reducing his AC by -6 while caught. Make another attack.",
+          "tags": ["ac_-6_while_caught"]
+        },
+        "8-12": {
+          "title": "You see red!",
+          "effect": "You see red! Inflict +1d12 damage with this strike as you are overcome by battle rage!",
+          "damage_bonus": "+1d12"
+        },
+        "13-14": {
+          "title": "Strike to weapon arm",
+          "effect": "Strike to weapon arm. Foe takes quadruple damage from his own weapon as it is hammered into his face. Foe drops weapon in dumbfounded awe.",
+          "tags": ["drops_weapon"]
+        },
+        "15": {
+          "title": "Shield sundered",
+          "effect": "Blow sunders shield. Inflict +2d12 damage with this strike. If the foe has no shield, he must make a Fort save (DC 20 + PC level) or be knocked unconscious from the pain.",
+          "damage_bonus": "+2d12",
+          "save_if_no_shield": {"type": "Fort", "dc": "20 + PC level", "fail": "unconscious"}
+        },
+        "16": {
+          "title": "Spine shortened",
+          "effect": "Strike to top of skull shortens spinal column, shortening foe by 6”. Resulting nerve damage reduces foe’s AC by -4.",
+          "tags": ["ac_-4"]
+        },
+        "17": {
+          "title": "Disemboweled",
+          "effect": "Target is disemboweled, spilling his entrails onto the ground. Foe dies instantly of shock.",
+          "tags": ["instant_death"]
+        },
+        "18": {
+          "title": "Face destroyed",
+          "effect": "Blow destroys target’s face. Foe is immediately rendered blind and deaf and is now capable of only wet, gurgling sounds.",
+          "tags": ["blind","deaf"]
+        },
+        "19": {
+          "title": "Crown removed",
+          "effect": "Strike removes crown of target’s skull. Foe dies from exposed brain matter in 3d3 rounds.",
+          "tags": ["dies_in_3d3_rounds"]
+        },
+        "20": {
+          "title": "Shield arm severed",
+          "effect": "Blow severs shield arm. Inflict +2d12 damage with this strike. Foe’s hopes of two-handed weapon mastery dashed.",
+          "damage_bonus": "+2d12"
+        },
+        "21": {
+          "title": "Godly attack",
+          "effect": "Godly attack. Inflict +3d12 damage with this strike. If the target dies, move up to 10’ and make another attack on any foe within 10’.",
+          "damage_bonus": "+3d12",
+          "tags": ["bonus_move_10","bonus_attack_on_kill"]
+        },
+        "22": {
+          "title": "Leg severed",
+          "effect": "Blow severs leg. Inflict +2d12 damage with this strike, and the foe’s movement drops to zero. Foe does nothing but wail in agony for 1d4 rounds.",
+          "damage_bonus": "+2d12",
+          "tags": ["speed_0","wail_1d4_rounds"]
+        },
+        "23": {
+          "title": "Skull strike",
+          "effect": "Strike to skull stuns foe for 1d4+1 rounds and permanently reduces Int by 1d12. Make another attack on your inert foe.",
+          "tags": ["stunned_1d4_plus_1_rounds","perm_int_loss_1d12"]
+        },
+        "24": {
+          "title": "Weapon arm severed",
+          "effect": "Strike severs weapon arm. Inflict +2d12 damage with this strike, and the foe is disarmed, literally and figuratively.",
+          "damage_bonus": "+2d12",
+          "tags": ["disarmed"]
+        },
+        "25": {
+          "title": "Bowels voided",
+          "effect": "Devastating strike to torso voids foe’s bowels and crushes organs into paste. Foe loses 50% of current hit points and all dignity."
+        },
+        "26": {
+          "title": "Throat crushed",
+          "effect": "Strike crushes throat. Foe begins drowning in his own blood and expires in 1d4 rounds.",
+          "tags": ["dies_in_1d4_rounds"]
+        },
+        "27": {
+          "title": "Crippling blow",
+          "effect": "Crippling blow to spine. Inflict +4d12 damage with this strike, and the foe suffers permanent paralysis.",
+          "damage_bonus": "+4d12",
+          "tags": ["permanent_paralysis"]
+        },
+        "28+": {
+          "title": "Decapitation",
+          "effect": "Foe decapitated with a single strike. You are Death incarnate. Continue to make attacks against any foes within 10’ until you miss.",
+          "tags": ["repeat_attacks_until_miss"]
+        }
+      }
+    }
+  }
+}
