@@ -13,10 +13,7 @@ python bot.py
 Historical and experimental legacy files are retained under `old/` for reference (e.g., earlier monolithic `dccbot.py` versions). The root-level legacy `dccbot.py` has been removed to prevent syntax and import errors; all functionality has been modularized into cogs and helpers.
 
 ### Key Directories
-- `cogs/` – Modular command and feature implementations (characters, casting, combat, etc.).
-- `modules/` – Shared logic (initiative, familiars, utilities).
-- `data/` – JSON data sources (spells, patrons, tables).
-- `storage/` – Persistence helpers (backups, file operations).
+ - `characters/` – Canonical folder for character JSON records (unified; no nested `characters/characters`).
 
 ### Familiar Support
 Familiars are generated via the Find Familiar spell. Sheets and rename operations now support familiars with a compact display.

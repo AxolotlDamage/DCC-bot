@@ -4,7 +4,22 @@ from models.character import Character
 
 try:
     from core.config import SAVE_FOLDER  # optional central save folder
-    BASE_DIR = os.path.join(SAVE_FOLDER, "characters")
+    # Use SAVE_FOLDER directly (already points to the characters directory). Avoid nesting.
+    BASE_DIR = SAVE_FOLDER
+    # If previous versions created a nested characters/characters directory, optionally migrate.
+    legacy_nested = os.path.join(SAVE_FOLDER, "characters")
+    if os.path.isdir(legacy_nested) and not os.path.samefile(legacy_nested, SAVE_FOLDER):
+        # Move any json files up one level if they are missing in BASE_DIR.
+        for fname in os.listdir(legacy_nested):
+            if fname.lower().endswith('.json'):
+                src = os.path.join(legacy_nested, fname)
+                dst = os.path.join(BASE_DIR, fname)
+                if not os.path.exists(dst):
+                    try:
+                        os.replace(src, dst)
+                    except OSError:
+                        pass
+        # Leave legacy_nested (may contain non-json artifacts) but do not use it further.
 except Exception:
     BASE_DIR = "characters"
 

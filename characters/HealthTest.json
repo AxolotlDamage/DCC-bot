@@ -1,0 +1,8 @@
+{
+  "name": "HealthTest",
+  "class": "wizard",
+  "hp": {
+    "current": 3,
+    "max": 3
+  }
+}
